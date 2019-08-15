@@ -1,0 +1,558 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>WrRan の 杂货铺</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://www.wrran.com/"/>
+  <updated>2019-08-15T19:59:16.512Z</updated>
+  <id>http://www.wrran.com/</id>
+  
+  <author>
+    <name>WrRan</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>政治生活没有银弹</title>
+    <link href="http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/"/>
+    <id>http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/</id>
+    <published>2019-08-13T16:00:00.000Z</published>
+    <updated>2019-08-15T19:59:16.512Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>政治生活没有银弹，不要指望依靠某种制度得到优胜，制度改革永不会止步。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;&lt;p&gt;政治生活没有银弹，不要指望依靠某种制度得到优胜，制度改革永不会止步。&lt;/p&gt;&lt;/blockquote&gt;
+      
+    
+    </summary>
+    
+      <category term="me" scheme="http://www.wrran.com/categories/me/"/>
+    
+    
+  </entry>
+  
+  <entry>
+    <title>Read the Docs@Python</title>
+    <link href="http://www.wrran.com//blog/2019/08/14/learn/read-the-docs/read-the-docs/"/>
+    <id>http://www.wrran.com//blog/2019/08/14/learn/read-the-docs/read-the-docs/</id>
+    <published>2019-08-13T16:00:00.000Z</published>
+    <updated>2019-08-15T19:59:16.504Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><code>Read the Docs</code> simplifies software documentation by automating building, versioning, and hosting of your docs for you. Think of it as <strong>Coninuous Documentation</strong>.</p></blockquote><a id="more"></a><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p><code>Read the Docs</code>如前言所述，主要是用来简化软件的文档工作，支持自动构建、版本控制及文档托管。可以将之考虑为<strong>持续文档</strong>，支持以下特点：</p><ul><li>Never out of sync: 同步，一时不停；</li><li>Multiple versions: 多版本控制；</li><li>Free and open source: 免费开源。</li></ul><h1 id="婴儿学步"><a href="#婴儿学步" class="headerlink" title="婴儿学步"></a><a href="https://docs.readthedocs.io/en/stable/index.html#first-steps" target="_blank" rel="noopener">婴儿学步</a></h1><p><code>Read-the-Docs</code>支持<code>Sphinx</code>及<code>MkDocs</code>，此处仅介绍<code>MkDocs</code>。</p><h2 id="Getting-started-with-MkDocs"><a href="#Getting-started-with-MkDocs" class="headerlink" title="Getting started with MkDocs"></a><a href="https://docs.readthedocs.io/en/stable/intro/getting-started-with-mkdocs.html" target="_blank" rel="noopener">Getting started with MkDocs</a></h2><p><code>MkDocs</code>是一个集中速度与简洁的文档生成器。它具有如下特点：</p><ul><li>边编写边预览；</li><li>主题和扩展易于扩展；</li><li>文档使用<code>Markdown</code>语法。</li></ul><p><strong>Quick Start</strong>：</p><ol><li>安装<code>MkDocs</code>：<code>conda install mkdocs</code>；</li><li>部署<code>MkDocs</code>项目：<code>mkdir demo &amp;&amp; mkdocs new .</code>；其中，<code>mkdocs.yml</code>是<code>MkDocs</code>配置文件，<code>docs/index.md</code>是文档的入口；</li><li>启动开发服务器：<code>mkdocs serve</code>。</li></ol><p>当修订好文档后可以参阅内容<a href="https://docs.readthedocs.io/en/stable/intro/import-guide.html" target="_blank" rel="noopener">Importing your existing documentation</a>。<br><strong>External Resources</strong>，下列是一些相关资源：</p><ul><li><a href="https://www.mkdocs.org/" target="_blank" rel="noopener">MkDocs Documentation</a></li><li><a href="http://daringfireball.net/projects/markdown/syntax" target="_blank" rel="noopener">Markdown Syntax Guide</a></li><li><a href="https://www.mkdocs.org/user-guide/writing-your-docs/" target="_blank" rel="noopener">Writing Your Docs with MkDocs</a></li></ul><h2 id="Importing-your-existing-documentation"><a href="#Importing-your-existing-documentation" class="headerlink" title="Importing your existing documentation"></a><a href="https://docs.readthedocs.io/en/stable/intro/import-guide.html" target="_blank" rel="noopener">Importing your existing documentation</a></h2><p>导入公共文档仓库的内容，可以访问<a href="https://readthedocs.org/dashboard" target="_blank" rel="noopener">Read the Docs dashboard</a>并点击<a href="https://readthedocs.org/dashboard/import" target="_blank" rel="noopener">Import</a>。私有的文档仓库请使用<a href="https://docs.readthedocs.io/en/stable/commercial/index.html" target="_blank" rel="noopener">Read the Docs for Business</a>。</p><p>如果我们将账号关联到Github/Bitbucket/GitLab的话，就可以直接导入一些公共文档仓库。</p><p><a href="https://docs.readthedocs.io/en/stable/intro/import-guide.html#manually-import-your-docs" target="_blank" rel="noopener"><strong>Manually Import Your Docs</strong></a>: 倘若没有关联账号，则需要手动导入文档仓库，细节参见原文。<br><strong>Building Your Documentation</strong>：完成导入文档的过程之后，文档代码将被自动导入并构建；构建的细节请参见<a href="https://docs.readthedocs.io/en/stable/builds.html" target="_blank" rel="noopener">Build Process</a>；配置信息可在<code>readthedocs.yml</code>中进行制定，规则参见<a href="https://docs.readthedocs.io/en/stable/config-file/index.html" target="_blank" rel="noopener">Configuration File</a>；版本控制的功能参见<a href="https://docs.readthedocs.io/en/stable/versions.html" target="_blank" rel="noopener">Versions</a>；帮助信息可参见<a href="https://docs.readthedocs.io/en/stable/support.html" target="_blank" rel="noopener">Support</a>。</p><h1 id="入门指南"><a href="#入门指南" class="headerlink" title="入门指南"></a><a href="https://docs.readthedocs.io/en/stable/index.html#getting-started-with-read-the-docs" target="_blank" rel="noopener">入门指南</a></h1><p>该部分介绍<code>Read the Docs</code>的一些核心功能、常用配置、版本控制等。</p><h2 id="Overview-of-core-features"><a href="#Overview-of-core-features" class="headerlink" title="Overview of core features"></a><a href="https://docs.readthedocs.io/en/stable/features.html" target="_blank" rel="noopener">Overview of core features</a></h2><p>该部分主要是罗列<code>Read the Docs</code>的核心特征。</p><p><strong>GitHub, Bitbucket and GitLab Integration</strong>：支持这三个平台的集成，参见<a href="https://docs.readthedocs.io/en/stable/guides/vcs.html" target="_blank" rel="noopener">Version Control System Integration</a>；<br><strong>Auto-updating</strong>：借助<a href="https://docs.readthedocs.io/en/stable/webhooks.html" target="_blank" rel="noopener">Webhooks</a>可以自动构建文档；<br><strong>Internationalization</strong>：支持多语言，更多信息参见<a href="https://docs.readthedocs.io/en/stable/localization.html" target="_blank" rel="noopener">Localization of Documentation</a>及<a href="https://docs.readthedocs.io/en/stable/development/i18n.html" target="_blank" rel="noopener">Internationalization</a>；<br><strong>Canonical URLs</strong>：支持经典URLs，更多信息参见<a href="https://docs.readthedocs.io/en/stable/guides/canonical.html" target="_blank" rel="noopener">Canonical URLs</a>；<br><strong>Versions</strong>：支持多版本文档；<br><strong>Version Control Support Matrix</strong>：此处主要看Git这块，支持tags/branches，默认分支为<code>master</code>；<br><strong>PDF Generation</strong>：当使用RTD时，亦可生成PDF文档；<br><strong>Search</strong>：支持全文搜索；<br><strong>Alternate Domains</strong>：支持自定义域名、子域名及shorturl，详情参见<a href="https://docs.readthedocs.io/en/stable/custom_domains.html" target="_blank" rel="noopener">Custom Domains</a>。</p><h2 id="Configure-your-documentation"><a href="#Configure-your-documentation" class="headerlink" title="Configure your documentation"></a>Configure your documentation</h2><h2 id="Connecting-with-Github-BitBucket-or-GitLab"><a href="#Connecting-with-Github-BitBucket-or-GitLab" class="headerlink" title="Connecting with Github, BitBucket, or GitLab"></a><a href="https://docs.readthedocs.io/en/stable/connected-accounts.html" target="_blank" rel="noopener">Connecting with Github, BitBucket, or GitLab</a></h2><h2 id="Read-the-Docs-build-and-versioning-process"><a href="#Read-the-Docs-build-and-versioning-process" class="headerlink" title="Read the Docs build and versioning process"></a>Read the Docs build and versioning process</h2><h2 id="Troubleshooting-Support"><a href="#Troubleshooting-Support" class="headerlink" title="Troubleshooting - Support"></a><a href="https://docs.readthedocs.io/en/stable/support.html" target="_blank" rel="noopener">Troubleshooting - Support</a></h2><h2 id="Troubleshooting-Frequently-asked-questions"><a href="#Troubleshooting-Frequently-asked-questions" class="headerlink" title="Troubleshooting - Frequently asked questions"></a><a href="https://docs.readthedocs.io/en/stable/faq.html" target="_blank" rel="noopener">Troubleshooting - Frequently asked questions</a></h2><h1 id="高级特性"><a href="#高级特性" class="headerlink" title="高级特性"></a><a href="https://docs.readthedocs.io/en/stable/index.html#advanced-features-of-read-the-docs" target="_blank" rel="noopener">高级特性</a></h1><p>这部分还没怎么用着，先罗列如下：</p><ul><li><a href="https://docs.readthedocs.io/en/stable/subprojects.html" target="_blank" rel="noopener">子项目配置</a></li><li><a href="https://docs.readthedocs.io/en/stable/single_version.html" target="_blank" rel="noopener">单版本配置</a></li><li><a href="https://docs.readthedocs.io/en/stable/privacy.html" target="_blank" rel="noopener">权限文档控制</a></li><li><a href="https://docs.readthedocs.io/en/stable/localization.html" target="_blank" rel="noopener">多语言文档</a></li><li><a href="https://docs.readthedocs.io/en/stable/user-defined-redirects.html" target="_blank" rel="noopener">自定义重定向</a></li><li><a href="https://docs.readthedocs.io/en/stable/automatic-redirects.html" target="_blank" rel="noopener">自动化重定向</a></li><li><a href="https://docs.readthedocs.io/en/stable/guides/index.html" target="_blank" rel="noopener">主题指南</a></li><li><a href="https://docs.readthedocs.io/en/stable/api/index.html" target="_blank" rel="noopener">扩展Read the Docs</a></li></ul><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://docs.readthedocs.io/en/stable/index.html#read-the-docs-documentation-simplified" target="_blank" rel="noopener">@ReadTheDocs</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Read the Docs&lt;/code&gt; simplifies software documentation by automating building, versioning, and hosting of your docs for you. Think of it as &lt;strong&gt;Coninuous Documentation&lt;/strong&gt;.&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="python" scheme="http://www.wrran.com/categories/python/"/>
+    
+      <category term="tools" scheme="http://www.wrran.com/categories/python/tools/"/>
+    
+      <category term="software engineering" scheme="http://www.wrran.com/categories/python/tools/software-engineering/"/>
+    
+    
+      <category term="tools" scheme="http://www.wrran.com/tags/tools/"/>
+    
+      <category term="documentation tools" scheme="http://www.wrran.com/tags/documentation-tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learning to Ask Question in Open-domain Conversational Systems with Typed Decoders</title>
+    <link href="http://www.wrran.com//blog/2018/09/16/note/paper-reading/question%20and%20answering/question%20generation/2018-09-16/"/>
+    <id>http://www.wrran.com//blog/2018/09/16/note/paper-reading/question and answering/question generation/2018-09-16/</id>
+    <published>2018-09-16T08:43:24.000Z</published>
+    <updated>2019-08-15T19:59:16.507Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>ask question with type information</p></blockquote><a id="more"></a><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本文动机明确，模型简单有效，值得学习其解决问题的思路。<br>作者认为在开放域的对话系统中的问题生成任务与传统的问题生成任务有着以下两点不同之处：</p><ol><li>对相同的输入（背景知识）可能有不同的提问模式，如Yes-No或者Wh-,How-类型的问题</li><li>对给定的输入，问题的提出往往需要有一定的场景知识，进而推动对话的发展。如，针对“我跟朋友去吃饭”，就可以提出一些关于朋友、地点、价格、味道等主题的问题；而传统的问题生成可能更多的在于某个特定的主题，并且更多表现为转述的方式。</li></ol><p>基于此特点，作者认为“好”的问题不仅要有多样的提问模式，也要能够自然的衔接主题。而问题中，常常可以自然的分为三个部分：疑问词、主题词及常见词。为此，作者提出了两种利用词语类别信息的问题生成模型。并在收集的491000对微博的post-response上验证了模型的有效性。<br><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180916/Good_questions_in_conversational_systems.PNG" alt="Good questions in conversational systems are a natural composition of interrogatives, topic words, and ordinary words."></p><h1 id="技术细节"><a href="#技术细节" class="headerlink" title="技术细节"></a>技术细节</h1><p><em>模型较简单，详情参见原文</em><br>作者修改的基本模型是Seq2Seq模型，为了融入类别信息。作者在解码器端增加了两种融入信息的方式：<br>一是，通过在每步解码时考虑该时刻的待解码词的类别分布(<code>softmax</code>)，这被作者称为STD (soft-typed decoder)；<br>二是，通过在每步解码时先生成该时刻词语的类别（<code>argmax</code>），再在已知该类别的基础上生成词语，这被称为HTD（hard-typed decoder）。</p><p>为了解决<code>argmax</code>不可求导的问题，作者采用<strong>Gumbel-Softmax</strong>技术来替代该操作。</p><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a href="https://arxiv.org/abs/1805.04843" target="_blank" rel="noopener">Learning to Ask Question in Open-domain Conversational Systems with Typed Decoders</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;ask question with type information&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+      <category term="question and answering" scheme="http://www.wrran.com/categories/note/paper-reading/question-and-answering/"/>
+    
+      <category term="question generation" scheme="http://www.wrran.com/categories/note/paper-reading/question-and-answering/question-generation/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="question generation" scheme="http://www.wrran.com/tags/question-generation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Learning Chinese Word Representations From Glyphs Of Characters</title>
+    <link href="http://www.wrran.com//blog/2018/08/26/note/paper-reading/word%20embedding/2018-08-26/"/>
+    <id>http://www.wrran.com//blog/2018/08/26/note/paper-reading/word embedding/2018-08-26/</id>
+    <published>2018-08-26T02:17:00.000Z</published>
+    <updated>2019-08-15T19:59:16.509Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>象形文字</p></blockquote><a id="more"></a><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>本文从汉字为象形文字这一点出发，提出从汉字的图像上学习“词向量”，并在三个数据集上进行了“词义相似度”和“词语类比”的实验，发现：直接从图像中学习词向量表现并不优良，而将图像词向量作为原先词向量的辅助信息确实可以带来一定的提升。<br>但就本人而言实验部分中的三个数据集，究竟偏重的是词向量哪部分的性能测试呢，是否切合了象形文字的优势呢？另外，作者从图像中学习词向量的方法能否最有效地从词向量中捕捉词语直接的相关关系呢？</p><h1 id="动机简述"><a href="#动机简述" class="headerlink" title="动机简述"></a>动机简述</h1><p>在中文中，汉字往往有多个组件构成。这有两层含义：一是汉字的含义往往与组件相关，因此在学习词向量的过程中，兼顾这些信息有助于提升最终词向量的质量；二是共享相同偏旁的多个汉字语义或发音上也有一定联系。这些组件的信息对于词向量学习都是有益的。</p><h1 id="模型介绍"><a href="#模型介绍" class="headerlink" title="模型介绍"></a>模型介绍</h1><p>作者在基于原先的几个词向量表示学习的模型的基础上，提出了自己的改进方式。</p><h1 id="Baselines"><a href="#Baselines" class="headerlink" title="Baselines"></a>Baselines</h1><h2 id="CBOW-and-Skip-Gram"><a href="#CBOW-and-Skip-Gram" class="headerlink" title="CBOW and Skip-Gram"></a>CBOW and Skip-Gram</h2><p>这是word2vec中提出的两个经典模型，简单有效。CBOW是给定上下文预测目标词，Skip-Gram是给定目标词预测上下文。除此之外，还有一些训练技巧，如层次化的softmax、哈夫曼编码、负采样等。</p><h2 id="GloVe"><a href="#GloVe" class="headerlink" title="GloVe"></a>GloVe</h2><p>GloVe是通过词语共现矩阵学习词向量的。在统计词语共现信息时，GloVe使用了调和权重，即距离为$d$的两个词语共现频率记为$1/d$；GloVe的目标函数如下：<br>$$<br>\sum_{i, j \in \text{non-zero of} X} f(X_{ij})(\vec{w}_i^T\vec{\tilde{w}}_j + b_i + \tilde{b}<em>j - \log{X</em>{ij}})<br>$$<br>其中，考虑到共现频次过低时统计数据不可信，故而引入如下$f(X_{ij})$作为权重。<br>$$<br>f(X_{ij}) =<br>\begin{cases}<br>(X_{ij}/x_{max})^{\alpha}, \text{if } X_{ij}&lt; x_{max}\<br>1, &amp; \text{otherwise}\<br>\end{cases}<br>$$</p><h2 id="Character-enhanced-Word-Embedding-CWE"><a href="#Character-enhanced-Word-Embedding-CWE" class="headerlink" title="Character-enhanced Word Embedding (CWE)"></a>Character-enhanced Word Embedding (CWE)</h2><p>CWE寄希望于通过融入构成词语的字信息来提升词向量的质量，如下：<br>$$<br>\vec{w}_i^{cwe} = \vec{w}<em>i + \frac{1}{\vert C(i)\vert}\sum</em>{c_j\in C(i)}\vec{c}_j<br>$$<br>其中，$\vec{w}_i$是词向量，$\vec{c}_j$是字向量，$C(i)$是词语$w_i$的字集合。<br>另外，由于一个字往往含有多个含义，CWE为每个字分配多个向量，不能给提出了三种挑选字向量的方式：基于位置，基于簇丛，非参数的基于簇丛的挑选方式。</p><p><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180826/CWE_and_MGE.PNG" alt="Model Comparison of Character-enhanced Word Embedding (CWE) and Multi-granularity Embedding (MGE)"></p><h2 id="Multi-granularity-Embedding-MGE"><a href="#Multi-granularity-Embedding-MGE" class="headerlink" title="Multi-granularity Embedding (MGE)"></a>Multi-granularity Embedding (MGE)</h2><p>MGE基于CBOW和CWE模型，并融入了目标词的偏旁信息。MGE通过如下隐层表示预测目标词：<br>$$<br>\vec{h}<em>i = \frac{1}{\vert C(i)\vert} \sum</em>{c_k\in C(i)} \vec{r}<em>k + \frac{1}{\vert W(i)\vert} \sum</em>{w_j \in W(i)} \vec{w}_j^{cwe}<br>$$<br>其中$\vec{r}_k$是目标词的偏旁向量，$C(i)$是目标词包含的字，$W(i)$是上下文词语。</p><h1 id="Models"><a href="#Models" class="headerlink" title="Models"></a>Models</h1><p>作者使用convAE从字生成的图像中抽取表示。</p><p><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180826/The_architecture_of_convAE.PNG" alt="The architecture of convAE"></p><h2 id="Glyph-Enhanced-Word-Embedding-GWE"><a href="#Glyph-Enhanced-Word-Embedding-GWE" class="headerlink" title="Glyph-Enhanced Word Embedding (GWE)"></a>Glyph-Enhanced Word Embedding (GWE)</h2><p>在预训练好上述的convAE后，模型就可以得出字的向量表示。类似于MGE的做法，作者基于CBOW和CWE模型，融入字的图像向量，并可以细分为两类：<br><strong>context character glyph feature</strong><br><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180826/Illustration_of_exploiting_context_word_glyphs.PNG" alt="Illustration of exploiting context word glyphs."></p><p><strong>target character glyph feature</strong><br><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180826/Illustration_of_exploiting_target_word_glyphs.PNG" alt="Illustration of exploiting target word glyphs."></p><h2 id="Directly-Learn-From-Character-Glyph-Features"><a href="#Directly-Learn-From-Character-Glyph-Features" class="headerlink" title="Directly Learn From Character Glyph Features"></a>Directly Learn From Character Glyph Features</h2><p>作者也尝试直接从字的图像中学到词向量，无论是SkipGram或者GloVe，更改的地方都是如何产生词向量。在该工作中，作者先是通过convAE学到字图像向量，之后通过双层的GRU，最后通过两层全连接层得到对应的词向量。<br><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180826/Model_architecture_of_RNN-Skipgram.PNG" alt="Model architecture of RNN-Skipgram."><br><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180826/Model_architecture_of_RNN-GloVe.PNG" alt="Model architecture of RNN-GloVe."></p><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a href="http://www.aclweb.org/anthology/D/D17/D17-1025.pdf" target="_blank" rel="noopener">Learning Chinese Word Representation From Glyphs Of Characters</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;象形文字&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+      <category term="word embedding" scheme="http://www.wrran.com/categories/note/paper-reading/word-embedding/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="word embedding" scheme="http://www.wrran.com/tags/word-embedding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Multi-Granularity Hierarchical Attention Fusion Networks for Reading Comprehension and Question Answering</title>
+    <link href="http://www.wrran.com//blog/2018/08/05/note/paper-reading/question%20and%20answering/reading%20comprehension/2018-08-05/"/>
+    <id>http://www.wrran.com//blog/2018/08/05/note/paper-reading/question and answering/reading comprehension/2018-08-05/</id>
+    <published>2018-08-05T08:02:49.000Z</published>
+    <updated>2019-08-15T19:59:16.508Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>୧(๑•̀◡•́๑)૭</p></blockquote><a id="more"></a><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p>这是首次机器阅读理解模型性能在SQuAD上超越人类性能的模型，EM高达79.2%。本博文旨在考察模型细节，以便学习掌握。<br>总览全文，该模型使用了很多优化技巧，总结有以下几点：</p><ol><li>使用ELMo</li><li>除了常用的co-attention，self-attention外，还使用了Fusion Function</li><li>回答问题前，除了使用pointer network，还使用了bilinear match</li><li>在推理过程中使用了手动制定的特征</li></ol><h1 id="模型"><a href="#模型" class="headerlink" title="模型"></a>模型</h1><p>记文档为词语序列$$P={w_t^P}_{t=1}^n$$, 问题为词语序列为$$Q={w_t^Q}<em>{t=1}^m$$，其中$$n$$为文档长度，$$m$$为问题长度；答案为文档$$P$$中的某个连续的文档片段。学习目标为$$f(q, p)=\arg\max</em>{a\in A(p)} \Pr{(a\vert q, p)}$$。</p><p><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180805/Hierarchical_Attention_Fusion_Network.PNG" alt="Hierarchical Attention Fusion Network."></p><p>模型整体框架如上图，可以细分为四部分：</p><ul><li>Encoder Layer: 将文档和问题转化为向量表示；</li><li>Attention Layer: 捕捉文档与问题之间的相互关系，除了常用的co-attention/self-attention外，还运用了<code>Fusion Function</code>；</li><li>Match Layer: 使用bi-linear match function捕捉问题与文档表示之间的关系；</li><li>Output Layer: 使用pointer-network搜索答案。</li></ul><h2 id="Encoder-Layer"><a href="#Encoder-Layer" class="headerlink" title="Encoder Layer"></a>Encoder Layer</h2><p>该模型除了使用常用的GloVe作为预训练的词向量外，还使用了ELMo该语言模型作为词向量表示的补充。如此，对于文档和问题我们得到了两种表示，即词向量$${e_t^Q}_{t=1}^m$$，$${e_t^P}_{t=1}^n$$和字向量$${c_t^Q}_{t=1}^m$$，$${c_t^P}^n_{t=1}$$。<br>之后为获取上下文信息，使用Bi-LSTM对词向量表示与字向量表示进行学习，并与字向量拼接作为该层的最终表示：<br>$$<br>\begin{align}<br>u_t^Q &amp;= \Big[\text{BiLSTM}_Q([e_t^Q, c_t^Q]), c_t^Q \Big]\<br>u_t^P &amp;= \Big[\text{BiLSTM}_P([e_t^P, c_t^P]), c_t^P \Big]\<br>\end{align}<br>$$</p><h2 id="Attention-Layer"><a href="#Attention-Layer" class="headerlink" title="Attention Layer"></a>Attention Layer</h2><p>该层主要负责推理，本模型基于co-attention和self-attention形成hierarchical attention，并在此外还使用了<code>Fusion Function</code>。</p><h3 id="Co-attention-amp-Fusion"><a href="#Co-attention-amp-Fusion" class="headerlink" title="Co-attention &amp; Fusion"></a>Co-attention &amp; Fusion</h3><p>计算出问题表示$$u_t^Q$$及文档表示$$u_t^P$$后，我们即可计算两者语义相似度：<br>$$<br>S_{ij} = \text{Att}(u_t^Q, u_t^P) = \text{ReLu}(W_{lin}^T u_t^Q) \cdot \text{ReLu}(W_{lin}^T u_t^P)<br>$$</p><p>类似之前的做法，作者基于上述未归一化的矩阵$$S$$计算<strong>P2Q Attention</strong>和<strong>Q2P Attention</strong>:<br><strong>P2Q Attention</strong>得到融入文档的问题表示：<br>$$<br>\begin{align}<br>\alpha_j &amp;=\text{softmax}(S_{:j}) &amp; \<br>\tilde{Q}_{:t} &amp;= \sum_j \alpha_{tj} \cdot Q_{:j}, &amp; \forall j \in [1,\cdots, m]\<br>\end{align}<br>$$</p><p><strong>Q2P Attention</strong>得到融入问题的文档表示：<br>$$<br>\begin{align}<br>\beta_i &amp;= \text{softmax}(S_{i:}) &amp;\<br>\tilde{P}_{k:} &amp;= \sum_i \beta_{ik} \cdot P_{i:}, &amp; \forall i \in [1, \cdots, n]\<br>\end{align}<br>$$</p><p>之后通过结合原有的文档表示和问题表示，得到：<br>$$<br>\begin{align}<br>P’ &amp;= \text{Fuse}(P, \tilde{Q})\<br>Q’ &amp;= \text{Fuse}(Q, \tilde{P}) \<br>\end{align}<br>$$</p><p>在本文中选用了如下形式作为$$\text{Fuse}$$:<br>$$<br>m(P, \tilde{Q}) = \tanh(W_f \Big[P; Q; P\circ\tilde{Q}; P-\tilde{Q} \Big] + b_f)<br>$$</p><p>作者发现原先的表示反映了一些全文信息，为此引入门机制生成最终的文档或问题表示：<br>$$<br>\begin{align}<br>P’ &amp;= g(P, \tilde{Q})\cdot m(P, \tilde{Q}) + (1 - g(P, \tilde{Q}))\cdot P\<br>Q’ &amp;= g(Q, \tilde{P})\cdot m(Q, \tilde{P}) + (1 - g(Q, \tilde{P}))\cdot Q\<br>\end{align}<br>$$<br><em>门机制的实现在后文中将详细介绍，作者设计了三种：基于标量、基于向量、基于矩阵的三种。</em></p><h3 id="Self-attention-amp-Fusion"><a href="#Self-attention-amp-Fusion" class="headerlink" title="Self-attention &amp; Fusion"></a>Self-attention &amp; Fusion</h3><p>之后对文档进行self-attention，先后通过BiLSTM、双线性的softmax及<code>Fuse Function</code>：<br>$$<br>\begin{align}<br>D &amp;= \text{BiLSTM}(\Big[ P’;\text{feat}_{\text{man}}\Big]) \<br>L &amp;= \text{softmax}(D\cdot W_l \cdot D^T)\<br>\tilde{D} &amp;= L \cdot D \<br>D’ &amp;= \text{Fuse}(D, \tilde{D})\<br>D’’ &amp;= \text{BiLSTM}(D’)<br>\end{align}<br>$$<br>对于问题，鉴于其长度较短，没有采用上述复杂的操作方式：<br>$$<br>\begin{align}<br>Q’’ &amp;= \text{BiLSTM}(Q’)\<br>\gamma &amp;= \text{softmax}(w_q^T \cdot Q’’)\<br>q &amp;= \sum_j \gamma_j \cdot Q’’_{:j}, \forall j \in [1, \cdots, m]\<br>\end{align}<br>$$</p><h2 id="Match-amp-Output-Layer"><a href="#Match-amp-Output-Layer" class="headerlink" title="Match &amp; Output Layer"></a>Match &amp; Output Layer</h2><p>作者通过下述的双线性方式得到答案的开始与结束位置：<br>$$<br>\begin{align}<br>P_{start} &amp;= \text{softmax}(q \cdot W_s^T \cdot D’’)\<br>P_{end} &amp;= \text{softmax}(q \cdot W_e^T \cdot D’’)\<br>\end{align}<br>$$<br>输出层使用常规的Pointer Network来预测文档的开始与结束位置。<br>在训练过程中，使用交叉熵作为目标函数；在预测过程中，使用动态规划寻找一定长度内为答案开始概率与为答案结束概率乘积最大者。</p><h1 id="参考文献"><a href="#参考文献" class="headerlink" title="参考文献"></a>参考文献</h1><p><a href="http://aclweb.org/anthology/P18-1158" target="_blank" rel="noopener">Multi-Granularity Hierarchical Attention Fusion Networks for Reading Comprehension and Question Answering</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;୧(๑•̀◡•́๑)૭&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+      <category term="question and answering" scheme="http://www.wrran.com/categories/note/paper-reading/question-and-answering/"/>
+    
+      <category term="reading comprehension" scheme="http://www.wrran.com/categories/note/paper-reading/question-and-answering/reading-comprehension/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="question answering" scheme="http://www.wrran.com/tags/question-answering/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Efficient and Robust Question Answering from Minimal Context over Documents</title>
+    <link href="http://www.wrran.com//blog/2018/07/29/note/paper-reading/question%20and%20answering/reading%20comprehension/2018-07-29/"/>
+    <id>http://www.wrran.com//blog/2018/07/29/note/paper-reading/question and answering/reading comprehension/2018-07-29/</id>
+    <published>2018-07-29T02:02:07.000Z</published>
+    <updated>2019-08-15T19:59:16.508Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>先筛后选</p></blockquote><a id="more"></a><h1 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h1><p>本篇论文的思路是通过深度学习的句子编码器对文档D中的各个句子进行编码，并针对句子包含答案的可能性进行打分。倘若分数高过一定阈值则保留；否则从D中删除。之后将精简过的文档作为神经网络阅读理解模型进行求解。<br>这样做的好处有两点，一是由于输入到阅读理解模型中的数据变少，模型求解的速度加快了；二是同样由于输入数据变少，也压缩了模型的解空间（答案是文档中的某个片段）。但该做法的隐患是在于倘若前者直接删除了包含正确答案的句子，则后一步骤中一定无法正确求解。好在作者通过数据分析及一些训练技巧有效的保证了前一步骤（“句子选择”）的高准确率（在SQuAD数据上高达99.3%，在NewsQA数据上高达94.6%）。</p><h1 id="数据分析"><a href="#数据分析" class="headerlink" title="数据分析"></a>数据分析</h1><p>作者在本文中对SQuAD及NewsQA进行了详尽的数据分析。这为后期实验的开展打下了数据基础，也让我们认识到该方法有效的原有。<br>作者从SQuAD中随机采样了50个数据组，发现其中98%的问题是可回答的，而剩余2%的问题即便是通览全文也无法回答。举例来说，在阅读完一篇关于Charles Dickens的文档之后也无法正确回答问题“The papers of which famous English Victorian author are collected in the library?”，这是由于外部知识的缺乏。而在可回答的问题集合中，作者进一步调研回答问题时需要的语句数量，发现其中92%的问题仅仅需要阅读一句之后就可以进行回答，6%的问题需要文档中的两句，而只有2%的问题需要三句乃至更多。<br>作者同样也在TriviaQA上进行了数据分析：与SQuAD平均每个文档仅包含5句的数据特征不同，TriviaQA平均每个文档包含有488句；其中88%的问题是可以回答的，而这其中的95%只需要一或两句就已经足够进行回答了。<br>为了进一步验证先进行句子筛选，再利用当前阅读理解模型进行问题求解的做法不会损害模型的性能。作者在DCN+模型上进行了实验。总体来看，在全文档（即不进行句子筛选）上训练的模型最终的F1为83.1；而在筛选过句子上训练的模型最终的F1为85.1。接着，作者分析后者模型回答错误的原因：40%是已经选择了正确的句子，但阅读理解模型回答错误；58%是由于模型预测部分正确答案，但并没有和标准答案完全一致；2%是由于问题在给予全文的情况下也无法正确回答。另外，作者还比较了全文档模型与筛选过句子模型回答正确的问题集合关系，发现：后者分别在SQuAD和NewsQA上可以正确回答93%和86%的问题。基于上述数据，作者认为采用“筛选-回答”的模式可以提供一个有效且高效的阅读理解模型。</p><h1 id="模型介绍"><a href="#模型介绍" class="headerlink" title="模型介绍"></a>模型介绍</h1><p>下图是本篇论文的模型总体框架。如前所述，该模型可分为“句子筛选”与“阅读理解”两部分。而阅读理解部分，作者直接采用较为成熟的阅读理解模型：DCN+。此处将着重介绍该文的“句子筛选”部分，关于DCN+模型的细节请参见文[5]。</p><p><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180729/Our%20Model%20Architecture.png" alt="Our Model Architecture."></p><p>句子编码器首先将文档中的句子与问题作为输入，分别计算出句子的编码$D\in \mathbb{R}^{h_d\times L_d}$和问题的编码$Q\in \mathbb{R}^{h_d\times L_q}$（其中$h_d$是词向量的维度，$L_d$和$L_q$分别是文档与问题的序列长度）。之后通过下式计算融入问题表示的句子表示$D^q\in\mathbb{R}^{h_d\times L_d}$：<br>$$<br>\begin{align}<br>\alpha_i = \mathbf{softmax}(D_i^T W_1 Q)\in\mathbb{R}^{L_q}\<br>D_i^q = \sum_{j=1}^{L_q} (\alpha_{i,j} Q_j) \in\mathbb{R^{h_d}}<br>\end{align}<br>$$</p><p>其中$D_i\in\mathbb{R}^{h_d}$是句子中第$i$个词语的表示，$W_1\in\mathbb{R}^{h_d\times h_d}$是训练参数。为了交互句子中词语之间的信息，作者将上述分布式表示通过BiLSTM进行编码：<br>$$<br>\begin{align}<br>D^{\text{enc}}=\mathbf{BiLSTM}([D_i;D_i^q])\in\mathbb{R}^{h\times L_d}\<br>Q^{\text{enc}}=\mathbf{BiLSTM}(Q_j )\in\mathbb{R}^{h\times L_q}\<br>\end{align}<br>$$<br>其中，;表示向量拼接的操作，h是BiLSTM的隐层表示的维度。<br>之后，解码器对于上述得到的文档表示及问题表示进行打分：<br>$$<br>\begin{align}<br>\beta= \mathbf{softmax}(w^T Q^\text{enc})\in \mathbb{R}^{L_q}\<br>\tilde{q}^{\text{enc}}= \sum_{j=1}^{L_q} (\beta_j Q_j^{\text{enc}}) \in \mathbb{R}^h\<br>\tilde{h}_i=(D_i^{\text{enc}} W_2 q^\text{enc})\in \mathbb{R}^h\<br>\tilde{h}=\max(h_1, h_2, \cdots, h_{L_d})\<br>\text{score}=W_3^T \tilde{h}\in\mathbb{R}^2<br>\end{align}<br>$$<br>其中，$w^T\in\mathbb{R}^h$，$W_2\in\mathbb{R}^{h\times h\times h}$,$W_3\in\mathbb{R}^{h\times 2}$都是模型训练的参数。而最终得到的score的两维分别代表给定问题下该句是支撑语句或不是支撑语句的打分。</p><p>除了上述训练模型外，作者还引入了三个训练技巧：一是将句子筛选的句子编码器作为后续阅读理解模型的句子（问题）编码部分，二是倘若后续阅读理解没有正确回答问题，则将该句标记为错误句子（无论其是否包含正确答案），三是计算出的打分函数在段落上进行归一化。上述三种方式都被后续实验验证为可以切实提高模型表现的。</p><p>在最终确定句子时，作者使用了基于阈值的方法，而不是基于Top-K的筛选算法。这是由于作者认为不同的问题需要不同数量的支持语句。后续实验也表明，基于阈值的筛选方法不仅能够提高筛选的准确率，还能挑选出（平均）更少数量的句子。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="http://aclweb.org/anthology/P18-1160" target="_blank" rel="noopener">Efficient and Robust Question Answering from Minimal Context over Documents</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;先筛后选&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+      <category term="question and answering" scheme="http://www.wrran.com/categories/note/paper-reading/question-and-answering/"/>
+    
+      <category term="reading comprehension" scheme="http://www.wrran.com/categories/note/paper-reading/question-and-answering/reading-comprehension/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="document question answering" scheme="http://www.wrran.com/tags/document-question-answering/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>分布式单词表示综述（一）</title>
+    <link href="http://www.wrran.com//blog/2018/05/26/note/paper-reading/word%20embedding/2018-05-27/"/>
+    <id>http://www.wrran.com//blog/2018/05/26/note/paper-reading/word embedding/2018-05-27/</id>
+    <published>2018-05-26T03:51:17.000Z</published>
+    <updated>2019-08-15T19:59:16.508Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>survey word representation</p></blockquote><a id="more"></a><h1 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h1><p>最近在整理近些年来的词向量相关工作,发现了一篇2016年的相关综述.于是便顺着该篇综述来介绍相关的工作,其中涉及的有意思的工作可以参看后续的一些博文.</p><h1 id="单词分布式表示学习主要方法"><a href="#单词分布式表示学习主要方法" class="headerlink" title="单词分布式表示学习主要方法"></a>单词分布式表示学习主要方法</h1><p>但更重要的问题在于为什么这样的一个神经网络可以在建模语言模型时,能够学出单词的分布式表示呢?且这种分布式表示可以包含单词间的语义关联呢?其核心思想在于：对于同一个单词，在其前面出现的上下文单词总是相似的。</p><h2 id="神经网络语言模型"><a href="#神经网络语言模型" class="headerlink" title="神经网络语言模型"></a>神经网络语言模型</h2><p>Bengio等人的[神经网络概率语言模型（Neural Probabilistic Language Model, NPLM）][3] [other][37]提出了一个通用的框架学习单词的分布式表达以及任意的N元语言模型.在该模型中,语言模型是通过给定前文来计算某个单词的概率.NPLM通过将词表示为分布式形式,有效的避免了维度灾难的问题,同时编码了词与词之间的联系,因而自带平滑效果,无需传统N元语言模型中复杂的平滑算法.但该模型的缺点也很明显，主要在于计算方面，NPLM使用$\mathrm{softmax}$层估计下一个词的概率,但这一层的维度是词表大小,分母需要进行$$\vert V\vert$$次计算.因此导致学习和推断的过程都十分耗时.</p><h3 id="神经网络语言模型的加速"><a href="#神经网络语言模型的加速" class="headerlink" title="神经网络语言模型的加速"></a>神经网络语言模型的加速</h3><p>为了解决上述问题,早期使用神经网络语言模型学习单词表示的工作,主要都集中在于加速神经网络语言模型工作上了.对于神经网络语言模型加速的工作,主要集中于两方面:</p><ol><li>直接近似优化原始目标函数</li><li>简化网络结构</li></ol><p><strong>近似优化原始目标函数</strong> Bengio与Ducharme在[Quick Training of Probabilistic Neural Nets by Importance Sampling.][44]中提出使用 <strong>重要性采样(Importance Sampling)</strong> 的方法近似目标函数梯度中的期望项,提升了模型性能，但代价依旧很高.Minh等人在[A fast and simple algorithm for training neural probabilistic language models.][45]及[Learning word embeddings efficiently with noise-contrastive estimation.][46]中引入了 <strong>噪声对比估计(Noise-Contrastive Estimation, NCE)</strong> 取代了重要性采样进行训练过程中的概率估计.该方法的基本思想在于训练一个使用相同参数的逻辑斯蒂回归将真实分布的样本从噪声分布中区分出来.<br><strong>简化网络结构</strong> 在[Hierarchical Probabilistic Neural Network Language Model.][48]的工作中，Morin与Bengio将原本NPLM中扁平化的<code>softmax</code>输出层转变为树状输出。这样就将$$\vert V\vert$$次的指数运算减少到$$\log{\vert V\vert}$$次的运算过程了。之外，在[Three New Graphical Models for Statistical Language Modelling.][23]中作者使用了更简单的对数双线性模型取出了之前模型隐层中的非线性计算部分,输入单词的表示经过简单的线性变换后直接与被预测词的向量做交互.</p><h2 id="排序模型"><a href="#排序模型" class="headerlink" title="排序模型"></a>排序模型</h2><p>Mikolov等人在[Neural network based language models for highly inflective languages.][51]的工作中发现，将单词表示学习与语言模型的训练分离开来进行，首先使用简单的模型在更大的语料上学习词向量，然后以此训练语言模型，同样可以取得很好的训练效果。另外，也有学者尝试将单词的分布式表示用于除语言模型之外的自然语言处理任务上，如C&amp;W模型使用多任务学习来学习单词的分布式表示。<br>C&amp;W模型做法与之前神经网络语言模型学习单词进行表示模型有如下改进：</p><ol><li>同时使用单词前后的上下文进行学习；</li><li>对单词序列打分使用了排序损失函数而非基于概率的极大似然估计：<br>$$<br>\max{0, 1-s(w, c)+s(\hat{w}, c)}<br>$$<br>这里$$c$$代表单词$$w$$的上下文，$$\hat{w}$$表示将当前上下文$$c$$中的单词$$w$$替换为一个随机采样出的无关单词,$$s$$代表打分函数（打分越高,说明这段文本是正确的;打分越低，则说明这段文本不合理）。显然，在大多数情况下，将普通短语中的特定单词随机替换为任意单词，得到的都不是正确的短语。因此，模型的目标便是尽量使正确的语言（也就是观测的语料）得分比随机生成的语言的分数更高。这种技术也被称为 <strong>负采样技术</strong> 。</li></ol><p>而在[WordRank: Learning Word Embeddings via Robust Ranking][55]中Ji等人进一步将排序损失函数应用在词向量表示学习的过程中，将其建模为一个排序问题，使用精妙设计的排序函数来学习单词表示。在[Hubness and Pollution: Delving into Cross-Space Mapping for Zero-Shot Learning.][56]的工作也发现，使用此类排序损失函数可以解决单词表示空间中离得很近的点不易区分的问题。</p><h2 id="上下文单词预测模型"><a href="#上下文单词预测模型" class="headerlink" title="上下文单词预测模型"></a>上下文单词预测模型</h2><p>Mikolov等人在[word2vec][4]的工作中也进一步简化了以往的神经网络语言模型，去除了NPLM中间的非线性隐藏层，提出了两个简单的神经网络模型（Continuos Bag-of-Words, CBOW及Skip-gram, SG）来学习单词的分布式表示.上述两种做法十分简单，CBOW通过上下文词语的分布式表示的加权和来预测单词，后者通过单词的分布式表示来预测上下文的词语.为了模型的求解过程中涉及的复杂的求和操作，使用了一系列的加速技巧都与之前的工作类似：使用哈夫曼树压缩预测空间，负采样技术等。</p><h2 id="矩阵分解模型"><a href="#矩阵分解模型" class="headerlink" title="矩阵分解模型"></a>矩阵分解模型</h2><p>矩阵分解同样也是得到低维词向量的重要途径。<br>其中经典的单词表示学习模型,隐式语义分析模型(Latent Semantic Analysis/Indexing, LSA/LSI)将奇异值分解应用于单词与文档共现矩阵$$X\in\mathbb{R}^{\vert V\vert\times n}$$中，并只保留其中最大的$$k$$个奇异值，如下<br>$$<br>X = W\sum_k D^T<br>$$<br>一般使用$$W\sum_k$$作为单词的向量表示.对于SVD分解单词与上下文矩阵，Levy等人在[58]中发现使用$$W(\sum_k)^{1/2}$$在语义相关任务上效果更佳，而Caron则在[59]中推荐使用$$W(\sum_k)^{\alpha}$$（其中$$\alpha$$对于结果有显著影响，需要认真调整），Hu等人在[60]中发现去掉LSA得到表达的第一维后结果也会有提升（因为LSA得到的向量的第一维显著大于其他维度）。</p><p>随后，Huffman等人概率化LSI，在[61]中提出PLAS(Probabilistic Latent Semantic Indexing)模型；Blei等人在[62]中将PLSA贝叶斯扩展为LDA(Latent Dirichlet Allocation)模型.</p><p>除SVD外，典型相关分析（Canonical Correlation Analysis, CCA [63, 64]）同样被广泛用于学习单词表示[65, 66, 67, 68]；此外，Lebret与Collobert使用Hellinger距离作为PCA分解单词共现矩阵的损失函数，提出 Hellinger PCA(HPCA)模型；受Mikilov等人的工作启发，Pennington等人中提出[GloVe模型][21]。</p><h2 id="模型联系"><a href="#模型联系" class="headerlink" title="模型联系"></a>模型联系</h2><p>该节主要讨论上述做法中的一些相关联系。</p><h3 id="横向组合与纵向聚合"><a href="#横向组合与纵向聚合" class="headerlink" title="横向组合与纵向聚合"></a>横向组合与纵向聚合</h3><p>上述模型实质上都基于同一个假设 <strong>分布语义假设(Distributional Hypothesis)[71,72]</strong>，其含义是：单词的语义来自于上下文。<br>不同的是，一些模型将文档作为单词的上下文，一些讲单词周边的单词作为上下文。</p><p>Sun等人在[74]中表明，上下文的不同，使得不同模型建模了单词间的不同关系：横向组合关系(Syntagmatic)与纵向聚合(Paradigmatic)关系[75]。</p><p><strong>横向聚合关系</strong> 指的是两个单词同时出现在一段文本区域中。如下图中， “爱因斯坦”与“物理学家”两个词同时出现在一句话中，这两个词间存在着横向组合关系。此关系强调两个词可以进行组合，在句子中往往起到不同的语法作用。<br>而 <strong>纵向聚合关系</strong> 指的是纵向的可替换的关系，如图中的“爱因斯坦”与“费曼”。如果两个词在一句话中互换后，不影响句子的语法正确性以及语义合理性，则这两个词间存在纵向聚合关系。 纵向聚合关系在形式上表现为，这两个单词出现在相似的上下文环境中， 即使这两个单词可能从未共现。<br><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180527/syntagmatic_paradigmatic.PNG" alt="横向组合与纵向聚合实例"></p><p>使用文档作为上下文的模型，隐含的假设是，如果两个单词经常同时出现在同一个文档，则这两个单词语义相似。这类模型建模了单词间的横向组合关系，其假设单词与和它共现的单词相似。 LSI以及LDA等通常使用在信息检索场景下的模型，都是建模的这类关系。这类模型更多的侧重于单词的话题信息，因而针对如文本分类这类侧重话题的任务，要好于使用纵向聚合关系的模型。如Tang等人[76]实验证实，在文本分类任务上，PV-DBOW（Distributed Bag of Words version of Paragraph Vector）要明显优于 SG 模型，其中PV-DBOW与LSI类似，建模的是单词间的横向组合关系。</p><p>而另一类模型，使用单词周边单词作为上下文。 其假设， 如果两个单词周围的单词相似，则这两个单词语义相似，即使这两个单词可能从未同时出现在一段文本区域中。这类模型建模了单词间的纵向关系，包括NPLM、LBL、CBOW、SG、GloVe等。这也是自然语言处理中最常用关系，同时也是分布语义假设最主流的解释。这类模型更加擅长有关单词自身的各项应用。</p><h3 id="神经网络与矩阵分解"><a href="#神经网络与矩阵分解" class="headerlink" title="神经网络与矩阵分解"></a>神经网络与矩阵分解</h3><p>Levy 和 Goldberg[77]分析表明， SG模型在使用负采样(SGNS)进行学习的情况下，相当于隐式地在分解单词与上下文之间偏移的点间互信息(Shifted Pointwise Mutual Information, shifted PMI)矩阵。 对于PMI矩阵，它是自然语言处理领域表示单词语义的一个常用选择[78]。随后，Li 等人[79]在表示学习的框架下证明了SGNS等同于矩阵分解。</p><p>此外，Shi和Liu[80]以及 Shazeer 等人[70]的工作都表明，GloVe模型实际上与使用负采样的SG(SGNS)模型非常相似，其区别只在于模型中的偏移项以及单词权重的选择。而Suzuki和Nagata[81]则提出了一个统一的框架囊括了这两个模型。</p><h2 id="模型实验比较"><a href="#模型实验比较" class="headerlink" title="模型实验比较"></a>模型实验比较</h2><h3 id="单词相似度"><a href="#单词相似度" class="headerlink" title="单词相似度"></a>单词相似度</h3><p><a href="http://alfonseca.org/eng/research/wordsim353.html" target="_blank" rel="noopener"><code>WordSim 353 (WS 353)</code></a> - 353个单词对,其中每一词对由13或者16位标注者对其进行0到10之间的打分,分数越高表示标注人员认为这两个词语语义更加相关或者更相似.最终对于每一词对都可以得到所有标注者的一个平均打分.</p><p>此任务的评价标准为,计算标注者对于单词对打分与模型习得表示得到的打分之间的Spearman排序相关系数:<br>$$<br>r=\rho_{x,y}=\frac{\mathrm{cov}(x, y)}{\sigma_x\sigma_y}<br>$$<br>其中$\mathbf{cov}(x, y)$表示排序列表$x, y$之间的协方差,$\sigma_x$和$\sigma_y$代表了对应的标准差.</p><p>模型得到的打分与人工标注的打分排序越一致,得分则越高.<br><a href="https://nlp.stanford.edu/~lmthang/morphoNLM/" target="_blank" rel="noopener"><code>Rare Word (RW)</code></a> - 该数据集侧重于评价模型学习稀缺单词表示的能力,其包含了2034个单词对.相比其他数据集,RW包含了更多的词形复杂而又少见的单词.</p><p><a href="https://github.com/magizbox/underthesea/wiki/DATA-SIMLEX-999" target="_blank" rel="noopener"><code>SimLex-999 (SL-999)</code> </a>- 该数据集修正了WS-353混合相关和相似的缺点,专注于单词之间的相似性,相比较WS-353,该数据集对各个词表示模型的难度更大.</p><h3 id="单词类比"><a href="#单词类比" class="headerlink" title="单词类比"></a>单词类比</h3><p>在word2vec的工作中,Mikolov发现就单单词向量而言,可以通过简单的向量加减运算反映语法语义上的类比关系,如“北京之于中国,相当于巴黎之于法国”可以通过<code>vec(&quot;Beijing&quot;) - vec(&quot;China&quot;) = vec(&quot;Paris&quot;) - vec(&quot;France&quot;)</code>来捕捉到。</p><h3 id="单词表示用作特征"><a href="#单词表示用作特征" class="headerlink" title="单词表示用作特征"></a>单词表示用作特征</h3><p>除了上述两个针对单词向量直接进行比较的实验外，学者们还是用单纯的单词表示作为其他任务的特征，如实体识别和情感分类。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://wenku.baidu.com/view/a225cafdf9c75fbfc77da26925c52cc58bd6901c.html" target="_blank" rel="noopener">分布式单词表示综述</a><br>[3]: <a href="http://jmlr.org/papers/volume3/bengio03a/bengio03a.pdf" target="_blank" rel="noopener">http://jmlr.org/papers/volume3/bengio03a/bengio03a.pdf</a> “A Neural Probabilistic Language Model. Journal of Machine Learning Research”<br>[37]: <a href="http://repository.cmu.edu/cgi/viewcontent.cgi?article=2405&amp;context=compsci" target="_blank" rel="noopener">http://repository.cmu.edu/cgi/viewcontent.cgi?article=2405&amp;context=compsci</a> “Can artificial neural networks learn language models?”<br>[44]: <a href="http://www.iro.umontreal.ca/~lisa/pointeurs/submit_aistats2003.pdf" target="_blank" rel="noopener">http://www.iro.umontreal.ca/~lisa/pointeurs/submit_aistats2003.pdf</a> “Quick Training of Probabilistic Neural Nets by Importance Sampling.”<br>[45]: <a href="https://www.cs.toronto.edu/~amnih/papers/ncelm.pdf" target="_blank" rel="noopener">https://www.cs.toronto.edu/~amnih/papers/ncelm.pdf</a> “A fast and simple algorithm for training neural probabilistic language models.”<br>[46]: <a href="https://www.cs.toronto.edu/~amnih/papers/wordreps.pdf" target="_blank" rel="noopener">https://www.cs.toronto.edu/~amnih/papers/wordreps.pdf</a> “Learning word embeddings efficiently with noise-contrastive estimation.”<br>[48]: <a href="https://www.iro.umontreal.ca/~lisa/pointeurs/hierarchical-nnlm-aistats05.pdf" target="_blank" rel="noopener">https://www.iro.umontreal.ca/~lisa/pointeurs/hierarchical-nnlm-aistats05.pdf</a> “Hierarchical Probabilistic Neural Network Language Model.”<br>[23]: <a href="https://www.cs.toronto.edu/~amnih/papers/threenew.pdf" target="_blank" rel="noopener">https://www.cs.toronto.edu/~amnih/papers/threenew.pdf</a> “Three New Graphical Models for Statistical Language Modelling.”<br>[51]: <a href="http://www.fit.vutbr.cz/research/groups/speech/publi/2009/mikolov_ic2009_nnlm_4.pdf" target="_blank" rel="noopener">http://www.fit.vutbr.cz/research/groups/speech/publi/2009/mikolov_ic2009_nnlm_4.pdf</a> “Neural network based language models for highly inflective languages.”<br>[55]: <a href="http://www.aclweb.org/anthology/D/D16/D16-1063.pdf" target="_blank" rel="noopener">http://www.aclweb.org/anthology/D/D16/D16-1063.pdf</a> “WordRank: Learning Word Embeddings via Robust Ranking”<br>[56]: <a href="http://www.aclweb.org/anthology/P/P15/P15-1027.pdf" target="_blank" rel="noopener">http://www.aclweb.org/anthology/P/P15/P15-1027.pdf</a> “Hubness and Pollution: Delving into Cross-Space Mapping for Zero-Shot Learning.”<br>[4]: <a href="https://arxiv.org/abs/1301.3781" target="_blank" rel="noopener">https://arxiv.org/abs/1301.3781</a> “Efficient Estimation of Word Representations in Vector Space.”<br>[58]: <a href="http://aclweb.org/anthology/Q15-1016" target="_blank" rel="noopener">http://aclweb.org/anthology/Q15-1016</a> “Improving Distributional Similarity with Lessons Learned from Word Embeddings.”<br>[59]: <a href="http://dl.acm.org/citation.cfm?id=762556" target="_blank" rel="noopener">http://dl.acm.org/citation.cfm?id=762556</a> “Experiments with LSA scoring: optimal rank and basis.”<br>[60]: <a href="http://www.academia.edu/2956517/LSA_The_first_dimension_and_dimensional_weighting" target="_blank" rel="noopener">http://www.academia.edu/2956517/LSA_The_first_dimension_and_dimensional_weighting</a> “LSA: The first dimension and dimensional weighting.”<br>[21]: <a href="https://nlp.stanford.edu/pubs/glove.pdf" target="_blank" rel="noopener">https://nlp.stanford.edu/pubs/glove.pdf</a> “Glove: Global Vectors for Word Representation.”</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;survey word representation&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+      <category term="word embedding" scheme="http://www.wrran.com/categories/note/paper-reading/word-embedding/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="distributed word representation" scheme="http://www.wrran.com/tags/distributed-word-representation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Efficient Estimation of Word Representations in Vector Space</title>
+    <link href="http://www.wrran.com//blog/2018/05/20/note/paper-reading/word%20embedding/2018-04-01/"/>
+    <id>http://www.wrran.com//blog/2018/05/20/note/paper-reading/word embedding/2018-04-01/</id>
+    <published>2018-05-20T08:35:26.000Z</published>
+    <updated>2019-08-15T19:59:16.508Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>word2vec</p></blockquote><a id="more"></a><h1 id="概要"><a href="#概要" class="headerlink" title="概要"></a>概要</h1><p><code>word2vec</code>相关的文章有两篇，第一篇”Efficient Estimation of Word Representations in Vector Space”介绍了词向量计算的两个主要模型CBOW和Skip-gram；第二篇发表在NIPS上的”Distributed Representations of Words and Phrases and their Compositionality”则主要介绍了优化模型训练的技术，包括Hierarchical Softmax, Negative Sampling, Subsampling of Frequent Words，同时也针对原先模型不能发现语料中短语的问题提出了一种改进方案。</p><p><code>word2vec</code>的两个基本模型，想法其实十分简单，但神奇的是实现简单、速度优越。可能的原因是该算法运用了大量的语料。</p><h1 id="Models"><a href="#Models" class="headerlink" title="Models"></a>Models</h1><p>该部分介绍<code>word2vec</code>中学习词向量的两个模型，想法很简单，效果却很好。<br><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180513/new_model_architectures.PNG" alt="New model architectures."><br>图中涉及到两个模型，一是CBOW，一是Skip-gram。两者的相似之处在于都是通过先将词语转换为词向量，之后连接至<code>log-linear classifier</code>进行预测；不同之处在于CBOW是根据上下文$$w_{t-2}, w_{t-1}, w_{t+1}, w_{t+2}$$去预测中心词$$w_{t}$$，而Skip-gram是根据中心词$$w_{t}$$去预测上下文$$w_{t-2}, w_{t-1}, w_{t+1}, w_{t+2}$$。最终训练得出的词向量是指图中<strong>PROJECTION</strong>中的参数。</p><h1 id="Speed-Up"><a href="#Speed-Up" class="headerlink" title="Speed-Up"></a>Speed-Up</h1><p>该部分是文二的主要工作，即针对模型Skip-gram提出了一系列提升训练过程的算法。</p><h2 id="Hierarchical-Softmax"><a href="#Hierarchical-Softmax" class="headerlink" title="Hierarchical Softmax"></a>Hierarchical Softmax</h2><p>在Skip-gram中因为要预测上下文词语，而该预测是在整个词表中进行的。词表的规模往往达到上百万规模，计算开销巨大。为此，作者在词表之上建立一棵哈夫曼树（树的叶子节点即为词）。同时，将对某个词语的预测转换为一系列路径的预测。这样就将原先复杂度为$$O(W)$$的计算简化到$$O(\log{W})$$。</p><h2 id="Negative-Sampling"><a href="#Negative-Sampling" class="headerlink" title="Negative Sampling"></a>Negative Sampling</h2><p>负采样的想法在于不直接计算$$\mathrm{softmax}$$，而是寄希望于模型将正例与负例区分开来即可。如此操作，对于Skip-gram在根据中心词预测上下文时，只需要计算负采样出来的词语与正确答案的概率即可，进一步压缩了计算量。</p><h2 id="Subsampling-of-Frequent-Words"><a href="#Subsampling-of-Frequent-Words" class="headerlink" title="Subsampling of Frequent Words"></a>Subsampling of Frequent Words</h2><p>与信息论的理论相同，经常出现的事物所含有的信息量没有罕见出现的次数多。具体到词向量的学习过程中，常用词如<code>the</code>与其他词语共现的次数一般都很大，而这并不能给我们提供多少信息。作者基于此，为了应对常见词与罕见词被采样的概率，以一定概率丢弃采样的结果。这样的做法可以一定程度上减少常见词被采样的频率，进而减少训练过程中涉及到的计算量。作者还发现这种做法反而提高了罕见词的词向量质量（关于“词向量质量”的讨论见Tasks部分）。</p><h1 id="Learning-Phrases"><a href="#Learning-Phrases" class="headerlink" title="Learning Phrases"></a>Learning Phrases</h1><p>在文二中提出从语料库中自动发现短语的方法。其基本思路是：固定短语应当是指多个词经常一起出现，而各自出现的比率并不高。举例来说，”New York”是固定短语，而”this is”不是。<br>为此，作者设计了如下的公式：<br>$$\text{score}(w_i, w_j) = \frac{\mathrm{count}(w_i w_j)-\delta}{\mathrm{count}(w_i) \times \mathrm{count}(w_j)}$$<br>其中，参数$$\delta$$是一个阈值，防止不常见的词组成大量短语。通过计算语料中两个词语的得分，并判断其是否超过指定阈值；若超过，则可组成新短语。另外，上述公式是针对二元词语而言，为此要发现三个词、四个词等组成的短语时，需要多次进行该过程。</p><h1 id="Tasks"><a href="#Tasks" class="headerlink" title="Tasks"></a>Tasks</h1><p>在word2vec中还提出了一些测试词向量质量的任务。包括：</p><ul><li><strong>word analogy task</strong>: 具体来说，就是在语言中有”A is to B as C is to D”，如”Beijing is to China as Moscow is to Russia”。该任务就是在给定A,B,C后让模型在词库中寻找到D。关于如何制造出这样的任务数据集，可以参见文一的4.1 Task Description。</li><li><strong>Microsoft Research Sentence Completion Challenge</strong>: 该任务是微软用于测试语言模型的。具体来说，类似选择题：给定一个句子，其中缺失了某个词，要求从五个候选词中选出正确答案。</li><li><strong>out-of-the-list</strong>: 给定一些词，从中选出与其他最不相似的一种。但在论文中，并没有将此作为测试词向量质量的任务，仅是指出词向量可能的用法。</li></ul><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://arxiv.org/pdf/1301.3781.pdf" target="_blank" rel="noopener">Efficient Estimation of Word Representations in Vector Space</a><br><a href="https://pdfs.semanticscholar.org/c829/b63a3ae72a47e1953e1295826c7b2f93bf50.pdf?_ga=2.7614203.850512570.1526112318-1123334528.1524925016" target="_blank" rel="noopener">Distributed Representations of Words and Phrases and their Compositionality</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;word2vec&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+      <category term="word embedding" scheme="http://www.wrran.com/categories/note/paper-reading/word-embedding/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="word2vec" scheme="http://www.wrran.com/tags/word2vec/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>GloVe - Global Vectors for Word Representation</title>
+    <link href="http://www.wrran.com//blog/2018/05/13/note/paper-reading/word%20embedding/2018-05-13/"/>
+    <id>http://www.wrran.com//blog/2018/05/13/note/paper-reading/word embedding/2018-05-13/</id>
+    <published>2018-05-13T04:40:46.000Z</published>
+    <updated>2019-08-15T19:59:16.508Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>GloVe</p></blockquote><a id="more"></a><h1 id="概览"><a href="#概览" class="headerlink" title="概览"></a>概览</h1><p><code>GloVe</code>是基于词与词的共现信息训练出的词向量，除去预处理阶段的计数开销，真正训练用来训练词向量的部分其实也十分简单。但该文解释的十分独特，从一个解决问题者的角度抽丝剥茧直至得出最终的目标函数；并且其还从另一个角度解释了<code>word2vec</code>的模型，提供了一个理解的新思路。但这些解释有些强行，或者可能我没有理解其后的数学原理：只理解到作者是这样做的，但并不明白为什么要这样做，会不会有更好的做法。但另一方面，作者的这种解释模型的思路和能力是值得学习的。</p><h1 id="GloVe"><a href="#GloVe" class="headerlink" title="GloVe"></a>GloVe</h1><p>GloVe是基于词之间的共现信息训练的模型。我们用$$X$$来标记这个词语之间的共现矩阵，其元素$$X_{ij}$$代表词语$$i$$与词语$$j$$的共现频次，则$$X_i=\sum_k X_{ik}$$是词$i$在所有上下文中出现的频次。$$P_{ij}=P(j\vert i) = \frac{X_{ij}}{X_i}$$则代表了上下文中出现词语$$i$$后词$$j$$出现的概率。</p><p><img src="http://ow3xn0dt6.bkt.clouddn.com/image/180401/co-occurrence_probabilities.PNG" alt="Co-occurrence probabilities."></p><p>之后作者发现使用概率之间的比值会比直接使用概率更能区分相关词和无关词。（但这可能是结果导向）</p><p>$$<br>F(w_i, w_j, \hat{w}<em>k) = \frac{P</em>{ik}}{P_{jk}}<br>$$</p><p>换言之，作者需要确定一个合适的函数$$F$$来拟合语料中的统计信息。<br>下面作者一步步细化目标函数$$F$$：<br>$$<br>F(w_i, w_j, \hat{w}_k) \rightarrow F(w_i - w_j, \hat{w}_k)<br>$$<br>上式的细化，个人理解为只是种选择。<br>$$<br>F(w_i - w_j, \hat{w}_k) \rightarrow F((w_i-w_j)^T \hat{w}<em>k)<br>$$<br>上述过程的细化是由于$$\frac{P</em>{ik}}{P_{jk}}$$只是个标量，选用点乘方式来保证结果可比较。<br>$$<br>F((w_i-w_j)^T \hat{w}_k) \rightarrow \frac{F(w^T_i \hat{w}_k)}{w^T_j \hat{w}<em>k}<br>$$<br>这一步细化的理由是因为统计信息中$$X</em>{ij} = X_{ji}$$，即$$X = X^T$$。作者因而限制上下文$$w$$与$$\hat{w}$$可以互相交换，进而要求$$(\mathbb{R}, +)$$与$$(\mathbb{R}_{&gt;0}, \times)$$同构得出上式（缺乏数学知识，无法理解）。作者进一步求解得出$$F=\exp$$.<br>$$<br>\frac{F(w^T_i \hat{w}_k)}{w^T_j \hat{w}<em>k} = \frac{P</em>{ik}}{P_{jk}}<br>$$<br>上式的得出是通过与第一个公式联立得出下式：<br>$$<br>F(w^T_i \hat{w}<em>k) = P</em>{ik} = \frac{X_{ik}}{X_i}<br>$$<br>进一步，利用结论$$F=\exp$$可以得出下式：<br>$$<br>w_i^T \hat{w}<em>k = \log{P</em>{ik}} = \log{X_{ik}} - \log{X_i}<br>$$<br>注意上式如果忽略到$$\log{X_i}$$的话，左右两边都满足对称性，即左边可以交换$$w$$与$$\hat{w}$$，右边可以交换$$X_{ik}$$与$$X_{ki}$$，基于该观察得出：<br>$$<br>w_i^T \hat{w}_k + b_i + \hat{b}<em>k = \log{X</em>{ik}}<br>$$</p><p>至此得出了最终的优化目标：<br>$$<br>J = \sum_{i,j=1}^V f(X_{ij}) (w_i^T \hat{w}_j + b_i + \hat{b}<em>j - \log{X</em>{ij}})^2<br>$$<br>这里值得注意的有目标函数只针对有关联的词语$$i,j=1$$才计算，同时考虑到罕见词被观测数量较少，可能会引入噪音，引入调节系数$$f(X_{ij})$$（具体形式参见原文）。</p><h1 id="Relationship-to-Other-Models"><a href="#Relationship-to-Other-Models" class="headerlink" title="Relationship to Other Models"></a>Relationship to Other Models</h1><p>这部分作者尝试从共现矩阵的信息解释基于窗口的词向量方法，特别是模型Skip-gram。<br>Skip-gram的对于某个给定的中心词$$i$$要预测词$$j$$的概率，形式化的说：<br>$$<br>Q_{ij} = \frac{<br>\exp{w_i^T\hat{w}<em>j}<br>}{<br>\sum</em>{k=1}^V \exp{w_i^T \hat{w}<em>k}<br>}<br>$$<br>则上式隐含其全局的目标函数为<br>$$<br>J = -\sum</em>{i\in\text{corpus}, j\in\text{context}(i)} \log{Q_{ij}}<br>$$<br>上式等价于<br>$$<br>J = -\sum_{i=1}^V\sum_{j=1}^V X_{ij} \log{Q_{ij}}<br>$$<br>等价于<br>$$<br>J = -\sum_{i=1}^V X_i \sum_{j=1}^V P_{ij} \log{Q_{ij}} = \sum_{i=1}^V X_i H(P_i, Q_i)<br>$$<br>其中，$$H(P_i, Q_i)$$是指分布$$P_i$$和$$Q_i$$的交叉熵。即Skip-gram实质上是希望词向量之间的某些关系可以拟合真实语料中的分布。而交叉熵这一衡量指标只是众多指标中的一者，特别是其度量符合长尾现象的语言学现象表现并不好，且计算开销大。因此可以用简单的均方差来担任这一角色：<br>$$<br>\hat{J} = \sum_{i,j} X_i (\hat{P}<em>{ij} - \hat{Q}</em>{ij})^2<br>$$<br>其中，$$\hat{P}<em>{ij} = X</em>{ij}$$和$$\hat{Q}_{ij} = \exp{w_i^T \hat{w}<em>j}$$，但现实中这些数值往往很大，我们采用数学上等价的对数形式：<br>$$<br>\hat{J}<br>\begin{align}<br>= &amp; \sum</em>{i,j} X_i (\log{\hat{P}<em>{ij}} - \log{\hat{Q}</em>{ij}})^2\<br>= &amp; \sum_{i,j} X_i (w^T_i \hat{w}<em>j - \log{X</em>{ij}})^2<br>\end{align}<br>$$<br>而权重$$X_i$$并不能保证对于上式是最优的，实践中word2vec的第二篇论文中提到”subsampling”技术确实可以提高不常见词的词向量质量。形式化的说，就是可以将优化目标解释为：<br>$$<br>\hat{J} = \sum_{i,j} f(X_{ij}) (w^T_i \hat{w}<em>j - \log{X</em>{ij}})^2<br>$$<br>至此，可见与前面提出的GloVe形式一致。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://pdfs.semanticscholar.org/1baa/3f4fda7c92600a5c192adaed80a834d13ff9.pdf?_ga=2.249766735.850512570.1526112318-1123334528.1524925016" target="_blank" rel="noopener">GloVe: Global Vectors for Word Representation</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;GloVe&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+      <category term="word embedding" scheme="http://www.wrran.com/categories/note/paper-reading/word-embedding/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="GloVe" scheme="http://www.wrran.com/tags/GloVe/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>我想和这个世界谈谈</title>
+    <link href="http://www.wrran.com//blog/2018/03/26/people-say/180326-01/"/>
+    <id>http://www.wrran.com//blog/2018/03/26/people-say/180326-01/</id>
+    <published>2018-03-26T12:41:47.000Z</published>
+    <updated>2019-08-15T19:59:16.510Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>虽然我不是一个冷血的人，但我的血液是温的。</p></blockquote><a id="more"></a><p>@ 韩寒 in 《1988，我想跟这个世界谈谈》</p><blockquote><p>但我至少等待过，我知道你从不会来，但我从不怀疑你彼时的真心，就如同我的每一个谎言都是真心的。但这一次，我至少是勇敢的，我承认的朋友们也会赞许我的行为，因为他们都会是这样的人，你也许会为我流泪，但也许心中会说，你太蠢了。</p></blockquote><hr><blockquote><p>可当你有美好憧憬的时候，生活就变成了一部文艺片。</p></blockquote><hr><blockquote><p>因为我太敏感了，自从丁丁哥哥离开以后，我对一个人的即将离开有着强烈的预感，虽然多说话从不能挽留人。</p></blockquote><hr><blockquote><p>我从来不觉得我应该属于这个世界，这个世界是我们去到真正的世界之前的一个化妆间而已。</p></blockquote><hr><blockquote><p>我应该是像期盼一个活人一样期盼他，还是像怀念一个死人一样怀念他。</p></blockquote><hr><blockquote><p>我就如同一只幼犬，面对着一块比自己还要大的骨头，不知道从何下口。</p></blockquote><hr><blockquote><p>世界就像一堵墙，我们就像一只猫，我必须要在这个墙上留下我的抓痕。</p></blockquote><hr><blockquote><p>我有着我的目的地，他有着他的目的地，我们在一起，谁都达不了谁的目的地。</p></blockquote><hr><blockquote><p>但我更要迎接的是夏天的到来。<br>我要迎接漫天的星斗。<br>我要迎接满河的龙虾。<br>我要迎接能刺痛我皮肤的带刺的野草。<br>我要迎接能刺痛我眼睛的我从不正视的太阳。</p></blockquote><hr><blockquote><p>你懂得越多，你就越像这个世界的孤儿。当我刚刚开始知道什么是孤独的时候，我又被他们接纳了。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;虽然我不是一个冷血的人，但我的血液是温的。&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+    
+      <category term="people say" scheme="http://www.wrran.com/tags/people-say/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>struc2vec - Learning Node Representations from Structural Identity</title>
+    <link href="http://www.wrran.com//blog/2018/03/18/note/paper-reading/2018-03-18/"/>
+    <id>http://www.wrran.com//blog/2018/03/18/note/paper-reading/2018-03-18/</id>
+    <published>2018-03-18T14:26:43.000Z</published>
+    <updated>2019-08-15T19:59:16.506Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>众里寻他千百度</p></blockquote><a id="more"></a><h1 id="概述"><a href="#概述" class="headerlink" title="概述"></a>概述</h1><p><code>struc2vec</code>是KDD 2017年的关于图表示学习的一个模型。在图表示学习中，节点表示的学习主要依赖于临近性与同构性，前者是指距离越近的节点得到的表示也应该相互靠近，后者是指结构相似的节点得到的表示也应该相互接近。与<code>DeepWalk</code>、<code>node2vec</code>这类通过模仿DFS/BFS来权衡同构性/邻近性不同，<code>struc2vec</code>试图通过直接定量地挖掘图中节点的结构来得到更多保存图中“同构性”的表示。</p><h1 id="模型概览"><a href="#模型概览" class="headerlink" title="模型概览"></a>模型概览</h1><p>为了让模型尽可能多地保存节点之间结构信息，作者认为应当在设计模型的过程中着重注意以下两点：</p><ol><li>表示之间的距离应该与节点结构相似性高度相关；</li><li>表示的学习不应当依赖于任何节点或者边的属性，包括节点的类别。</li></ol><p>按照以上两点理念，作者将<code>struc2vec</code>设计为下列四大步骤：</p><ol><li>定量描述图中节点的结构相似性，同时由考虑“邻域”的大小自然地划分为不同的层次；</li><li>由第一步中得到的信息构造多层加权图，图中每一层与第一步中的不同“邻域”形成的层次相对应；</li><li>通过第二步中构造的多层加权图，随机游走得到每一节点的上下文信息；</li><li>由<code>Skip-Gram</code>模型对游走序列进行学习，得到节点表示。</li></ol><p>由此可知，上述步骤中较为独特和关键的为第一、二步，详述见下。</p><h1 id="结构相似性"><a href="#结构相似性" class="headerlink" title="结构相似性"></a>结构相似性</h1><p><code>struc2vec</code>中结构相似性的目的是不依赖于图中节点和边的属性来定量描述节点的结构相似性。直观地说，如果两个节点的度相近则他们之间的结构相似度也应该高，而如果这两个节点的邻居节点的度也是相同，则他们之间的结构相似度也应该更高。<br>记$$G=(V, E)$$表示无向无权图，其中$$V$$表示节点集合，$$E$$表示边集合，$$n=\vert V\vert$$表示图的节点数，$$k^*$$表示图的直径。记$$R_k(u)$$表示图$$G$$中距离节点$$u$$为$$k$$的节点集合，其中$$k\ge0$$。记$$\mathrm{s}(S)$$表示节点集合$$S\subset V$$的有序度序列。<br>进而，我们就可以在上述概念上定义结构相似性。具体来说，定义函数$$\mathrm{f}_k(u, v)$$，该函数用来衡量节点$$u$$和$$v$$之间的结构相似性，该结构相似性考虑的范围为$$k$$，即与节点$$u$$或$$v$$距离小于等于$$k$$的节点才会被考虑。函数$$\mathrm{f}_k(u, v)$$定义如下：<br>$$<br>\mathrm{f}<em>k(u, v) = \mathrm{f}</em>{k-1}(u, v) + \mathrm{g}(\mathrm{s}(\mathrm{R}_k(u)),\mathrm{s}(\mathrm{R}_k(v))),\ k\ge0\text{ and } \vert\mathrm{R}_k(u)\vert, \vert\mathrm{R}_k(v)\vert &gt;0<br>$$<br>其中，函数$$\mathrm{g}(D_1, D_2)\ge0$$是衡量两个度序列$$D_1$$和$$D_2$$距离的函数，并且$$\mathrm{f}_{-1}=0$$。由上述$$\mathrm{f}_k(u, v)$$的定义可知，该函数是非减函数，并且只有在节点$$u$$和$$v$$存在距离为$$k$$的邻居节点时才有定义。<br>接着就要确定比较两个度序列的函数$$\mathrm{g}(\cdot, \cdot)$$了。首先，对于度序列$$\mathrm{s}(\mathrm{R}_k(u))$$和$$\mathrm{s}(\mathrm{R}_k(v))$$，他们可能大小不一致，且序列元素可能是$$[0, n-1]$$内元素的任意组合。在本文中，作者使用<code>Dynamic Time Warping (DTW)</code>来作为该函数，并针对图的某些特性进行了定制化。</p><h1 id="多层加权图"><a href="#多层加权图" class="headerlink" title="多层加权图"></a>多层加权图</h1><p>多层加权图的构造是为了更准确地表达节点之间的结构相似度。由上述记法，将$$G=(V, E)$$记为原始图，$$k^<em>$$记为图直径。用$$M$$表示构造的多层图，而第$$k$$层图即是通过节点和与之距离为$$k$$的邻居节点构成的图。<br>每一层$$k=0, \cdots, k^</em>$$都是定义在节点集合$$V$$上面的无向有权完全图，即共有$$n \choose 2$$个边。而边的权重通过下式得出：<br>$$<br>\mathrm{w}_k(u, v) = e^{-\mathrm{f}_k(u, v)}, k=0,\cdots,k^<em><br>$$<br>其中函数$$\mathrm{w}_k(u, v)$$只有在$$\mathrm{f}_k(u, v)$$有定义处才有定义，且该函数的值小于等于$$1$$。当$$\mathrm{f}_k(u, v)$$越小时，$$\mathrm{w}<em>k(u, v)$$越大。并且与节点$$u$$结构相似的节点在不同层次的图中的边权都会更大些。<br>每一个节点都与相邻层次的图中对应节点相连（如果存在的话），记在第$$k$$层图中的节点为$$u\in V$$，第$$k-1$$层中对应的节点为$$u</em>{k-1}$$，第$$k+1$$层中对应的节点为$$u_{k+1}$$。则如下定义各个节点之间的权重：<br>$$<br>\mathrm{w}(u_k, u_{k+1}) = \mathrm{log}(\mathrm{\Gamma}_k(u)+e),\ k=0,\cdots,k^</em>-1<br>$$<br>$$<br>\mathrm{w}(u_k, u_{k-1}) = 1,\ k=1,\cdots,k^*<br>$$<br>其中，$$\mathrm{\Gamma}_k(u)$$定义为：<br>$$<br>\mathrm{\Gramma}<em>k(u)=\sum</em>{v\in V}\mathrm{1}(\mathrm{w}_k(u, v)&gt;\hat(w)_k)<br>$$<br>其中，$$\hat(w)<em>k=\frac{\sum</em>{(u, v)\in{V \choose 2}}\mathrm{w}_k(u, v)}{n \choose 2}$$.</p><h1 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h1><p>由上述多层加权图的构造过程，我们可以知道，该多层加权图也可以被当作一个巨大的有向有权图，之后作者又详细讨论了如何在这张图上进行采样的算法。其中涉及到一些更细节的游走策略，在此不再赘述。最后作者也介绍了下语言模型的学习过程。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p><a href="https://arxiv.org/pdf/1704.03165.pdf" target="_blank" rel="noopener">struc2vec: Learning Node Representations from Structural Identity</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;众里寻他千百度&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="note" scheme="http://www.wrran.com/categories/note/"/>
+    
+      <category term="paper-reading" scheme="http://www.wrran.com/categories/note/paper-reading/"/>
+    
+    
+      <category term="paper reading" scheme="http://www.wrran.com/tags/paper-reading/"/>
+    
+      <category term="note" scheme="http://www.wrran.com/tags/note/"/>
+    
+      <category term="struc2vec" scheme="http://www.wrran.com/tags/struc2vec/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>四十一</title>
+    <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-04/"/>
+    <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-04/</id>
+    <published>2018-03-12T15:08:17.000Z</published>
+    <updated>2019-08-15T19:59:16.512Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>我又愿中国青年都只是向上走，不必理会这冷笑和暗箭。</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>从一封匿名信里看见一句话，是“数麻石片”（原注江苏方言），大约是没有本领便不必提倡改革，不如去数石片的好的意思。因此又记起了本志通信栏内所载四川方言的“洗煤炭”。想来别省方言中，相类的话还多；守着这专劝人自暴自弃的格言的人，也怕并不少。<br>凡中国人说一句话，做一件事，倘与传来的积习有若干抵触，须一个金斗便告成功，才有立足的处所；而且被恭维得烙铁一般热。否则免不了标新立异的罪名，不许说话；或者竟成了大逆不道，为天地所不容。这一种人，从前本可以夷到九族，连累邻居；现在却不过是几封匿名信罢了。但意志略略薄弱的人便不免因此萎缩，不知不觉的也入了“数麻石片”党。<br>所以现在的中国，社会上毫无改革，学术上没有发明，美术上也没有创作；至于多人继续的研究，前仆后继的探险，那更不必提了。国人的事业，大抵是专谋时式的成功的经营，以及对于一切的冷笑。<br>但冷笑的人，虽然反对改革，却又未必有保守的能力；即如文字一面，白话固然看不上眼，古文也不甚提得起笔。照他的学说，本该去“数麻石片”了；他却又不然，只是莫名其妙的冷笑。<br>中国的人，大抵在如此空气里成功，在如此空气里萎缩腐败，以至老死。<br>我想，人猿同源的学说，大约可以毫无疑义了。但我不懂，何以从前的古猴子，不都努力变人，却到现在还留着子孙，变把戏给人看。还是那时竟没有一匹想站起来学说人话呢?还是虽然有了几匹，却终被猴子社会攻击他标新立异，都咬死了；所以终于不能进化呢?<br>尼采式的超人，虽然太觉渺茫，但就世界现有人种的事实看来，却可以确信将来总有尤为高尚尤近圆满的人类出现。到那时候，类人猿上面，怕要添出“类猿人”这一名词。<br>所以我时常害怕，愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。<br>此后如竟没有炬火：我便是唯一的光。倘若有了炬火，出了太阳，我们自然心悦诚服的消失，不但毫无不平，而且还要随喜赞美这炬火或太阳；因为他照了人类，连我都在内。<br>我又愿中国青年都只是向上走，不必理会这冷笑和暗箭。<br>尼采说：<br>“真的，人是一个浊流。应该是海了，能容这浊流使他干净。<br>“咄，我教你们超人：这便是海，在他这里，能容下你们的大侮蔑。”（《札拉图如是说》的《序言》第三节）<br>纵令不过一洼浅水，也可以学学大海；横竖都是水，可以相通。几粒石子，任他们暗地里掷来；几滴秽水，任他们从背后泼来就是了。<br>这还算不到“大侮蔑”——因为大侮蔑也须有胆力。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;我又愿中国青年都只是向上走，不必理会这冷笑和暗箭。&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
+    
+    
+      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>四十九</title>
+    <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-03/"/>
+    <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-03/</id>
+    <published>2018-03-12T15:06:30.000Z</published>
+    <updated>2019-08-15T19:59:16.512Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>各各如此走去，便是进化的路</p></blockquote><a id="more"></a><p>@鲁迅</p><p>凡有高等动物，倘没有遇着意外的变故，总是从幼到壮，从壮到老，从老到死。<br>我们从幼到壮，既然好不为奇的过去了；自此以后，自然也该毫不为奇的过去。<br>可惜有一种人，从幼到壮，居然也毫不为奇的过去了；从壮到老，便有点古怪；从老到死，却更奇想天开，要占尽了少年的道路，吸尽了少年的空气。<br>少年在这时候，只能先行萎黄，且待将来老了，神经血管一切变质以后，再来活动。所以社会上的状态，先是“少年老成”；直待弯腰曲背时期，才更加“逸兴遄飞”，似乎从此之后，才上了做人的路。<br>可是究竟也不能自忘其老；所以想求神仙。大约别的都可以老，只有自己不肯老的人物，总该推中国老先生算一甲一名。<br>万一当真成了神仙，那便永远请他主持，不必再有后进，原也是极好的事。可惜他又究竟不成，终于个个死去，只留下造成的老天地，教少年驼着吃苦。<br>这真是生物界的怪现象！<br>我想种族的延长，——便是生命的连续，——的确是生物界事业里的一大部分。何以要延长呢?不消说是想进化了。但进化的途中总须新陈代谢。所以新的应该欢天喜地的向前走，这边是壮，旧的也应该欢天喜地的向前走去，这便是死；各各如此走去，便是进化的路。<br>老的让开道，催促着，奖励着，让他们走去。路上有深渊，便用那个死填平了，让他们走去。<br>少的感谢他们填了深渊，给自己老去；老的也感谢他们从我填平的深渊上走去。——远了远了。<br>明白这事，便是从幼到壮到老到死，都欢欢喜喜的过去；而且一步一步，多是超过祖先的新人。<br>这是生物界正当开阔的路！人类的祖先，都已这样做了。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;各各如此走去，便是进化的路&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
+    
+    
+      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>六十二 恨恨而死</title>
+    <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-02/"/>
+    <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-02/</id>
+    <published>2018-03-12T15:05:49.000Z</published>
+    <updated>2019-08-15T19:59:16.511Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>不平还是改造的引线，但必须先改造了自己，再改造社会，改造世界</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>古来很有几位恨恨而死的人物。他们一面说些“怀才不遇”“天道宁论”的话，一面有钱的便狂嫖滥赌，没钱的便喝几十碗酒，——因为不平的缘故，于是后来就恨恨而死了。<br>我们应该趁他们活着的时候问他：诸公！您知道北京离昆仓山几里，弱水去黄河几丈么?火药除了做鞭爆，罗盘除了看风水，还有什么用处么?棉花是红的还是白的?谷子是长在树上，还是长在草上?桑间濮上如何情形，自由恋爱怎样态度?您在半夜里可忽然觉得有些羞，清早上可居然有点悔么?四斤的担，您能挑么?三里的道，您能跑么?<br>他们如果细细的想，慢慢的悔了，这便很有些希望。万一越发不平，越发愤怒，那便“爱莫能助”。——于是他们终于恨恨而死了。<br>中国现在的人心中，不平和愤恨的分子太多了。不平还是改造的引线，但必须先改造了自己，再改造社会，改造世界；万不可单是不平。至于愤恨，却几乎全无用处。<br>愤恨只是恨恨而死的根苗，古人有过许多，我们不要蹈他们的覆辙。<br>我们更不要借了“天下无公理，无人道”这些话，遮盖自暴自弃的行为，自称“恨人”，一副恨恨而死的脸孔，其实并不恨恨而死。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;不平还是改造的引线，但必须先改造了自己，再改造社会，改造世界&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
+    
+    
+      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>六十三 “与幼者”</title>
+    <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-01/"/>
+    <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-01/</id>
+    <published>2018-03-12T15:04:55.000Z</published>
+    <updated>2019-08-15T19:59:16.511Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>但是对于一切幼者的爱。</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>做了《我们现在怎样做父亲》的后两日，在有岛武郎《著作集》里看到《与幼者》这一篇小说，觉得很有许多好的话。<br>“时间不住的移过去。你们的父亲的我，到那时候，怎样映在你们（眼）里，那是不能想像的了。大约像我在现在，嗤笑可怜那过去的时代一般，你们也要嗤笑可怜我的古老的心思，也未可知的。我为你们计，但愿这样子。你们若不是毫不客气的拿我做一个踏脚，超越了我，向着高的远的地方进去，那便是错的。<br>“人间很寂寞。我单能这样说了就算么?你们和我，像尝过血的兽一样，尝过爱了。去罢，为要将我的周围从寂寞中救出，竭力做事罢。我爱过你们，而且永远爱着。这并不是说，要从你们受父亲的报酬，我对于‘教我学会了爱你们的你们’的要求，只是受取我的感谢罢了……像吃尽了亲的死尸，贮着力量的小狮子一样，刚强勇猛，舍了我，踏到人生上去就是了。<br>“我的一生就令怎样失败，怎样胜不了诱惑；但无论如何，使你们从我的足迹上寻不出不纯的东西的事，是要做的，是一定做的。你们该从我的倒毙的所在，跨出新的脚步去。但那里走，怎么走的事，你们也可以从我的足迹上探索出来。<br>“幼者呵！将又不幸又幸福的你们的父母的祝福，浸在胸中，上人生的旅路罢。前途很远，也很暗。然而不要怕。不怕的人的面前才有路。<br>“走罢！勇猛着！幼者呵！”<br>有岛氏是白桦派，是一个觉醒的，所以有这等话；但里面也免不了带些眷恋凄怆的气息。<br>这也是时代的关系。将来便不特没有解放的话，并且不起解放的心，更没有什么眷恋和凄怆；只有爱依然存在。——但是对于一切幼者的爱。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;但是对于一切幼者的爱。&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
+    
+    
+      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>藤野先生</title>
+    <link href="http://www.wrran.com//blog/2018/03/09/people-say/luxun/180309-01/"/>
+    <id>http://www.wrran.com//blog/2018/03/09/people-say/luxun/180309-01/</id>
+    <published>2018-03-09T13:35:45.000Z</published>
+    <updated>2019-08-15T19:59:16.511Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>他的性格，在我的眼里和心里是伟大的，虽然他的姓名并不为许多人所知道。</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>东京也无非是这样。上野的樱花烂漫的时节，望去确也像绯红的轻云，但花下也缺不了成群结队的“清国留学生”的速成班，头顶上盘着大辫子，顶得学生制帽的顶上高高耸起，形成一座富士山。也有解散辫子的，盘得平的，除下帽来，油光可鉴，宛如小姑娘的发髻一般，还要将脖子扭几扭。实在标致极了。<br>中国留学生会馆的门房里有几本书买，有时还值得去一转；倘在上午，里面的几间洋房里倒也还可以坐坐的。但到傍晚，有一间的地板便常不免要咚咚咚地响震天，兼以满房烟尘斗乱；问问精通时事的人，答道，“那是在学跳舞。”<br>到别的地方去看看，如何呢?<br>我就往仙台的医学专门学校去。从东京出发，不久便到一处驿站，写道：日暮里。不知怎地，我到现在还记得这名目。次其却只记得水户了，这是明的遗民朱舜水先生客死的地方。仙台是一个市镇，并不大；冬天冷得利害；还没有中国的学生。<br>大概是物以希为贵罢。北京的白菜运往浙江，便用红头绳系住菜根，倒挂在水果店头，尊为“胶菜”；福建野生着的芦荟，一到北京就请进温室，且美其名曰“龙舌兰”。我到仙台也颇受了这样的优待，不但学校不收学费，几个职员还为我的食宿操心。我先是住在监狱旁边一个客店里的，初冬已经颇冷，蚊子却还多，后来用被盖了全身，用衣服包了头脸，只留两个鼻孔出气。在这呼吸不息的地方，蚊子竟无从插嘴，居然睡安稳了。饭食也不坏。但一位先生却以为这客店也包办囚人的饭食和我不相干，然而好意难却，也只得别寻相宜的住处了。于是搬到别一家，离监狱也很远，可惜每天总要喝难以下咽的芋梗汤。<br>从此就看见许多陌生的先生，听到许多新鲜的讲义。解剖学是两个教授分任的。最初是骨学。其时进来的是一个黑瘦的先生，八字须，戴着眼镜，挟着一叠大大小小的书。一将书放在讲台上，便用了缓慢而很有顿挫的声调，向学生介绍自己道：<br>“我就是叫做藤野严九郎的……。”<br>后面有几个人笑起来了。他接着便讲述解剖学在日本发达的历史，那些大大小小的书，便是从最初到现今关于这一学问的著作。起初有几本是线装的；还有翻刻中国译本的，他们的翻译和研究新的医学，并不比中国早。<br>那坐在后面发笑的是上学年不及格的留级学生，在校已经一年，掌故颇为熟悉的了。他们便给新生讲演每个教授的历史。这藤野先生，据说是穿衣服太模胡了，有时竟会忘记带领结；冬天是一件旧外套，寒颤颤的，有一回上火车去，致使管车的疑心他是扒手，叫车里的客人大家小心些。<br>他们的话大概是真的，我就亲见他有一次上讲堂没有带领结。<br>过了一星期，大约是星期六，他使助手来叫我了。到得研究室，见他坐在人骨和许多单独的头骨中间，——他其时正在研究着头骨，后来有一篇论文在本校的杂志上发表出来。<br>“我的讲义，你能抄下来么?”他问。<br>“可以抄一点。”<br>“拿来我看！”<br>我交出所抄的讲义去，他收下了，第二三天便还我，并且说，此后每一星期要送给他看一回。我拿下来打开看时，很吃了一惊，同时也感到一种不安和感激。原来我的讲义已经从头到末，都用红笔添改过了，不但增加了许多脱漏的地方，连文法的错误，也都一一订正。这样一直继续到教完了他所担任的功课：骨学，血管学，神经学。<br>可惜我那时太不用功，有时也很任性。还记得有一回藤野先生将我叫到他的研究室里去，翻出我那讲义上的一个图来，是下臂的血管，指着，向我和蔼的说道：<br>“你看，你将这条血管移了一点位置了。——自然，这样一移，的确比较的好看些，然而解剖图不是美术，实物是那么样的，我们没法切换它。现在我给你改好了，以后你要全照着黑板上那样的画。”<br>但是我还不服气，口头答应着，心里却想道：<br>“图还是我画的不错；至于实在的情形，我心里自然记得的。”<br>学年试验完毕之后，我便到东京玩了一夏天，秋初再回学校，成绩早已发表了，同学一百余人之中，我在中间，不过是没有落第。这回藤野先生所担任的功课，是解剖实习和局部解剖学。<br>解剖实习了大概一星期，他又叫我去了，很高兴地，仍用了极有抑扬的声调对我说道：<br>“我因为听说中国人是很敬重鬼的，所以很担心，怕你不肯解剖尸体。现在总算放心了，没有这回事。”<br>但他也偶有使我很为难的时候。他听说中国的女人是裹脚的，但不知道详细，所以要问我怎么裹法，足骨变成怎样的畸形，还叹息道，“总要看一看才知道。究竟是怎么一回事呢?”<br>有一天，本级的学生会干事到我寓里来了，要借我的讲义看。我检出来交给他们，却只翻检了一通，并没有带走。但他们一走，邮差就送到一封很厚的信，拆开看时，第一句是：<br>“你改悔罢！”<br>这是《新约》上的句子罢，但经托尔斯泰新近引用过的。其时正值日俄战争，托老先生便写了一封给俄国和日本的皇帝的信，开首便是这一句。日本报纸上很斥责他的不逊，爱国青年也愤然，然而暗地里却早受了他的影响了。其次的话，大略是说上年解剖学试验的题目，是藤野先生在讲义上做了记号，我预先知道的，所以能有这样的成绩。末尾是匿名。<br>我这才回忆到前几天的一件事。因为要开同级会，干事便在黑板上写广告，末一句是“请全数到会勿漏为要”，而且在“漏”字旁边加了一个圈。我当时虽然觉到圈得可笑，但是毫不介意，这回才悟出那字也在讥刺我了，犹严我得了教员漏泄出来的题目。<br>我便将这事告知了藤野先生；有几个和我熟识的同学也很不平，一同去诘责干事托辞检查的无礼，并且要求他们将检查的结果，发表出来。终于这流言消灭了，干事却又竭力运动，要收回那一封匿名信去。结末是我便将这托尔斯泰式的信退还了他们。<br>中国是弱国，所以中国人当然是低能儿，分数在六十分以上，便不是自己的能力了：也无怪他们疑惑。但我接着便有参观枪毙中国人的命运了。第二年添教霉菌学，细菌的形状是全用电影来显示的，一段落已完而还没有到下课的时候，便影几片时事的片子，自然都是日本战胜俄国的情形。但偏有中国人夹在里边：给俄国人当侦探，被日本军捕获，要枪毙了，围着看的也是一群中国人；在讲堂里的还有一个我。<br>“万岁！”他们都拍掌欢呼起来。<br>这种欢呼，是每看一片都有的，但在我，这一声却特别听得刺耳。此后回到中国来，我看见那些闲看枪毙犯人的人们，他们也何尝不酒醉似的喝采，——呜呼，无法可想！但在那时那地，我的意见却变化了。<br>到第二学年的终结，我便去寻藤野先生，告诉他我将不学医学，并且离开这仙台。他的脸色仿佛有些悲哀，似乎想说话，但竟没有说。<br>“我想去学生物学，先生教给我的学问，也还有用的。”其实我并没有决意要学生物学，因为看得他有些凄然，便说了一句慰安他的谎话。<br>“为医学而教的解剖学之类，怕于生物学也没有什么大帮助。”他叹息说。<br>将走的前几天，他叫我到他家里去，交给我一张照相，后面写着两个字道：“惜别”，还说希望将我的也送他。但我这时适值没有照相了；他便叮嘱我将来照了寄给他，并且时时通信告诉他此后的状况。<br>我离开仙台之后，就多年没有照过相，又因为状况也无聊，说起来无非使他失望，便连信也怕敢写了。经过的年月一多，话更无从说起，所以虽然有时想写信，却又难以下笔，这样的一直到现在，竟没有寄过一封信和一张照片。从他那一面看起来，是一去之后，杳无消息了。<br>但不知怎地，我总还时时记起他，在我所认为我师的之中，他是最使我感激的，给我鼓励的一个。有时我常常想：他的对于我的热心的希望，不倦的教诲，小而言之，是为中国，就是希望中国有新的医学；大而言之，是为学术，就是希望新的医学传到中国去。他的性格，在我的眼里和心里是伟大的，虽然他的姓名并不为许多人所知道。<br>他所更改的讲义，我曾经订成三厚本，收藏着的，将作为永久的纪念。不幸七年前迁居的时候，中途毁坏了一口书箱，失去半箱书，恰巧这讲义也遗失在内了。责成运送局去找寻，寂无回信。只有他的照相至今还挂在我北京寓居的东墙上，书桌对面。每当夜间疲倦，正想偷懒时，仰面在灯光中瞥见他黑瘦的面貌，似乎正要说出抑扬顿挫的话来，便使我忽又良心发现，而且增加勇气了，于是点上一枝烟，再继续写些为“正人君子”之流所深恶痛疾的文字。<br>十月十二日。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;他的性格，在我的眼里和心里是伟大的，虽然他的姓名并不为许多人所知道。&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
+    
+    
+      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>题记</title>
+    <link href="http://www.wrran.com//blog/2018/02/26/people-say/luxun/180226-01/"/>
+    <id>http://www.wrran.com//blog/2018/02/26/people-say/luxun/180226-01/</id>
+    <published>2018-02-26T09:40:10.000Z</published>
+    <updated>2019-08-15T19:59:16.511Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>我却觉得周围的空气太寒冽了，我自说我的话，所以反而称之曰《热风》。</p></blockquote><a id="more"></a><p>@鲁迅</p><p>现在有谁经过西长安街一带的，总可以看见几个衣履破碎的穷苦孩子叫卖报纸。记得三四年前，在他们身上偶而还剩有制服模样的残余；再早，就更体面，简直是童子军的拟态。<br>那是中华民国八年，即西历一九一九年，五月四日北京学生对于山东问题的示威运动以后，因为当时散传单的是童子军，不知怎的竟惹了投机家的注意，童子军式的卖报孩子就出现了。其年十二月，日本公使小幡酉吉抗议排日运动，情形和今年大致相同；只是我们的卖报孩子却穿破了第一身新衣以后，便不再做，只见得年不如年地显出穷苦。<br>我在《新青年》的《随感录》中做些短评，还在这前一年，因为所评论的多是小问题，所以无可道，原因也大都忘却了。但就现在的文字看起来，除几条泛论之外，有的是对于扶乩，静坐，打拳而发的；有的是对于所谓“保存国粹”而发的；有的是对于那时旧官僚的以经验自豪而发的；有的是对于上海《时报》的讽刺画而发的。记得当时的《新青年》是正在四面受敌之中，我所对付的不过一小部分；其他大事，则本志具在，无须我多言。<br>五四运动之后，我没有写什么文字，现在已经说不清是不做，还是散失消灭的了。但那时革新运动，表面上却颇有些成功，于是主张革新的也就蓬蓬勃勃，而且有许多还就是在先讥笑，嘲笑《新青年》的人们，但他们却是另起了一个冠冕堂皇的名目：新文化运动。这也就是后来又将这名目反套在《新青年》身上，而又加以嘲骂讥笑的，正如笑骂白话文的人，往往自称最得风气之先，早经主张过白话文一样。<br>再后，更无可道了。只记得一九二一年中的一篇是对于所谓“虚无哲学”而发的；而后一年则大抵对于上海之所谓“国学家”而发的，不知怎的那时忽而有许多人都自命为国学家了。<br>自《新青年》出版以来，一切应之而嘲骂改革，后来又赞成改革，后来又嘲骂改革者，现在拟态的制服早已破碎，显出自身的本相来了，所谓“事实胜于雄辩”，又何待于纸笔喉舌的批评。所以我的应时的浅薄的文字，也应该置之不顾，一任其消灭的；但几个朋友却以为现状和那时并没有大两样，也还可以存留，给我编辑起来了。这正是我所悲哀的。我以为凡对于时弊的攻击，文字须与时弊同时灭亡，因为这正如白血轮之酿成疮疖一般，倘非自身也被排除，则当它的生命的存留中，也即证明着病菌尚在。<br>但如果凡我所写，的确都是冷的呢?则它的生命原来就没有，更谈不到中国的病证究竟如何。然而，无情的冷嘲和有情的讽刺相去本不及一张纸，对于周围的感受和反应，又大概是所谓“如鱼饮水冷暖自知”的；我却觉得周围的空气太寒冽了，我自说我的话，所以反而称之曰《热风》。<br>一九二五年十一月三日之夜，鲁迅。</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;我却觉得周围的空气太寒冽了，我自说我的话，所以反而称之曰《热风》。&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
+    
+    
+      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Matplotlib - 常用方法及示例</title>
+    <link href="http://www.wrran.com//blog/2018/02/11/cheatsheet/reference/matplotlib/"/>
+    <id>http://www.wrran.com//blog/2018/02/11/cheatsheet/reference/matplotlib/</id>
+    <published>2018-02-11T02:11:12.000Z</published>
+    <updated>2019-08-15T19:59:16.492Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><code>Matplotlib</code> tries to make easy things easy and hard things possible.</p></blockquote><a id="more"></a><h1 id="Concepts"><a href="#Concepts" class="headerlink" title="Concepts"></a>Concepts</h1><table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Abstract</th><th style="text-align:left">URL</th></tr></thead><tbody><tr><td style="text-align:left">Colormaps in Matplotlib</td><td style="text-align:left">How (and why) to choose a particular colormap.</td><td style="text-align:left"><a href="https://matplotlib.org/tutorials/colors/colormaps.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Text Introduction</td><td style="text-align:left">Introduction to plottting and working with text in Matplotlib.</td><td style="text-align:left"><a href="https://matplotlib.org/tutorials/text/text_intro.html" target="_blank" rel="noopener">Details</a></td></tr></tbody></table><h1 id="Examples"><a href="#Examples" class="headerlink" title="Examples"></a>Examples</h1><table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Content</th><th style="text-align:left">URL</th></tr></thead><tbody><tr><td style="text-align:left">Plots with different scales</td><td style="text-align:left">Demonstrate how to do two plots on the same axes with different left and right scales.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/api/two_scales.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Pyplot Annotate</td><td style="text-align:left">-</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/pyplots/pyplot_annotate.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Boxplot Demo</td><td style="text-align:left">Example boxplot code</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/pyplots/boxplot_demo.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Subplots Adjust</td><td style="text-align:left">Adjusting the spacing of margins and subplots using <code>matplotlib.pyplot.subplots_adjust</code>.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/subplots_axes_and_figures/subplots_adjust.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Multiple subplots</td><td style="text-align:left">Simple demo with multiple subplots.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/subplots_axes_and_figures/subplot.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Figure Title</td><td style="text-align:left">Create a figure with separate subplot titles and a centered figure title.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/subplots_axes_and_figures/figure_title.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Axes Demo</td><td style="text-align:left">Example use of <code>plt.axes</code> to create inset axes within the main plot axes.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/subplots_axes_and_figures/axes_demo.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Color Demo</td><td style="text-align:left"><code>matplotlib</code> gives you 5 ways to specify colors.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/color/color_demo.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Box plot vs. violin plot comparison</td><td style="text-align:left">Demonstrate the differences between box-plots and violin-plots.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/statistics/boxplot_vs_violin.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Box plots with custom fill colors</td><td style="text-align:left">Demonstrate how to create two types of box-plots (rectangular and notched).</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/statistics/boxplot_color.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Hexbin Demo</td><td style="text-align:left">Plotting hexbins with Matplotlib.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/statistics/hexbin_demo.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Scatter Hist</td><td style="text-align:left">-</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/lines_bars_and_markers/scatter_hist.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Eventplot Demo</td><td style="text-align:left">An eventplot showing sequences of events with various line properties.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/lines_bars_and_markers/eventplot_demo.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Line Collection</td><td style="text-align:left">Plotting lines with Matplotlib.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/shapes_and_collections/line_collection.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Auto-wrapping text</td><td style="text-align:left">Matplotlib can wrap text automatically. But sometimes, it goes wrong.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/text_labels_and_annotations/autowrap.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">3D animation</td><td style="text-align:left">An animated plot in 3D.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/animation/simple_3danim.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">2D and 3D Axes in same Figure</td><td style="text-align:left">This example shows a how to plot a 2D and 3D plot on the same figure.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/mplot3d/mixed_subplots.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Plot 2D data on 3D plot</td><td style="text-align:left">Demonstrates using ax.plot’s zdir keyword to plot 2D data on selective axes of a 3D plot.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/mplot3d/2dcollections3d.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Custom Ticker1</td><td style="text-align:left">The new ticker code was designed to explicitly support user customized ticking.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/ticks_and_spines/custom_ticker1.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Automatically setting tick labels</td><td style="text-align:left">Setting the behavior of the auto-placement.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/ticks_and_spines/auto_ticks.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Setting tick labels from a list of values</td><td style="text-align:left">Read it, if you want to allow <code>matplotlib</code> to dynamically choose the number of ticks and their spacing.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/ticks_and_spines/tick_labels_from_values.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Date Index Formatter</td><td style="text-align:left">When plotting daily data, a frequent request is to plot the data ignoring skips.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/ticks_and_spines/date_index_formatter.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Tick formatting using the ScalarFromatter</td><td style="text-align:left">The example shows use of <code>ScalarFormatter</code> with different settings.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/ticks_and_spines/scalarformatter.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Textbox</td><td style="text-align:left">Allowing text input with the TextBox widget.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/widgets/textbox.html" target="_blank" rel="noopener">Details</a></td></tr></tbody></table><h1 id="Reference"><a href="#Reference" class="headerlink" title="Reference"></a>Reference</h1><table><thead><tr><th style="text-align:left">Name</th><th style="text-align:left">Content</th><th style="text-align:left">URL</th></tr></thead><tbody><tr><td style="text-align:left">Visiualizing named colors</td><td style="text-align:left">Simple plot example with the named colors and its viual representation</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/color/named_colors.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Line-style Reference</td><td style="text-align:left">Reference for line-styles included with Matplotlib</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/lines_bars_and_markers/line_styles_reference.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Linestyles</td><td style="text-align:left">This examples showcases different linestyles copying those of Tikz/PGF.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/lines_bars_and_markers/linestyles.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Marker filling-styles</td><td style="text-align:left">Reference for marker fill-styles included with Matplotlib.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/lines_bars_and_markers/marker_fillstyle_reference.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Filled and unfilled-marker types</td><td style="text-align:left">Reference for filled- and unfilled-marker types included with Matplotlib.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/lines_bars_and_markers/marker_reference.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Reference for matplotlib artists</td><td style="text-align:left">This example displays several of matplotlib’s graphics primitives (artists) drawn using matplotlib API.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/shapes_and_collections/artist_reference.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Tick formatters</td><td style="text-align:left">Show the different tick formatters</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/ticks_and_spines/tick-formatters.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Tick locators</td><td style="text-align:left">Show the different tick locators.</td><td style="text-align:left"><a href="https://matplotlib.org/gallery/ticks_and_spines/tick-locators.html" target="_blank" rel="noopener">Details</a></td></tr><tr><td style="text-align:left">Text properties and layout</td><td style="text-align:left">Controlling properties of text and its layout with Matplotlib.</td><td style="text-align:left"><a href="https://matplotlib.org/tutorials/text/text_props.html" target="_blank" rel="noopener">Details</a></td></tr></tbody></table><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_named_colors_001.png" alt="Visiualizing named colors" title="Visiualizing named colors"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_line_styles_reference_001.png" alt="Line-style reference" title="Line-style reference"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_marker_fillstyle_reference_001.png" alt="Marker filling-styles" title="Marker filling-styles"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_linestyles_001.png" alt="Marker filling-styles" title="Marker filling-styles"></p><p><img src="https://matplotlib.org/gallery/lines_bars_and_markers/marker_reference.html" alt="Filled and unfilled-marker types" title="Filled and unfilled-marker types"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_marker_reference_001.png" alt="Un-filled Markers" title="Un-filled Markers"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_marker_reference_002.png" alt="Fill Markers" title="Fill Markers"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_artist_reference_001.png" alt="Matplotlib Artists" title="Matplotlib Artists"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_tick-formatters_001.png" alt="Tick formatters" title="Tick formatters"></p><p><img src="http://7xuthx.com1.z0.glb.clouddn.com/image/cheatsheet/matplotlib/sphx_glr_tick-locators_001.png" alt="Tick Locators" title="Tick Locators"></p><h1 id="More"><a href="#More" class="headerlink" title="More"></a>More</h1><p><a href="https://matplotlib.org/api/_as_gen/matplotlib.pyplot.show.html#matplotlib.pyplot.show" title="`matplotlib.pyplot.show` - Matplotlib" target="_blank" rel="noopener"><code>matplotlib.pyplot.show</code> - Matplotlib</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;&lt;code&gt;Matplotlib&lt;/code&gt; tries to make easy things easy and hard things possible.&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="cheatsheet" scheme="http://www.wrran.com/categories/cheatsheet/"/>
+    
+      <category term="reference" scheme="http://www.wrran.com/categories/cheatsheet/reference/"/>
+    
+    
+      <category term="cheatsheet" scheme="http://www.wrran.com/tags/cheatsheet/"/>
+    
+      <category term="matplotlib" scheme="http://www.wrran.com/tags/matplotlib/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Jupyter常用魔法命令</title>
+    <link href="http://www.wrran.com//blog/2018/01/30/cheatsheet/reference/jupyter-magic-cmd/"/>
+    <id>http://www.wrran.com//blog/2018/01/30/cheatsheet/reference/jupyter-magic-cmd/</id>
+    <published>2018-01-30T06:29:52.000Z</published>
+    <updated>2019-08-15T19:59:16.491Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>To Jupyter users: <code>Magics</code> are specific to and provided by the IPython kernel.</p></blockquote><a id="more"></a><h1 id="常用指令"><a href="#常用指令" class="headerlink" title="常用指令"></a>常用指令</h1><h2 id="打印"><a href="#打印" class="headerlink" title="打印"></a>打印</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%pdef</code></td><td style="text-align:left">Print the call signature for any callable object.</td></tr><tr><td style="text-align:center"><code>%pdoc</code></td><td style="text-align:left">Print the docstring for an object.</td></tr><tr><td style="text-align:center"><code>%pfile</code></td><td style="text-align:left">Print (or run through pager) the file where an object is defined.</td></tr><tr><td style="text-align:center"><code>%pinfo</code></td><td style="text-align:left">Provide detailed information about an object. (<code>?</code> is short-hand.)</td></tr><tr><td style="text-align:center"><code>%pinfo2</code></td><td style="text-align:left">Provide extra detailed information about an object. (<code>??</code> is short-hand.)</td></tr><tr><td style="text-align:center"><code>%pprint</code></td><td style="text-align:left">Toggle pretty printing on/off.</td></tr><tr><td style="text-align:center"><code>%precision</code></td><td style="text-align:left">Set floating point precision for pretty printing.</td></tr></tbody></table><h2 id="性能"><a href="#性能" class="headerlink" title="性能"></a>性能</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%prun</code></td><td style="text-align:left">Run a statement through the python code profiler.</td></tr><tr><td style="text-align:center"><code>%time</code></td><td style="text-align:left">Time execution of a Python statement or expression.</td></tr><tr><td style="text-align:center"><code>%timeit</code></td><td style="text-align:left">Time execution of a Python statement or expression</td></tr></tbody></table><h2 id="变量"><a href="#变量" class="headerlink" title="变量"></a>变量</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%recall</code></td><td style="text-align:left">Repeat a command, or get command to input line for editing.</td></tr><tr><td style="text-align:center"><code>%reset</code></td><td style="text-align:left">Resets the namespace by removing all names defined by the user and In[] or Out[].</td></tr><tr><td style="text-align:center"><code>%reset_selective</code></td><td style="text-align:left">Resets the namespace by removing names defined by the user.</td></tr><tr><td style="text-align:center"><code>%who</code></td><td style="text-align:left">Print all interactive variables, with some minimal formatting.</td></tr><tr><td style="text-align:center"><code>%who_ls</code></td><td style="text-align:left">Return a sorted list of all interactive variables.</td></tr><tr><td style="text-align:center"><code>%whos</code></td><td style="text-align:left">Like %who, but gives some extra information about each variable</td></tr><tr><td style="text-align:center"><code>%xdel</code></td><td style="text-align:left">Delete a variable, trying to clear it from anywhere that IPython’s machinery has references to it.</td></tr></tbody></table><h2 id="日志"><a href="#日志" class="headerlink" title="日志"></a>日志</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%logstart</code></td><td style="text-align:left">Start logging anywhere in a session.</td></tr><tr><td style="text-align:center"><code>%logon</code></td><td style="text-align:left">Restart logging.</td></tr><tr><td style="text-align:center"><code>%logoff</code></td><td style="text-align:left">Temporarily stop logging.</td></tr><tr><td style="text-align:center"><code>%logstate</code></td><td style="text-align:left">Print the status of the logging system.</td></tr><tr><td style="text-align:center"><code>%logstop</code></td><td style="text-align:left">Fully stop logging and close log file.</td></tr></tbody></table><h2 id="运行外部指令"><a href="#运行外部指令" class="headerlink" title="运行外部指令"></a>运行外部指令</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%load</code></td><td style="text-align:left">Load code into the current frontend.</td></tr><tr><td style="text-align:center"><code>%loadpy</code></td><td style="text-align:left">Alias of %load.</td></tr><tr><td style="text-align:center"><code>%run</code></td><td style="text-align:left">Run the named file inside IPython as a program.</td></tr><tr><td style="text-align:center"><code>%sx</code></td><td style="text-align:left">Shell execute - run shell command and capture output (!! is short-hand).</td></tr><tr><td style="text-align:center"><code>%killbgscripts</code></td><td style="text-align:left">Kill all BG processes started by %%script and its family.</td></tr></tbody></table><h2 id="输出文件"><a href="#输出文件" class="headerlink" title="输出文件"></a>输出文件</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%save</code></td><td style="text-align:left">Save a set of lines or a macro to a given filename.</td></tr></tbody></table><h2 id="环境变量"><a href="#环境变量" class="headerlink" title="环境变量"></a>环境变量</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%env</code></td><td style="text-align:left">Get, set, or list environment variables.</td></tr><tr><td style="text-align:center"><code>%set_env</code></td><td style="text-align:left">Set environment variables.</td></tr></tbody></table><h2 id="工作区"><a href="#工作区" class="headerlink" title="工作区"></a>工作区</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%cd</code></td><td style="text-align:left">Change the current working directory.</td></tr><tr><td style="text-align:center"><code>%pwd</code></td><td style="text-align:left">Return the current working directory path.</td></tr></tbody></table><h2 id="调试"><a href="#调试" class="headerlink" title="调试"></a>调试</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%debug</code></td><td style="text-align:left">Activate the interactive debugger.</td></tr><tr><td style="text-align:center"><code>%pdb</code></td><td style="text-align:left">Control the automatic calling of the pdb interactive debugger.</td></tr></tbody></table><h2 id="其他"><a href="#其他" class="headerlink" title="其他"></a>其他</h2><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%lsmagic</code></td><td style="text-align:left">List currently available magic functions.</td></tr><tr><td style="text-align:center"><code>%macro</code></td><td style="text-align:left">Define a macro for future re-execution.</td></tr><tr><td style="text-align:center"><code>%matplotlib</code></td><td style="text-align:left">Set up matplotlib to work interactively.</td></tr><tr><td style="text-align:center"><code>%pylab</code></td><td style="text-align:left">Load numpy and matplotlib to work interactively.</td></tr></tbody></table><h2 id="Cell-Magics"><a href="#Cell-Magics" class="headerlink" title="Cell Magics"></a>Cell Magics</h2><h1 id="Note"><a href="#Note" class="headerlink" title="Note"></a>Note</h1><blockquote><p>To Jupyter users: Magics are specific to and provided by the IPython kernel. Whether magics are available on a kernel is a decision that is made by the kernel developer on a per-kernel basis. To work properly, Magics must use a syntax element which is not valid in the underlying language. For example, the IPython kernel uses the % syntax element for magics as % is not a valid unary operator in Python. While, the syntax element has meaning in other languages.<br>@IPython</p></blockquote><p><strong>Tips</strong>: Details go like <code>http://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-{name}</code>. For example, the detailed url of <code>%alias</code> is <code>http://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-alias</code>, and the detailed url of <code>%alias_magic</code> is <code>http://ipython.readthedocs.io/en/stable/interactive/magics.html#magic-alias_magic</code>.</p><h1 id="Line-Magics"><a href="#Line-Magics" class="headerlink" title="Line Magics"></a>Line Magics</h1><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%alias</code></td><td style="text-align:left">Define an alias for a system command.</td></tr><tr><td style="text-align:center"><code>%alias_magic</code></td><td style="text-align:left">Create an alias for existing line or cell magic.</td></tr><tr><td style="text-align:center"><code>%autocall</code></td><td style="text-align:left">Make functions callable without having to type parentheses.</td></tr><tr><td style="text-align:center"><code>%automagic</code></td><td style="text-align:left">Make magic functions callable without having to type the initial %.</td></tr><tr><td style="text-align:center"><code>%bookmark</code></td><td style="text-align:left">Manage IPython’s bookmark system.</td></tr><tr><td style="text-align:center"><code>%cd</code></td><td style="text-align:left">Change the current working directory.</td></tr><tr><td style="text-align:center"><code>%colors</code></td><td style="text-align:left">Switch color scheme for prompts, info system and exception handlers.</td></tr><tr><td style="text-align:center"><code>%config</code></td><td style="text-align:left">configure IPython</td></tr><tr><td style="text-align:center"><code>%debug</code></td><td style="text-align:left">Activate the interactive debugger.</td></tr><tr><td style="text-align:center"><code>%dhist</code></td><td style="text-align:left">Print your history of visited directories.</td></tr><tr><td style="text-align:center"><code>%dirs</code></td><td style="text-align:left">Return the current directory stack.</td></tr><tr><td style="text-align:center"><code>%doctest_mode</code></td><td style="text-align:left">Toggle doctest mode on and off.</td></tr><tr><td style="text-align:center"><code>%edit</code></td><td style="text-align:left">Bring up an editor and execute the resulting code.</td></tr><tr><td style="text-align:center"><code>%env</code></td><td style="text-align:left">Get, set, or list environment variables.</td></tr><tr><td style="text-align:center"><code>%gui</code></td><td style="text-align:left">Enable or disable IPython GUI event loop integration.</td></tr><tr><td style="text-align:center"><code>%history</code></td><td style="text-align:left">Print input history (_i<n>variables), with most recent last.</n></td></tr><tr><td style="text-align:center"><code>%killbgscripts</code></td><td style="text-align:left">Kill all BG processes started by %%script and its family.</td></tr><tr><td style="text-align:center"><code>%load</code></td><td style="text-align:left">Load code into the current frontend.</td></tr><tr><td style="text-align:center"><code>%load_ext</code></td><td style="text-align:left">Load an IPython extension by its module name.</td></tr><tr><td style="text-align:center"><code>%loadpy</code></td><td style="text-align:left">Alias of %load.</td></tr><tr><td style="text-align:center"><code>%logoff</code></td><td style="text-align:left">Temporarily stop logging.</td></tr><tr><td style="text-align:center"><code>%logon</code></td><td style="text-align:left">Restart logging.</td></tr><tr><td style="text-align:center"><code>%logstart</code></td><td style="text-align:left">Start logging anywhere in a session.</td></tr><tr><td style="text-align:center"><code>%logstate</code></td><td style="text-align:left">Print the status of the logging system.</td></tr><tr><td style="text-align:center"><code>%logstop</code></td><td style="text-align:left">Fully stop logging and close log file.</td></tr><tr><td style="text-align:center"><code>%lsmagic</code></td><td style="text-align:left">List currently available magic functions.</td></tr><tr><td style="text-align:center"><code>%macro</code></td><td style="text-align:left">Define a macro for future re-execution.</td></tr><tr><td style="text-align:center"><code>%magic</code></td><td style="text-align:left">Print information about the magic function system.</td></tr><tr><td style="text-align:center"><code>%matplotlib</code></td><td style="text-align:left">Set up matplotlib to work interactively.</td></tr><tr><td style="text-align:center"><code>%notebook</code></td><td style="text-align:left">Export and convert IPython notebooks.</td></tr><tr><td style="text-align:center"><code>%page</code></td><td style="text-align:left">Pretty print the object and display it through a pager.</td></tr><tr><td style="text-align:center"><code>%pastebin</code></td><td style="text-align:left">Upload code to Github’s Gist paste bin, returning the URL.</td></tr><tr><td style="text-align:center"><code>%pdb</code></td><td style="text-align:left">Control the automatic calling of the pdb interactive debugger.</td></tr><tr><td style="text-align:center"><code>%pdef</code></td><td style="text-align:left">Print the call signature for any callable object.</td></tr><tr><td style="text-align:center"><code>%pdoc</code></td><td style="text-align:left">Print the docstring for an object.</td></tr><tr><td style="text-align:center"><code>%pfile</code></td><td style="text-align:left">Print (or run through pager) the file where an object is defined.</td></tr><tr><td style="text-align:center"><code>%pinfo</code></td><td style="text-align:left">Provide detailed information about an object.</td></tr><tr><td style="text-align:center"><code>%pinfo2</code></td><td style="text-align:left">Provide extra detailed information about an object.</td></tr><tr><td style="text-align:center"><code>%pip</code></td><td style="text-align:left">Intercept usage of pip in IPython and direct user to run command outside of IPython.</td></tr><tr><td style="text-align:center"><code>%popd</code></td><td style="text-align:left">Change to directory popped off the top of the stack.</td></tr><tr><td style="text-align:center"><code>%pprint</code></td><td style="text-align:left">Toggle pretty printing on/off.</td></tr><tr><td style="text-align:center"><code>%precision</code></td><td style="text-align:left">Set floating point precision for pretty printing.</td></tr><tr><td style="text-align:center"><code>%prun</code></td><td style="text-align:left">Run a statement through the python code profiler.</td></tr><tr><td style="text-align:center"><code>%psearch</code></td><td style="text-align:left">Search for object in namespaces by wildcard.</td></tr><tr><td style="text-align:center"><code>%psource</code></td><td style="text-align:left">Print (or run through pager) the source code for an object.</td></tr><tr><td style="text-align:center"><code>%pushd</code></td><td style="text-align:left">Place the current dir on stack and change directory.</td></tr><tr><td style="text-align:center"><code>%pwd</code></td><td style="text-align:left">Return the current working directory path.</td></tr><tr><td style="text-align:center"><code>%pycat</code></td><td style="text-align:left">Show a syntax-highlighted file through a pager.</td></tr><tr><td style="text-align:center"><code>%pylab</code></td><td style="text-align:left">Load numpy and matplotlib to work interactively.</td></tr><tr><td style="text-align:center"><code>%quickref</code></td><td style="text-align:left">Show a quick reference sheet</td></tr><tr><td style="text-align:center"><code>%recall</code></td><td style="text-align:left">Repeat a command, or get command to input line for editing.</td></tr><tr><td style="text-align:center"><code>%rehashx</code></td><td style="text-align:left">Update the alias table with all executable files in $PATH.</td></tr><tr><td style="text-align:center"><code>%reload_ext</code></td><td style="text-align:left">Reload an IPython extension by its module name.</td></tr><tr><td style="text-align:center"><code>%rerun</code></td><td style="text-align:left">Re-run previous input</td></tr><tr><td style="text-align:center"><code>%reset</code></td><td style="text-align:left">Resets the namespace by removing all names defined by the user and In[] or Out[].</td></tr><tr><td style="text-align:center"><code>%reset_selective</code></td><td style="text-align:left">Resets the namespace by removing names defined by the user.</td></tr><tr><td style="text-align:center"><code>%run</code></td><td style="text-align:left">Run the named file inside IPython as a program.</td></tr><tr><td style="text-align:center"><code>%save</code></td><td style="text-align:left">Save a set of lines or a macro to a given filename.</td></tr><tr><td style="text-align:center"><code>%set_env</code></td><td style="text-align:left">Set environment variables.</td></tr><tr><td style="text-align:center"><code>%sx</code></td><td style="text-align:left">Shell execute - run shell command and capture output (!! is short-hand).</td></tr><tr><td style="text-align:center"><code>%system</code></td><td style="text-align:left">Shell execute - run shell command and capture output (!! is short-hand).</td></tr><tr><td style="text-align:center"><code>%tb</code></td><td style="text-align:left">Print the last traceback with the currently active exception mode.</td></tr><tr><td style="text-align:center"><code>%time</code></td><td style="text-align:left">Time execution of a Python statement or expression.</td></tr><tr><td style="text-align:center"><code>%timeit</code></td><td style="text-align:left">Time execution of a Python statement or expression</td></tr><tr><td style="text-align:center"><code>%unalias</code></td><td style="text-align:left">Remove an alias</td></tr><tr><td style="text-align:center"><code>%unload_ext</code></td><td style="text-align:left">Unload an IPython extension by its module name.</td></tr><tr><td style="text-align:center"><code>%who</code></td><td style="text-align:left">Print all interactive variables, with some minimal formatting.</td></tr><tr><td style="text-align:center"><code>%who_ls</code></td><td style="text-align:left">Return a sorted list of all interactive variables.</td></tr><tr><td style="text-align:center"><code>%whos</code></td><td style="text-align:left">Like %who, but gives some extra information about each variable</td></tr><tr><td style="text-align:center"><code>%xdel</code></td><td style="text-align:left">Delete a variable, trying to clear it from anywhere that IPython’s machinery has references to it.</td></tr><tr><td style="text-align:center"><code>%xmode</code></td><td style="text-align:left">Switch modes for the exception handlers.</td></tr></tbody></table><h1 id="Cell-Magics-1"><a href="#Cell-Magics-1" class="headerlink" title="Cell Magics"></a>Cell Magics</h1><table><thead><tr><th style="text-align:center">Magic</th><th style="text-align:left">Meaning</th></tr></thead><tbody><tr><td style="text-align:center"><code>%%bash</code></td><td style="text-align:left">Run cells with bash in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%capture</code></td><td style="text-align:left">Run the cell, capturing stdout, stderr, and IPython’s rich display() calls.</td></tr><tr><td style="text-align:center"><code>%%html</code></td><td style="text-align:left">Render the cell as a block of HTML.</td></tr><tr><td style="text-align:center"><code>%%javascript</code></td><td style="text-align:left">Run the cell block of Javascript code.</td></tr><tr><td style="text-align:center"><code>%%js</code></td><td style="text-align:left">Run the cell block of Javascript code.</td></tr><tr><td style="text-align:center"><code>%%latex</code></td><td style="text-align:left">Render the cell as a block of latex</td></tr><tr><td style="text-align:center"><code>%%markdown</code></td><td style="text-align:left">Render the cell as Markdown text block</td></tr><tr><td style="text-align:center"><code>%%perl</code></td><td style="text-align:left">Run cells with perl in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%pypy</code></td><td style="text-align:left">Run cells with pypy in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%python</code></td><td style="text-align:left">Run cells with python in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%python2</code></td><td style="text-align:left">Run cells with python2 in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%python3</code></td><td style="text-align:left">Run cells with python3 in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%ruby</code></td><td style="text-align:left">Run cells with ruby in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%script</code></td><td style="text-align:left">Run a cell via a shell command</td></tr><tr><td style="text-align:center"><code>%%sh</code></td><td style="text-align:left">Run cells with sh in a subprocess.</td></tr><tr><td style="text-align:center"><code>%%svg</code></td><td style="text-align:left">Render the cell as an SVG literal</td></tr><tr><td style="text-align:center"><code>%%writefile</code></td><td style="text-align:left">Write the contents of the cell to a file.</td></tr></tbody></table><h1 id="更多"><a href="#更多" class="headerlink" title="更多"></a>更多</h1><p><a href="http://ipython.readthedocs.io/en/stable/interactive/magics.html" target="_blank" rel="noopener">Built-in Magic Commands - IPython</a><br><a href="https://segmentfault.com/a/1190000010758722" target="_blank" rel="noopener">Jupyter 魔术命令(magic commands)</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;To Jupyter users: &lt;code&gt;Magics&lt;/code&gt; are specific to and provided by the IPython kernel.&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="cheatsheet" scheme="http://www.wrran.com/categories/cheatsheet/"/>
+    
+      <category term="reference" scheme="http://www.wrran.com/categories/cheatsheet/reference/"/>
+    
+    
+      <category term="cheatsheet" scheme="http://www.wrran.com/tags/cheatsheet/"/>
+    
+      <category term="jupyter" scheme="http://www.wrran.com/tags/jupyter/"/>
+    
+      <category term="magic commands" scheme="http://www.wrran.com/tags/magic-commands/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>淡淡的血痕中</title>
+    <link href="http://www.wrran.com//blog/2018/01/30/people-say/luxun/180130-01/"/>
+    <id>http://www.wrran.com//blog/2018/01/30/people-say/luxun/180130-01/</id>
+    <published>2018-01-30T04:16:12.000Z</published>
+    <updated>2019-08-15T19:59:16.511Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>记念几个死者和生者和未生者</p></blockquote><a id="more"></a><p>@鲁迅</p><p>目前的造物者，还是一个怯弱者。<br>他暗暗地使天地变异，却不敢毁灭一个这地球;暗暗地使生物衰亡，却不敢长存一切尸体;暗暗地使人类流血，却不敢使血色永远鲜秾;暗暗地使人类受苦，却不敢使人类永远记得。<br>他专为他的同类——人类中的怯弱者——设想，用废墟荒坟来衬托华屋，用时光来冲淡苦痛和血痕;日日斟出一杯微甘的苦酒，不太少，不太多，以能微醉为度，递给人间，使饮者可以哭，可以歌，也如醒，也如醉，若有知，若无知，也欲死，也欲生。他必须使一切也欲生;他还没有灭尽人类的勇气。<br>几片废墟和几个荒坟散在地上，映以淡淡的血痕，人们都在其间咀嚼着人我的渺茫的悲苦。但是不肯吐弃，以为究竟胜于空虚，各各自称为“天之民”，以作咀嚼着人我的渺茫的悲苦的辩解，而且悚息着静待新的悲苦的到来，新的，这就使他们恐惧，而又渴欲相遇。<br>这都是造物主的良民。他就需要这样。<br>叛逆的猛士出于人间;他屹立着，洞见一切已改和现有的废墟和荒坟，记得一切深广和久远的苦痛，正视一切重叠淤积的凝血，深知一切已死，方生，将生和未生。他看透了造化的把戏;他将要起来使人类苏生，或者使人类灭尽，这些造物主的良民们。<br>造物主，怯弱者，羞惭了，于是伏藏。天地在猛士的眼中于是变色。<br>一九二六年四月八日</p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;记念几个死者和生者和未生者&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
+    
+      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
+    
+    
+      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
+    
+  </entry>
+  
+</feed>
