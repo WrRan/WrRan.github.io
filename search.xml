@@ -104,10 +104,18 @@
       
         <categories>
             
+            <category> people-say </category>
+            
             <category> me </category>
             
         </categories>
         
+        
+        <tags>
+            
+            <tag> me </tag>
+            
+        </tags>
         
     </entry>
     
@@ -324,12 +332,6 @@
             
         </categories>
         
-        
-        <tags>
-            
-            <tag> people say </tag>
-            
-        </tags>
         
     </entry>
     
@@ -572,12 +574,6 @@
             
         </categories>
         
-        
-        <tags>
-            
-            <tag> natural language processing </tag>
-            
-        </tags>
         
     </entry>
     
@@ -1002,7 +998,7 @@
         
         <tags>
             
-            <tag> people </tag>
+            <tag> MuXin </tag>
             
         </tags>
         
@@ -1087,7 +1083,7 @@
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -1253,7 +1249,7 @@
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -1297,7 +1293,7 @@
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -2665,7 +2661,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -2995,7 +2991,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -3219,7 +3215,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -3505,7 +3501,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -3563,7 +3559,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -3643,7 +3639,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -3679,7 +3675,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -4445,7 +4441,7 @@ return sorted;
       
         <categories>
             
-            <category> people say </category>
+            <category> people-say </category>
             
         </categories>
         
@@ -4782,12 +4778,6 @@ return sorted;
         </categories>
         
         
-        <tags>
-            
-            <tag> people </tag>
-            
-        </tags>
-        
     </entry>
     
     <entry>
@@ -5013,12 +5003,6 @@ return sorted;
             
         </categories>
         
-        
-        <tags>
-            
-            <tag> people say </tag>
-            
-        </tags>
         
     </entry>
     

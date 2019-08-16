@@ -2,6 +2,125 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://www.wrran.com/blog/2016/07/10/people-say/them/</loc>
+    
+    <lastmod>2019-08-16T09:41:06.673Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/12/21/people-say/muxin/</loc>
+    
+    <lastmod>2019-08-16T09:40:59.496Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2018/03/26/people-say/180326-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:47.448Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2018/01/28/people-say/180128-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:42.978Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/1995/07/04/people-say/180109-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:33.207Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/12/15/people-say/171215-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:26.479Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/11/03/people-say/171103-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:22.013Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/10/23/people-say/171023-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:18.235Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/03/23/people-say/170323-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:14.965Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/02/28/people-say/170228-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:10.908Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/02/22/people-say/170222-01/</loc>
+    
+    <lastmod>2019-08-16T09:40:04.670Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2019/08/14/people-say/me/190814-01/</loc>
+    
+    <lastmod>2019-08-16T09:39:46.487Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/02/19/people-say/170219-02/</loc>
+    
+    <lastmod>2019-08-16T09:39:37.846Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/02/19/people-say/170219-01/</loc>
+    
+    <lastmod>2019-08-16T09:39:32.679Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/01/08/people-say/170108-01/</loc>
+    
+    <lastmod>2019-08-16T09:39:27.452Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/12/27/people-say/161227-01/</loc>
+    
+    <lastmod>2019-08-16T09:39:17.399Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/02/people-say/161102-01/</loc>
+    
+    <lastmod>2019-08-16T09:39:08.183Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2017/09/22/cheatsheet/tools/common-tools/</loc>
     
     <lastmod>2019-08-16T09:33:36.174Z</lastmod>
@@ -93,6 +212,13 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/tools/index.html</loc>
+    
+    <lastmod>2019-08-15T19:59:16.521Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/tags/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.521Z</lastmod>
@@ -107,23 +233,9 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/tools/index.html</loc>
-    
-    <lastmod>2019-08-15T19:59:16.521Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/daily/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.520Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/12/08/review/reinforcement-learning/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.519Z</lastmod>
     
   </url>
   
@@ -135,7 +247,7 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/about/index.html</loc>
+    <loc>http://www.wrran.com/blog/2017/12/08/review/reinforcement-learning/</loc>
     
     <lastmod>2019-08-15T19:59:16.519Z</lastmod>
     
@@ -143,6 +255,13 @@
   
   <url>
     <loc>http://www.wrran.com/blog/2016/05/31/review/software-architecture/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.519Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/about/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.519Z</lastmod>
     
@@ -157,13 +276,6 @@
   
   <url>
     <loc>http://www.wrran.com/blog/2017/12/28/review/distributed-system/8-fault-tolerance/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.518Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/05/31/review/it-project-management/</loc>
     
     <lastmod>2019-08-15T19:59:16.518Z</lastmod>
     
@@ -191,16 +303,16 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/12/28/review/distributed-system/7-consistency-and-replication/</loc>
+    <loc>http://www.wrran.com/blog/2016/05/31/review/it-project-management/</loc>
     
-    <lastmod>2019-08-15T19:59:16.517Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.518Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/12/21/review/distributed-system/4-communication/</loc>
+    <loc>http://www.wrran.com/blog/2017/12/28/review/distributed-system/7-consistency-and-replication/</loc>
     
-    <lastmod>2019-08-15T19:59:16.516Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.517Z</lastmod>
     
   </url>
   
@@ -212,9 +324,9 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/12/18/review/distributed-system/3-processes/</loc>
+    <loc>http://www.wrran.com/blog/2017/12/21/review/distributed-system/4-communication/</loc>
     
-    <lastmod>2019-08-15T19:59:16.515Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.516Z</lastmod>
     
   </url>
   
@@ -226,9 +338,9 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/06/07/review/bigdata/</loc>
+    <loc>http://www.wrran.com/blog/2017/12/18/review/distributed-system/3-processes/</loc>
     
-    <lastmod>2019-08-15T19:59:16.514Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.515Z</lastmod>
     
   </url>
   
@@ -240,16 +352,9 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/07/10/people-say/them/</loc>
+    <loc>http://www.wrran.com/blog/2016/06/07/review/bigdata/</loc>
     
-    <lastmod>2019-08-15T19:59:16.513Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/12/21/people-say/muxin/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.513Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.514Z</lastmod>
     
   </url>
   
@@ -261,28 +366,7 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/03/12/people-say/luxun/180312-04/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.512Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/blog/2018/03/12/people-say/luxun/180312-03/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.512Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2019/08/14/people-say/me/190814-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.512Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/04/01/people-say/luxun/luxun/</loc>
     
     <lastmod>2019-08-15T19:59:16.512Z</lastmod>
     
@@ -296,6 +380,20 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2017/04/01/people-say/luxun/luxun/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.512Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2018/03/12/people-say/luxun/180312-04/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.512Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2018/01/30/people-say/luxun/180130-01/</loc>
     
     <lastmod>2019-08-15T19:59:16.511Z</lastmod>
@@ -303,7 +401,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/03/12/people-say/luxun/180312-02/</loc>
+    <loc>http://www.wrran.com/blog/2018/01/26/people-say/luxun/180126-01/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.511Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2018/01/20/people-say/luxun/180120-01/</loc>
     
     <lastmod>2019-08-15T19:59:16.511Z</lastmod>
     
@@ -331,72 +436,9 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/01/26/people-say/luxun/180126-01/</loc>
+    <loc>http://www.wrran.com/blog/2018/03/12/people-say/luxun/180312-02/</loc>
     
     <lastmod>2019-08-15T19:59:16.511Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2018/01/20/people-say/luxun/180120-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.511Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/12/15/people-say/171215-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2018/03/26/people-say/180326-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/1995/07/04/people-say/180109-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2018/01/28/people-say/180128-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/02/28/people-say/170228-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/03/23/people-say/170323-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/10/23/people-say/171023-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/11/03/people-say/171103-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.510Z</lastmod>
     
   </url>
   
@@ -409,48 +451,6 @@
   
   <url>
     <loc>http://www.wrran.com/blog/2017/08/18/people-say-170818-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/02/people-say/161102-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/02/19/people-say/170219-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/12/27/people-say/161227-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/01/08/people-say/170108-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/02/19/people-say/170219-02/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/02/22/people-say/170222-01/</loc>
     
     <lastmod>2019-08-15T19:59:16.509Z</lastmod>
     
