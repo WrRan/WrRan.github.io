@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wrran.com/"/>
-  <updated>2019-08-15T19:59:16.512Z</updated>
+  <updated>2019-08-16T04:08:53.729Z</updated>
   <id>http://www.wrran.com/</id>
   
   <author>
@@ -17,25 +17,30 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>政治生活没有银弹</title>
-    <link href="http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/"/>
-    <id>http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/</id>
-    <published>2019-08-13T16:00:00.000Z</published>
-    <updated>2019-08-15T19:59:16.512Z</updated>
+    <title>itertools @ python</title>
+    <link href="http://www.wrran.com//blog/2019/08/16/cheatsheet/reference/python-itertools/"/>
+    <id>http://www.wrran.com//blog/2019/08/16/cheatsheet/reference/python-itertools/</id>
+    <published>2019-08-16T03:30:00.000Z</published>
+    <updated>2019-08-16T04:08:53.729Z</updated>
     
-    <content type="html"><![CDATA[<blockquote><p>政治生活没有银弹，不要指望依靠某种制度得到优胜，制度改革永不会止步。</p></blockquote>]]></content>
+    <content type="html"><![CDATA[<blockquote><p>This module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML. Each has been recast in a form suitable for Python.<br>@<code>itertools</code></p></blockquote><a id="more"></a><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>The module standardizes a core set of fast, memory efficient tools that are useful by themselves or in combination. Together, they form an “iterator algebra” making it possible to construct specialized tools succinctly and efficiently in pure Python.</p><h1 id="Infinite-Iterators"><a href="#Infinite-Iterators" class="headerlink" title="Infinite Iterators"></a>Infinite Iterators</h1><table><thead><tr><th style="text-align:left">Iterator</th><th style="text-align:left">Results</th><th style="text-align:left">Example</th><th style="text-align:left">Result</th></tr></thead><tbody><tr><td style="text-align:left">count(start [, step])</td><td style="text-align:left">start, start+step, start+2*step, …</td><td style="text-align:left"><code>count(10)</code></td><td style="text-align:left"><code>10 11 12 ...</code></td></tr><tr><td style="text-align:left">cycle(p)</td><td style="text-align:left">p0, p1, …plast, p0, p1, …</td><td style="text-align:left"><code>cycle(&#39;ABCD&#39;)</code></td><td style="text-align:left"><code>A B C D A B C D ...</code></td></tr><tr><td style="text-align:left">repeat(elem [, n])</td><td style="text-align:left">elem, elem, elem, … endlessly or up to n times</td><td style="text-align:left"><code>repeat(10, 3)</code></td><td style="text-align:left"><code>10, 10, 10</code></td></tr></tbody></table><h1 id="Iterators-terminating-on-the-shortest"><a href="#Iterators-terminating-on-the-shortest" class="headerlink" title="Iterators terminating on the shortest"></a>Iterators terminating on the shortest</h1><table><thead><tr><th style="text-align:left">Iterator</th><th style="text-align:left">Results</th><th style="text-align:left">Example</th><th style="text-align:left">Results</th></tr></thead><tbody><tr><td style="text-align:left">chain(p, q, …)</td><td style="text-align:left">p0, p1, …, plast, q0, q1, …</td><td style="text-align:left"><code>chain(&#39;ABC&#39;, &#39;DEF&#39;)</code></td><td style="text-align:left"><code>A B C D E F</code></td></tr><tr><td style="text-align:left">compress(data, selectors)</td><td style="text-align:left">(d[0] if s[0]), (d[1] if s[1]), …</td><td style="text-align:left"><code>compress(&#39;ABCDEF&#39;, [1,0,1,0,1,1]</code>)</td><td style="text-align:left"><code>A C E F</code></td></tr><tr><td style="text-align:left">dropwhile(pred, seq)</td><td style="text-align:left">seq[n], seq[n+1], … starting when pred fails</td><td style="text-align:left"><code>dropwhile(lambda x: x&lt;5, [1,4,6,4,1])</code></td><td style="text-align:left"><code>6 4 1</code></td></tr><tr><td style="text-align:left">takewhile(pred, seq)</td><td style="text-align:left">seq[0], seq[1], … until pred fails</td><td style="text-align:left"><code>takewhile(lambda x: x&lt;5, [1,4,6,4,1])</code></td><td style="text-align:left"><code>1 4</code></td></tr><tr><td style="text-align:left">groupby(iterable [, keyfun])</td><td style="text-align:left">sub-iterators grouped by value of keyfunc(v)</td><td style="text-align:left">-</td><td style="text-align:left">-</td></tr><tr><td style="text-align:left">ifilter(pred, seq)</td><td style="text-align:left">elements of seq where pred(elem) is true</td><td style="text-align:left"><code>ifilter(lambda x: x%2, range(10))</code></td><td style="text-align:left"><code>1 3 5 7 9</code></td></tr><tr><td style="text-align:left">ifilterfalse(pred, seq)</td><td style="text-align:left">elements of seq where pred(elem) is false</td><td style="text-align:left"><code>ifilterfalse(lambda x: x%2, range(10))</code></td><td style="text-align:left"><code>0 2 4 6 8</code></td></tr><tr><td style="text-align:left">islice(seq [, start,] stop [, step])</td><td style="text-align:left">elements from seq[start:stop:step]</td><td style="text-align:left"><code>islice(&#39;ABCDEFG&#39;, 2, None)</code></td><td style="text-align:left"><code>C D E F G</code></td></tr><tr><td style="text-align:left">imap(fun, p, q, …)</td><td style="text-align:left">func(p0, q0, …), func(p1, q1, …)</td><td style="text-align:left"><code>imap(pow, (2,3,10), (5,2,3))</code></td><td style="text-align:left"><code>32 9 1000</code></td></tr><tr><td style="text-align:left">starmap(func, seq)</td><td style="text-align:left">func(<em>seq[0]), func(</em>seq[1]), …</td><td style="text-align:left"><code>starmap(pow, [(2,5), (3,2), (10,3)])</code></td><td style="text-align:left"><code>32 9 1000</code></td></tr><tr><td style="text-align:left">tee(it, n)</td><td style="text-align:left">it1, it2, … itn splits one iterator into n</td><td style="text-align:left">-</td><td style="text-align:left">-</td></tr><tr><td style="text-align:left">izip(p, q, …)</td><td style="text-align:left">(p[0],q[0]), (p[1], q[1]), …</td><td style="text-align:left"><code>izip(&#39;ABCD&#39;, &#39;xy&#39;)</code></td><td style="text-align:left"><code>Ax By</code></td></tr><tr><td style="text-align:left">izip_longest(p, q, …)</td><td style="text-align:left">(p[0],q[0]), (p[1],q[1]), …</td><td style="text-align:left"><code>izip\_longest(&#39;ABCD&#39;, &#39;xy&#39;, fillvalue=&#39;-&#39;)</code></td><td style="text-align:left"><code>Ax By C- D-</code></td></tr></tbody></table><h1 id="Combination-generators"><a href="#Combination-generators" class="headerlink" title="Combination generators"></a>Combination generators</h1><table><thead><tr><th style="text-align:left">Iterator</th><th style="text-align:left">Results</th></tr></thead><tbody><tr><td style="text-align:left">product(p, q, … [repeat=1])</td><td style="text-align:left">cartesian prduct, equivalent to a nested for-loop</td></tr><tr><td style="text-align:left">product(‘ABCD’, repeat=2)</td><td style="text-align:left">AA AB AC AD BA BB BC BD CA CB CC CD DA DB DC DD</td></tr><tr><td style="text-align:left">permutations(p [, r])</td><td style="text-align:left">r-length tuples, all possible orderings, no repeated elements</td></tr><tr><td style="text-align:left">permutations(‘ABCD’, 2)</td><td style="text-align:left">AB AC AD BA BC BD CA CB CD DA DB DC</td></tr><tr><td style="text-align:left">combinations(p, r)</td><td style="text-align:left">r-length tuples, in sorted order, no repeated elements</td></tr><tr><td style="text-align:left">combinations(‘ABCD’, 2)</td><td style="text-align:left">AB AC AD BC BD CD</td></tr><tr><td style="text-align:left">combinations_with_replacement(p [, r])</td><td style="text-align:left">r-length tuples, in sorted order, with repeated elements</td></tr><tr><td style="text-align:left">combinations_with_replacement(‘ABCD’, 2)</td><td style="text-align:left">AA AB AC AD BB BC BD CC CD DD</td></tr></tbody></table><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><p><a href="https://docs.python.org/2/library/itertools.html" target="_blank" rel="noopener">itertools - Functions creating iterators for efficient looping</a></p>]]></content>
     
     <summary type="html">
     
-      
-      
-        &lt;blockquote&gt;&lt;p&gt;政治生活没有银弹，不要指望依靠某种制度得到优胜，制度改革永不会止步。&lt;/p&gt;&lt;/blockquote&gt;
-      
+      &lt;blockquote&gt;&lt;p&gt;This module implements a number of iterator building blocks inspired by constructs from APL, Haskell, and SML. Each has been recast in a form suitable for Python.&lt;br&gt;@&lt;code&gt;itertools&lt;/code&gt;&lt;/p&gt;&lt;/blockquote&gt;
     
     </summary>
     
-      <category term="me" scheme="http://www.wrran.com/categories/me/"/>
+      <category term="cheatsheet" scheme="http://www.wrran.com/categories/cheatsheet/"/>
     
+      <category term="tools" scheme="http://www.wrran.com/categories/cheatsheet/tools/"/>
+    
+      <category term="python" scheme="http://www.wrran.com/categories/cheatsheet/tools/python/"/>
+    
+    
+      <category term="cheatsheet" scheme="http://www.wrran.com/tags/cheatsheet/"/>
+    
+      <category term="itertools" scheme="http://www.wrran.com/tags/itertools/"/>
     
   </entry>
   
@@ -64,6 +69,29 @@
       <category term="tools" scheme="http://www.wrran.com/tags/tools/"/>
     
       <category term="documentation tools" scheme="http://www.wrran.com/tags/documentation-tools/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>政治生活没有银弹</title>
+    <link href="http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/"/>
+    <id>http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/</id>
+    <published>2019-08-13T16:00:00.000Z</published>
+    <updated>2019-08-15T19:59:16.512Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>政治生活没有银弹，不要指望依靠某种制度得到优胜，制度改革永不会止步。</p></blockquote>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;blockquote&gt;&lt;p&gt;政治生活没有银弹，不要指望依靠某种制度得到优胜，制度改革永不会止步。&lt;/p&gt;&lt;/blockquote&gt;
+      
+    
+    </summary>
+    
+      <category term="me" scheme="http://www.wrran.com/categories/me/"/>
+    
     
   </entry>
   
@@ -528,30 +556,6 @@
       <category term="jupyter" scheme="http://www.wrran.com/tags/jupyter/"/>
     
       <category term="magic commands" scheme="http://www.wrran.com/tags/magic-commands/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>淡淡的血痕中</title>
-    <link href="http://www.wrran.com//blog/2018/01/30/people-say/luxun/180130-01/"/>
-    <id>http://www.wrran.com//blog/2018/01/30/people-say/luxun/180130-01/</id>
-    <published>2018-01-30T04:16:12.000Z</published>
-    <updated>2019-08-15T19:59:16.511Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>记念几个死者和生者和未生者</p></blockquote><a id="more"></a><p>@鲁迅</p><p>目前的造物者，还是一个怯弱者。<br>他暗暗地使天地变异，却不敢毁灭一个这地球;暗暗地使生物衰亡，却不敢长存一切尸体;暗暗地使人类流血，却不敢使血色永远鲜秾;暗暗地使人类受苦，却不敢使人类永远记得。<br>他专为他的同类——人类中的怯弱者——设想，用废墟荒坟来衬托华屋，用时光来冲淡苦痛和血痕;日日斟出一杯微甘的苦酒，不太少，不太多，以能微醉为度，递给人间，使饮者可以哭，可以歌，也如醒，也如醉，若有知，若无知，也欲死，也欲生。他必须使一切也欲生;他还没有灭尽人类的勇气。<br>几片废墟和几个荒坟散在地上，映以淡淡的血痕，人们都在其间咀嚼着人我的渺茫的悲苦。但是不肯吐弃，以为究竟胜于空虚，各各自称为“天之民”，以作咀嚼着人我的渺茫的悲苦的辩解，而且悚息着静待新的悲苦的到来，新的，这就使他们恐惧，而又渴欲相遇。<br>这都是造物主的良民。他就需要这样。<br>叛逆的猛士出于人间;他屹立着，洞见一切已改和现有的废墟和荒坟，记得一切深广和久远的苦痛，正视一切重叠淤积的凝血，深知一切已死，方生，将生和未生。他看透了造化的把戏;他将要起来使人类苏生，或者使人类灭尽，这些造物主的良民们。<br>造物主，怯弱者，羞惭了，于是伏藏。天地在猛士的眼中于是变色。<br>一九二六年四月八日</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;&lt;p&gt;记念几个死者和生者和未生者&lt;/p&gt;&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
-    
-      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
-    
-    
-      <category term="people" scheme="http://www.wrran.com/tags/people/"/>
     
   </entry>
   
