@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://www.wrran.com/"/>
-  <updated>2019-08-16T07:32:10.643Z</updated>
+  <updated>2019-08-17T15:54:41.602Z</updated>
   <id>http://www.wrran.com/</id>
   
   <author>
@@ -17,11 +17,59 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>bash入门@linux</title>
+    <link href="http://www.wrran.com//blog/2019/08/17/learn/bash/index/"/>
+    <id>http://www.wrran.com//blog/2019/08/17/learn/bash/index/</id>
+    <published>2019-08-17T14:21:55.000Z</published>
+    <updated>2019-08-17T15:54:41.602Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p><strong>B</strong>ourne-<strong>A</strong>gain <strong>SH</strong>ell; <strong>B</strong>orn <strong>A</strong>gain <strong>SH</strong>ell</p></blockquote><a id="more"></a><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>入门指的是由<em>使用</em>驱动的学习。</p><h1 id="Functions"><a href="#Functions" class="headerlink" title="Functions"></a>Functions</h1><p>Shell的职责有：</p><ol><li>程序执行：负责执行终端中指定的所有程序；</li><li>变量及其替换：只要在命令行中将变量名放置在<code>$</code>之后，就会被bash替换为对应的变量值；</li><li>I/O重定向：负责处理输入/输出的重定向；指令有<code>&gt;</code>（写入），<code>&lt;</code>（读入），<code>&gt;&gt;</code>（追写），<code>&lt;&lt;</code>（？）；</li><li>管道：负责将前一个命令的标准输出连接到之后命令的标准输入；管道符号为<code>|</code>，如<code>who | wc -l</code>；</li><li>环境控制：定制个人环境的命令；个人环境包括主目录（<code>~</code>）、命令行提示符及用于搜索待执行程序的目录列表；</li><li>解释型编程语言：内建的解释型编程语言；分析所遇到的每一条语句，然后执行所发现的有效命令。</li></ol><h1 id="Variable-amp-its-Replacement"><a href="#Variable-amp-its-Replacement" class="headerlink" title="Variable &amp; its Replacement"></a>Variable &amp; its Replacement</h1><h2 id="Variable"><a href="#Variable" class="headerlink" title="Variable"></a>Variable</h2><p>匹配变量的正则表达式为<code>[a-zA-Z_][a-zA-Z0-9_]*</code>。<br><strong>变量赋值</strong>形如<code>variable=value</code>；<br><strong>显示变量值</strong>形如<code>echo $variable</code>.</p><p>bash在执行指令时，按照如下顺序进行操作：</p><ol start="0"><li><strong>命令分割</strong>：依据空格字符（一个或多个）分割命令与参数；</li><li><strong>变量替换</strong>：扫描命令行，用变量值替换变量名；</li><li><strong>引用字符替换</strong>：扫描上一步的输出，将<em>引用字符</em>替换为其语义所指表示；</li><li><strong>命令执行</strong>：执行上一步的输出。</li></ol><p>特殊字符有<code>*</code>，代表当前目录下的所有文件及文件名；之外，还有四种不同的引用字符：<code>&#39;</code>（单引号）/<code>&quot;</code>（双引号）/<code>\</code>/ <strong>`</strong>（反引号）;<br>其中除斜杠外，其他引用字符都需要成对出现。</p><p><code>&#39;</code>（单引号）：被单引号包裹的特殊字符将被忽略；<br><code>&quot;</code>（双引号）：被双引号包裹的字符大部分都会被保护，除了三种字符<code>$</code>（美元字符）/<code>\</code>（反斜线）/ <strong>`</strong>（反引号）；<br><code>\</code>（反斜线）：反斜线大部分情况下相当于在单个字符周围放置单引号；当反斜线出现在输入行的最后一个，起到续行符的作用；<br><strong>`</strong>（反引号）：反引号一般包裹待执行的命令；命令输出会被插入到它的当前所在位置上；但注意更提倡使用与之等价的 <code>$(command)</code>。</p><p>示例：<br></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="built_in">echo</span> <span class="string">"&lt;&lt;&lt; echo \$x &gt;&gt;&gt; displays the value of x, which is <span class="variable">$x</span>"</span></span><br><span class="line"><span class="built_in">echo</span> <span class="string">'&lt;&lt;&lt; echo \$x &gt;&gt;&gt; displays the value of x, which is'</span> <span class="variable">$x</span></span><br><span class="line"><span class="built_in">echo</span> Your current working directory is $(<span class="built_in">pwd</span>)</span><br></pre></td></tr></table></figure><p></p><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><p><a href="https://book.douban.com/subject/30410589/" target="_blank" rel="noopener">UNIX/Linux/OS X中的Shell编程@ISBN: 9787115470416</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;&lt;strong&gt;B&lt;/strong&gt;ourne-&lt;strong&gt;A&lt;/strong&gt;gain &lt;strong&gt;SH&lt;/strong&gt;ell; &lt;strong&gt;B&lt;/strong&gt;orn &lt;strong&gt;A&lt;/strong&gt;gain &lt;strong&gt;SH&lt;/strong&gt;ell&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+    
+      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+    
+    
+      <category term="bash" scheme="http://www.wrran.com/tags/bash/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>pytest@python</title>
+    <link href="http://www.wrran.com//blog/2019/08/16/learn/pytest/index/"/>
+    <id>http://www.wrran.com//blog/2019/08/16/learn/pytest/index/</id>
+    <published>2019-08-16T11:16:15.000Z</published>
+    <updated>2019-08-17T14:18:16.352Z</updated>
+    
+    <content type="html"><![CDATA[<blockquote><p>不失败即成功</p></blockquote><a id="more"></a><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>The <code>pytest</code> framework makes it easy to write small tests, yet scales to support complex functional testing for applications and libraries.</p><p><strong>Features</strong><br>该测试框架有以下特征：</p><ul><li>详细的测试失败日志；</li><li>自动发现需要测试的组件和/或方法；</li><li>提供模块化的设施，可支持或小或大或参数化的复杂场景；</li><li>支持测试框架<code>unittest</code>及<code>nose</code>；</li><li>支持插件，已有315+外部插件；社区良好。</li></ul><p><strong>Documentation</strong><br><a href="http://docs.pytest.org/en/latest/contents.html#toc" target="_blank" rel="noopener">http://docs.pytest.org/en/latest/contents.html#toc</a></p><h1 id="Modular-Fixtures"><a href="#Modular-Fixtures" class="headerlink" title="Modular Fixtures"></a>Modular Fixtures</h1><p>More info sees <a href="http://docs.pytest.org/en/latest/fixture.html#fixture" target="_blank" rel="noopener">http://docs.pytest.org/en/latest/fixture.html#fixture</a>.</p><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><p><a href="http://docs.pytest.org/en/latest/" target="_blank" rel="noopener">http://docs.pytest.org/en/latest/</a></p>]]></content>
+    
+    <summary type="html">
+    
+      &lt;blockquote&gt;&lt;p&gt;不失败即成功&lt;/p&gt;&lt;/blockquote&gt;
+    
+    </summary>
+    
+      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+    
+      <category term="pytest" scheme="http://www.wrran.com/categories/learn/pytest/"/>
+    
+    
+      <category term="pytest" scheme="http://www.wrran.com/tags/pytest/"/>
+    
+  </entry>
+  
+  <entry>
     <title>深入理解Hexo</title>
     <link href="http://www.wrran.com//blog/2019/08/16/learn/hexo/index/"/>
     <id>http://www.wrran.com//blog/2019/08/16/learn/hexo/index/</id>
     <published>2019-08-16T05:40:00.000Z</published>
-    <updated>2019-08-16T07:32:10.643Z</updated>
+    <updated>2019-08-16T09:36:09.297Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>纸上得来终觉浅，绝知此事要躬行</p></blockquote><a id="more"></a><h1 id="Introduction"><a href="#Introduction" class="headerlink" title="Introduction"></a>Introduction</h1><p>Hexo 是一个快速、简洁且高效的博客框架。Hexo 使用 Markdown（或其他渲染引擎）解析文章，在几秒内，即可利用靓丽的主题生成静态网页。</p><h1 id="Structure-of-Workspace"><a href="#Structure-of-Workspace" class="headerlink" title="Structure of Workspace"></a>Structure of Workspace</h1><p>安装 Hexo 完成后，请执行下列命令，Hexo 将会在指定文件夹中新建所需要的文件。<br></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line">hexo init &lt;folder&gt;</span><br><span class="line"><span class="built_in">cd</span> &lt;folder&gt;</span><br><span class="line">npm install</span><br></pre></td></tr></table></figure><p></p><p>新建完成后，指定文件夹的目录如下：<br></p><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br></pre></td><td class="code"><pre><span class="line">.</span><br><span class="line">├── _config.yml</span><br><span class="line">├── package.json</span><br><span class="line">├── scaffolds</span><br><span class="line">├── source</span><br><span class="line">|   ├── _drafts</span><br><span class="line">|   └── _posts</span><br><span class="line">└── themes</span><br></pre></td></tr></table></figure><p></p><p>文件或文件夹的功能如下：</p><table><thead><tr><th style="text-align:center">ITEM</th><th style="text-align:left">NOTE</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center">_config.yml</td><td style="text-align:left">配置文件</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">package.json</td><td style="text-align:left">应用程序的信息</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">scaffolds</td><td style="text-align:left">模版文件夹</td><td style="text-align:left">新建文章时，将根据scaffold来建立文件，填充指定内容。</td></tr><tr><td style="text-align:center">source</td><td style="text-align:left">资源文件夹</td><td style="text-align:left">除<code>_posts</code>文件夹之外，开头命名为<code>_</code>的文件/文件夹和隐藏的文件将会被忽略。<code>Markdown</code>和<code>HTML</code>文件会被解析并放到 <code>public</code>文件夹，而其他文件会被拷贝过去。</td></tr><tr><td style="text-align:center">themes</td><td style="text-align:left">主题文件夹</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">db.json</td><td style="text-align:left"><strong>生成</strong>的缓存文件</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">public</td><td style="text-align:left"><strong>生成</strong>的静态文件夹</td><td style="text-align:left">?</td></tr></tbody></table><p>More Info see <a href="https://hexo.io/zh-cn/docs/setup" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/setup</a>.</p><h1 id="Structure-of-Configure"><a href="#Structure-of-Configure" class="headerlink" title="Structure of Configure"></a>Structure of Configure</h1><p>More info see <a href="https://hexo.io/zh-cn/docs/configuration" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/configuration</a>.</p><p>您可以在<code>_config.yml</code>中修改大部分的配置。</p><p><strong>Site</strong><br><strong>URL</strong><br><strong>Directory</strong><br><strong>Writing</strong><br><strong>Category &amp; Tag</strong><br><strong>Date / Time format</strong><br><strong>Pagination</strong><br><strong>Extensions</strong><br><strong>Include/Exclude Files or Folders</strong><br><strong>Using an Alternate Config</strong><br><strong>Overriding Theme Config</strong></p><h1 id="Interface-of-Commands"><a href="#Interface-of-Commands" class="headerlink" title="Interface of Commands"></a>Interface of Commands</h1><p>More info see <a href="https://hexo.io/zh-cn/docs/commands" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/commands</a>.</p><table><thead><tr><th style="text-align:left">COMMANDS</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th><th style="text-align:center">DEMO</th><th style="text-align:left">NOTE</th></tr></thead><tbody><tr><td style="text-align:left"><strong>init</strong></td><td style="text-align:left">新建一个网站</td><td style="text-align:left">默认在当前文件夹建立网站</td><td style="text-align:center"><code>hexo init [folder=.]</code></td><td style="text-align:left">-</td></tr><tr><td style="text-align:left"><strong>new</strong></td><td style="text-align:left">新建一篇文章</td><td style="text-align:left">如果<code>title</code>包含空格的话，请使用引号括起来</td><td style="text-align:center"><code>hexo new [layout=default_layout@config] &lt;title&gt;</code></td><td style="text-align:left"><a href="https://hexo.io/zh-cn/docs/commands#new" target="_blank" rel="noopener">path/replace/slug</a></td></tr><tr><td style="text-align:left"><strong>generate</strong></td><td style="text-align:left">生成静态文件</td><td style="text-align:left">简写为<code>hexo g</code></td><td style="text-align:center"><code>hexo generate</code></td><td style="text-align:left"><a href="https://hexo.io/zh-cn/docs/commands#generate" target="_blank" rel="noopener">deploy/watch/bail/force</a></td></tr><tr><td style="text-align:left"><strong>publish</strong></td><td style="text-align:left">发表草稿</td><td style="text-align:left">-</td><td style="text-align:center"><code>hexo publish [layout] &lt;filename&gt;</code></td><td style="text-align:left">-</td></tr><tr><td style="text-align:left"><strong>server</strong></td><td style="text-align:left">启动服务器</td><td style="text-align:left">-</td><td style="text-align:center"><code>hexo server [--port=4000]</code></td><td style="text-align:left"><a href="https://hexo.io/zh-cn/docs/commands#server" target="_blank" rel="noopener">port/static/log</a></td></tr><tr><td style="text-align:left"><strong>deploy</strong></td><td style="text-align:left">部署网站</td><td style="text-align:left">简写为<code>hexo g</code></td><td style="text-align:center"><code>hexo deploy</code></td><td style="text-align:left"><a href="https://hexo.io/zh-cn/docs/commands#deploy" target="_blank" rel="noopener">generate</a></td></tr><tr><td style="text-align:left"><strong>render</strong></td><td style="text-align:left">渲染文件</td><td style="text-align:left">-</td><td style="text-align:center"><code>hexo render &lt;file1&gt; [file2] ...</code></td><td style="text-align:left"><a href="https://hexo.io/zh-cn/docs/commands#render" target="_blank" rel="noopener">output</a></td></tr><tr><td style="text-align:left"><strong>migrate</strong></td><td style="text-align:left">从其他博客系统迁移内容</td><td style="text-align:left">-</td><td style="text-align:center"><code>hexo migrate &lt;type&gt;</code></td><td style="text-align:left">-</td></tr><tr><td style="text-align:left"><strong>clean</strong></td><td style="text-align:left">清除缓存文件和已生成的静态文件</td><td style="text-align:left">-</td><td style="text-align:center"><code>hexo clean</code></td><td style="text-align:left">-</td></tr><tr><td style="text-align:left"><strong>list</strong></td><td style="text-align:left">列出网站资料</td><td style="text-align:left">-</td><td style="text-align:center"><code>hexo list &lt;type&gt;</code></td><td style="text-align:left">-</td></tr><tr><td style="text-align:left"><strong>version</strong></td><td style="text-align:left">显示Hexo版本</td><td style="text-align:left">-</td><td style="text-align:center"><code>hexo version</code></td><td style="text-align:left">-</td></tr></tbody></table><table><thead><tr><th style="text-align:center">OPTIONS</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>--safe</code></td><td style="text-align:left">在安全模式下，不会载入插件和脚本</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>--debug</code></td><td style="text-align:left">在终端中显示调试信息并记录到<code>debug.log</code></td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>--silent</code></td><td style="text-align:left">隐藏终端信息</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>--config</code></td><td style="text-align:left">覆写配置文件的路径</td><td style="text-align:left"><a href="https://hexo.io/zh-cn/docs/commands#自定义配置文件的路径" target="_blank" rel="noopener">细则</a></td></tr><tr><td style="text-align:center"><code>--cwd /path/to/cwd</code></td><td style="text-align:left">自定义当前工作目录</td><td style="text-align:left"><strong>C</strong>urrent <strong>W</strong>orking <strong>D</strong>irectory</td></tr><tr><td style="text-align:center"><code>--draft</code></td><td style="text-align:left">显示<code>source/_drafts</code>文件夹中的草稿文章</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="Interoperability-of-Frameworks"><a href="#Interoperability-of-Frameworks" class="headerlink" title="Interoperability of Frameworks"></a>Interoperability of Frameworks</h1><p>非核心功能。该部分主要是将其他框架的博客转换成合法的hexo结构，多通过其他包来完成该功能；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/migration" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/migration</a>.</p><h1 id="Basic-Usage"><a href="#Basic-Usage" class="headerlink" title="Basic Usage"></a>Basic Usage</h1><p>该部分是面向终端用户的教程。</p><h2 id="Writing"><a href="#Writing" class="headerlink" title="Writing"></a>Writing</h2><h3 id="Config"><a href="#Config" class="headerlink" title="Config"></a>Config</h3><p>可以通过修改<code>_config.yml</code>中的<code>default_layout</code>参数来指定默认布局。<br>More info see <a href="https://hexo.io/docs/writing.html" target="_blank" rel="noopener">https://hexo.io/docs/writing.html</a>.</p><h3 id="Front-matter"><a href="#Front-matter" class="headerlink" title="Front-matter"></a>Front-matter</h3><p><code>Front-matter</code>是文件最上方以<code>---</code>分隔的区域，用于指定个别文件的变量。<br>More info see <a href="https://hexo.io/zh-cn/docs/front-matter" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/front-matter</a>.</p><h3 id="Tag-Plugins"><a href="#Tag-Plugins" class="headerlink" title="Tag Plugins"></a>Tag Plugins</h3><p>标签插件和<code>Front-matter</code>中的标签不同，它们是用于在文章中快速插入特定内容的插件。<br>More info see <a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/tag-plugins</a>.</p><h3 id="Asset-Folders"><a href="#Asset-Folders" class="headerlink" title="Asset Folders"></a>Asset Folders</h3><p>资源（Asset）代表<code>source</code>文件夹中除了文章以外的所有文件。如将少量图片放在<code>source/images</code>文件夹中，后通过<code>![](/images/image.jpg)</code>访问。<br>More info see <a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/tag-plugins</a>.</p><h3 id="Data-Files"><a href="#Data-Files" class="headerlink" title="Data Files"></a>Data Files</h3><p>有时您可能需要在主题中使用某些资料，而这些资料并不在文章内，并且是需要重复使用的，那么您可以考虑使用<strong>Hexo 3.</strong>新增的「数据文件」功能。<br>此功能会载入<code>source/_data</code>内的YAML或JSON文件，如此一来您便能在网站中复用这些文件了。<br>More info see <a href="https://hexo.io/zh-cn/docs/tag-plugins" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/tag-plugins</a>.</p><h2 id="Server"><a href="#Server" class="headerlink" title="Server"></a>Server</h2><p>该部分阐述<code>hexo server</code>相关问题，已移植到单独的模块中进行开发；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/server" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/server</a>.</p><h2 id="Generating"><a href="#Generating" class="headerlink" title="Generating"></a>Generating</h2><p>生成静态文件；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/generating" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/generating</a>.</p><h2 id="Deployments"><a href="#Deployments" class="headerlink" title="Deployments"></a>Deployments</h2><p>部署网站；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/deployment" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/deployment</a>.</p><h1 id="Customization"><a href="#Customization" class="headerlink" title="Customization"></a>Customization</h1><p>More info see <a href="https://hexo.io/docs/permalinks" target="_blank" rel="noopener">https://hexo.io/docs/permalinks</a>.<br></p><h2 id="Permalinks"><a href="#Permalinks" class="headerlink" title="Permalinks"></a>Permalinks</h2><p>您可以在<code>_config.yml</code>配置中调整网站的永久链接或者在每篇文章的Front-matter中指定。<br>More info see <a href="https://hexo.io/zh-cn/docs/permalinks" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/permalinks</a>.</p><h2 id="Themes"><a href="#Themes" class="headerlink" title="Themes"></a>Themes</h2><p>创建Hexo主题；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/themes" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/themes</a>.</p><h2 id="Templates"><a href="#Templates" class="headerlink" title="Templates"></a>Templates</h2><p>高级用户如何通过模板来定制网站内容的呈现方式；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/templates" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/templates</a>.</p><h3 id="Helpers"><a href="#Helpers" class="headerlink" title="Helpers"></a>Helpers</h3><p>辅助函数帮助您在模版中快速插入内容。辅助函数不能在源文件中使用。<br>More info see <a href="https://hexo.io/zh-cn/docs/helpers" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/helpers</a>.</p><h2 id="Variables"><a href="#Variables" class="headerlink" title="Variables"></a>Variables</h2><p>骨灰级用户的变量索引表。<br>More info see <a href="https://hexo.io/zh-cn/docs/variables" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/variables</a>.</p><h2 id="i18n"><a href="#i18n" class="headerlink" title="i18n"></a>i18n</h2><p>常见需求；若要让您的网站以不同语言呈现，您可使用国际化（internationalization）功能；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/internationalization" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/internationalization</a>.</p><h2 id="Plugins"><a href="#Plugins" class="headerlink" title="Plugins"></a>Plugins</h2><p>面向将入开发级用户；Hexo有强大的插件系统，使您能轻松扩展功能而不用修改核心模块的源码；暂略。<br>More info see <a href="https://hexo.io/zh-cn/docs/plugins" target="_blank" rel="noopener">https://hexo.io/zh-cn/docs/plugins</a>.</p><h1 id="References"><a href="#References" class="headerlink" title="References"></a>References</h1><p><a href="https://hexo.io/zh-cn/docs/" target="_blank" rel="noopener">hexo.io</a></p>]]></content>
     
@@ -123,7 +171,7 @@
     <link href="http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/"/>
     <id>http://www.wrran.com//blog/2019/08/14/people-say/me/190814-01/</id>
     <published>2019-08-13T16:00:00.000Z</published>
-    <updated>2019-08-16T09:45:06.802Z</updated>
+    <updated>2019-08-16T09:51:59.846Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>政治生活没有银弹，不要指望依靠某种制度得到优胜，制度改革永不会止步。</p></blockquote>]]></content>
     
@@ -137,8 +185,6 @@
     </summary>
     
       <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
-    
-      <category term="me" scheme="http://www.wrran.com/categories/people-say/me/"/>
     
     
       <category term="me" scheme="http://www.wrran.com/tags/me/"/>
@@ -414,7 +460,7 @@
     <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-04/"/>
     <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-04/</id>
     <published>2018-03-12T15:08:17.000Z</published>
-    <updated>2019-08-16T09:46:58.470Z</updated>
+    <updated>2019-08-16T09:51:04.502Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>我又愿中国青年都只是向上走，不必理会这冷笑和暗箭。</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>从一封匿名信里看见一句话，是“数麻石片”（原注江苏方言），大约是没有本领便不必提倡改革，不如去数石片的好的意思。因此又记起了本志通信栏内所载四川方言的“洗煤炭”。想来别省方言中，相类的话还多；守着这专劝人自暴自弃的格言的人，也怕并不少。<br>凡中国人说一句话，做一件事，倘与传来的积习有若干抵触，须一个金斗便告成功，才有立足的处所；而且被恭维得烙铁一般热。否则免不了标新立异的罪名，不许说话；或者竟成了大逆不道，为天地所不容。这一种人，从前本可以夷到九族，连累邻居；现在却不过是几封匿名信罢了。但意志略略薄弱的人便不免因此萎缩，不知不觉的也入了“数麻石片”党。<br>所以现在的中国，社会上毫无改革，学术上没有发明，美术上也没有创作；至于多人继续的研究，前仆后继的探险，那更不必提了。国人的事业，大抵是专谋时式的成功的经营，以及对于一切的冷笑。<br>但冷笑的人，虽然反对改革，却又未必有保守的能力；即如文字一面，白话固然看不上眼，古文也不甚提得起笔。照他的学说，本该去“数麻石片”了；他却又不然，只是莫名其妙的冷笑。<br>中国的人，大抵在如此空气里成功，在如此空气里萎缩腐败，以至老死。<br>我想，人猿同源的学说，大约可以毫无疑义了。但我不懂，何以从前的古猴子，不都努力变人，却到现在还留着子孙，变把戏给人看。还是那时竟没有一匹想站起来学说人话呢?还是虽然有了几匹，却终被猴子社会攻击他标新立异，都咬死了；所以终于不能进化呢?<br>尼采式的超人，虽然太觉渺茫，但就世界现有人种的事实看来，却可以确信将来总有尤为高尚尤近圆满的人类出现。到那时候，类人猿上面，怕要添出“类猿人”这一名词。<br>所以我时常害怕，愿中国青年都摆脱冷气，只是向上走，不必听自暴自弃者流的话。能做事的做事，能发声的发声。有一分热，发一分光，就令萤火一般，也可以在黑暗里发一点光，不必等候炬火。<br>此后如竟没有炬火：我便是唯一的光。倘若有了炬火，出了太阳，我们自然心悦诚服的消失，不但毫无不平，而且还要随喜赞美这炬火或太阳；因为他照了人类，连我都在内。<br>我又愿中国青年都只是向上走，不必理会这冷笑和暗箭。<br>尼采说：<br>“真的，人是一个浊流。应该是海了，能容这浊流使他干净。<br>“咄，我教你们超人：这便是海，在他这里，能容下你们的大侮蔑。”（《札拉图如是说》的《序言》第三节）<br>纵令不过一洼浅水，也可以学学大海；横竖都是水，可以相通。几粒石子，任他们暗地里掷来；几滴秽水，任他们从背后泼来就是了。<br>这还算不到“大侮蔑”——因为大侮蔑也须有胆力。</p>]]></content>
     
@@ -426,8 +472,6 @@
     
       <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
     
-      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
-    
     
       <category term="LuXun" scheme="http://www.wrran.com/tags/LuXun/"/>
     
@@ -438,7 +482,7 @@
     <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-03/"/>
     <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-03/</id>
     <published>2018-03-12T15:06:30.000Z</published>
-    <updated>2019-08-16T09:46:50.731Z</updated>
+    <updated>2019-08-16T09:51:49.192Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>各各如此走去，便是进化的路</p></blockquote><a id="more"></a><p>@鲁迅</p><p>凡有高等动物，倘没有遇着意外的变故，总是从幼到壮，从壮到老，从老到死。<br>我们从幼到壮，既然好不为奇的过去了；自此以后，自然也该毫不为奇的过去。<br>可惜有一种人，从幼到壮，居然也毫不为奇的过去了；从壮到老，便有点古怪；从老到死，却更奇想天开，要占尽了少年的道路，吸尽了少年的空气。<br>少年在这时候，只能先行萎黄，且待将来老了，神经血管一切变质以后，再来活动。所以社会上的状态，先是“少年老成”；直待弯腰曲背时期，才更加“逸兴遄飞”，似乎从此之后，才上了做人的路。<br>可是究竟也不能自忘其老；所以想求神仙。大约别的都可以老，只有自己不肯老的人物，总该推中国老先生算一甲一名。<br>万一当真成了神仙，那便永远请他主持，不必再有后进，原也是极好的事。可惜他又究竟不成，终于个个死去，只留下造成的老天地，教少年驼着吃苦。<br>这真是生物界的怪现象！<br>我想种族的延长，——便是生命的连续，——的确是生物界事业里的一大部分。何以要延长呢?不消说是想进化了。但进化的途中总须新陈代谢。所以新的应该欢天喜地的向前走，这边是壮，旧的也应该欢天喜地的向前走去，这便是死；各各如此走去，便是进化的路。<br>老的让开道，催促着，奖励着，让他们走去。路上有深渊，便用那个死填平了，让他们走去。<br>少的感谢他们填了深渊，给自己老去；老的也感谢他们从我填平的深渊上走去。——远了远了。<br>明白这事，便是从幼到壮到老到死，都欢欢喜喜的过去；而且一步一步，多是超过祖先的新人。<br>这是生物界正当开阔的路！人类的祖先，都已这样做了。</p>]]></content>
     
@@ -450,8 +494,6 @@
     
       <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
     
-      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
-    
     
       <category term="LuXun" scheme="http://www.wrran.com/tags/LuXun/"/>
     
@@ -462,7 +504,7 @@
     <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-02/"/>
     <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-02/</id>
     <published>2018-03-12T15:05:49.000Z</published>
-    <updated>2019-08-16T09:46:46.131Z</updated>
+    <updated>2019-08-16T09:51:45.934Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>不平还是改造的引线，但必须先改造了自己，再改造社会，改造世界</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>古来很有几位恨恨而死的人物。他们一面说些“怀才不遇”“天道宁论”的话，一面有钱的便狂嫖滥赌，没钱的便喝几十碗酒，——因为不平的缘故，于是后来就恨恨而死了。<br>我们应该趁他们活着的时候问他：诸公！您知道北京离昆仓山几里，弱水去黄河几丈么?火药除了做鞭爆，罗盘除了看风水，还有什么用处么?棉花是红的还是白的?谷子是长在树上，还是长在草上?桑间濮上如何情形，自由恋爱怎样态度?您在半夜里可忽然觉得有些羞，清早上可居然有点悔么?四斤的担，您能挑么?三里的道，您能跑么?<br>他们如果细细的想，慢慢的悔了，这便很有些希望。万一越发不平，越发愤怒，那便“爱莫能助”。——于是他们终于恨恨而死了。<br>中国现在的人心中，不平和愤恨的分子太多了。不平还是改造的引线，但必须先改造了自己，再改造社会，改造世界；万不可单是不平。至于愤恨，却几乎全无用处。<br>愤恨只是恨恨而死的根苗，古人有过许多，我们不要蹈他们的覆辙。<br>我们更不要借了“天下无公理，无人道”这些话，遮盖自暴自弃的行为，自称“恨人”，一副恨恨而死的脸孔，其实并不恨恨而死。</p>]]></content>
     
@@ -474,8 +516,6 @@
     
       <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
     
-      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
-    
     
       <category term="LuXun" scheme="http://www.wrran.com/tags/LuXun/"/>
     
@@ -486,7 +526,7 @@
     <link href="http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-01/"/>
     <id>http://www.wrran.com//blog/2018/03/12/people-say/luxun/180312-01/</id>
     <published>2018-03-12T15:04:55.000Z</published>
-    <updated>2019-08-16T09:46:40.558Z</updated>
+    <updated>2019-08-16T09:51:42.460Z</updated>
     
     <content type="html"><![CDATA[<blockquote><p>但是对于一切幼者的爱。</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>做了《我们现在怎样做父亲》的后两日，在有岛武郎《著作集》里看到《与幼者》这一篇小说，觉得很有许多好的话。<br>“时间不住的移过去。你们的父亲的我，到那时候，怎样映在你们（眼）里，那是不能想像的了。大约像我在现在，嗤笑可怜那过去的时代一般，你们也要嗤笑可怜我的古老的心思，也未可知的。我为你们计，但愿这样子。你们若不是毫不客气的拿我做一个踏脚，超越了我，向着高的远的地方进去，那便是错的。<br>“人间很寂寞。我单能这样说了就算么?你们和我，像尝过血的兽一样，尝过爱了。去罢，为要将我的周围从寂寞中救出，竭力做事罢。我爱过你们，而且永远爱着。这并不是说，要从你们受父亲的报酬，我对于‘教我学会了爱你们的你们’的要求，只是受取我的感谢罢了……像吃尽了亲的死尸，贮着力量的小狮子一样，刚强勇猛，舍了我，踏到人生上去就是了。<br>“我的一生就令怎样失败，怎样胜不了诱惑；但无论如何，使你们从我的足迹上寻不出不纯的东西的事，是要做的，是一定做的。你们该从我的倒毙的所在，跨出新的脚步去。但那里走，怎么走的事，你们也可以从我的足迹上探索出来。<br>“幼者呵！将又不幸又幸福的你们的父母的祝福，浸在胸中，上人生的旅路罢。前途很远，也很暗。然而不要怕。不怕的人的面前才有路。<br>“走罢！勇猛着！幼者呵！”<br>有岛氏是白桦派，是一个觉醒的，所以有这等话；但里面也免不了带些眷恋凄怆的气息。<br>这也是时代的关系。将来便不特没有解放的话，并且不起解放的心，更没有什么眷恋和凄怆；只有爱依然存在。——但是对于一切幼者的爱。</p>]]></content>
     
@@ -497,56 +537,6 @@
     </summary>
     
       <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
-    
-      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
-    
-    
-      <category term="LuXun" scheme="http://www.wrran.com/tags/LuXun/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>藤野先生</title>
-    <link href="http://www.wrran.com//blog/2018/03/09/people-say/luxun/180309-01/"/>
-    <id>http://www.wrran.com//blog/2018/03/09/people-say/luxun/180309-01/</id>
-    <published>2018-03-09T13:35:45.000Z</published>
-    <updated>2019-08-16T09:46:31.955Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>他的性格，在我的眼里和心里是伟大的，虽然他的姓名并不为许多人所知道。</p></blockquote><a id="more"></a><p>@ 鲁迅</p><p>东京也无非是这样。上野的樱花烂漫的时节，望去确也像绯红的轻云，但花下也缺不了成群结队的“清国留学生”的速成班，头顶上盘着大辫子，顶得学生制帽的顶上高高耸起，形成一座富士山。也有解散辫子的，盘得平的，除下帽来，油光可鉴，宛如小姑娘的发髻一般，还要将脖子扭几扭。实在标致极了。<br>中国留学生会馆的门房里有几本书买，有时还值得去一转；倘在上午，里面的几间洋房里倒也还可以坐坐的。但到傍晚，有一间的地板便常不免要咚咚咚地响震天，兼以满房烟尘斗乱；问问精通时事的人，答道，“那是在学跳舞。”<br>到别的地方去看看，如何呢?<br>我就往仙台的医学专门学校去。从东京出发，不久便到一处驿站，写道：日暮里。不知怎地，我到现在还记得这名目。次其却只记得水户了，这是明的遗民朱舜水先生客死的地方。仙台是一个市镇，并不大；冬天冷得利害；还没有中国的学生。<br>大概是物以希为贵罢。北京的白菜运往浙江，便用红头绳系住菜根，倒挂在水果店头，尊为“胶菜”；福建野生着的芦荟，一到北京就请进温室，且美其名曰“龙舌兰”。我到仙台也颇受了这样的优待，不但学校不收学费，几个职员还为我的食宿操心。我先是住在监狱旁边一个客店里的，初冬已经颇冷，蚊子却还多，后来用被盖了全身，用衣服包了头脸，只留两个鼻孔出气。在这呼吸不息的地方，蚊子竟无从插嘴，居然睡安稳了。饭食也不坏。但一位先生却以为这客店也包办囚人的饭食和我不相干，然而好意难却，也只得别寻相宜的住处了。于是搬到别一家，离监狱也很远，可惜每天总要喝难以下咽的芋梗汤。<br>从此就看见许多陌生的先生，听到许多新鲜的讲义。解剖学是两个教授分任的。最初是骨学。其时进来的是一个黑瘦的先生，八字须，戴着眼镜，挟着一叠大大小小的书。一将书放在讲台上，便用了缓慢而很有顿挫的声调，向学生介绍自己道：<br>“我就是叫做藤野严九郎的……。”<br>后面有几个人笑起来了。他接着便讲述解剖学在日本发达的历史，那些大大小小的书，便是从最初到现今关于这一学问的著作。起初有几本是线装的；还有翻刻中国译本的，他们的翻译和研究新的医学，并不比中国早。<br>那坐在后面发笑的是上学年不及格的留级学生，在校已经一年，掌故颇为熟悉的了。他们便给新生讲演每个教授的历史。这藤野先生，据说是穿衣服太模胡了，有时竟会忘记带领结；冬天是一件旧外套，寒颤颤的，有一回上火车去，致使管车的疑心他是扒手，叫车里的客人大家小心些。<br>他们的话大概是真的，我就亲见他有一次上讲堂没有带领结。<br>过了一星期，大约是星期六，他使助手来叫我了。到得研究室，见他坐在人骨和许多单独的头骨中间，——他其时正在研究着头骨，后来有一篇论文在本校的杂志上发表出来。<br>“我的讲义，你能抄下来么?”他问。<br>“可以抄一点。”<br>“拿来我看！”<br>我交出所抄的讲义去，他收下了，第二三天便还我，并且说，此后每一星期要送给他看一回。我拿下来打开看时，很吃了一惊，同时也感到一种不安和感激。原来我的讲义已经从头到末，都用红笔添改过了，不但增加了许多脱漏的地方，连文法的错误，也都一一订正。这样一直继续到教完了他所担任的功课：骨学，血管学，神经学。<br>可惜我那时太不用功，有时也很任性。还记得有一回藤野先生将我叫到他的研究室里去，翻出我那讲义上的一个图来，是下臂的血管，指着，向我和蔼的说道：<br>“你看，你将这条血管移了一点位置了。——自然，这样一移，的确比较的好看些，然而解剖图不是美术，实物是那么样的，我们没法切换它。现在我给你改好了，以后你要全照着黑板上那样的画。”<br>但是我还不服气，口头答应着，心里却想道：<br>“图还是我画的不错；至于实在的情形，我心里自然记得的。”<br>学年试验完毕之后，我便到东京玩了一夏天，秋初再回学校，成绩早已发表了，同学一百余人之中，我在中间，不过是没有落第。这回藤野先生所担任的功课，是解剖实习和局部解剖学。<br>解剖实习了大概一星期，他又叫我去了，很高兴地，仍用了极有抑扬的声调对我说道：<br>“我因为听说中国人是很敬重鬼的，所以很担心，怕你不肯解剖尸体。现在总算放心了，没有这回事。”<br>但他也偶有使我很为难的时候。他听说中国的女人是裹脚的，但不知道详细，所以要问我怎么裹法，足骨变成怎样的畸形，还叹息道，“总要看一看才知道。究竟是怎么一回事呢?”<br>有一天，本级的学生会干事到我寓里来了，要借我的讲义看。我检出来交给他们，却只翻检了一通，并没有带走。但他们一走，邮差就送到一封很厚的信，拆开看时，第一句是：<br>“你改悔罢！”<br>这是《新约》上的句子罢，但经托尔斯泰新近引用过的。其时正值日俄战争，托老先生便写了一封给俄国和日本的皇帝的信，开首便是这一句。日本报纸上很斥责他的不逊，爱国青年也愤然，然而暗地里却早受了他的影响了。其次的话，大略是说上年解剖学试验的题目，是藤野先生在讲义上做了记号，我预先知道的，所以能有这样的成绩。末尾是匿名。<br>我这才回忆到前几天的一件事。因为要开同级会，干事便在黑板上写广告，末一句是“请全数到会勿漏为要”，而且在“漏”字旁边加了一个圈。我当时虽然觉到圈得可笑，但是毫不介意，这回才悟出那字也在讥刺我了，犹严我得了教员漏泄出来的题目。<br>我便将这事告知了藤野先生；有几个和我熟识的同学也很不平，一同去诘责干事托辞检查的无礼，并且要求他们将检查的结果，发表出来。终于这流言消灭了，干事却又竭力运动，要收回那一封匿名信去。结末是我便将这托尔斯泰式的信退还了他们。<br>中国是弱国，所以中国人当然是低能儿，分数在六十分以上，便不是自己的能力了：也无怪他们疑惑。但我接着便有参观枪毙中国人的命运了。第二年添教霉菌学，细菌的形状是全用电影来显示的，一段落已完而还没有到下课的时候，便影几片时事的片子，自然都是日本战胜俄国的情形。但偏有中国人夹在里边：给俄国人当侦探，被日本军捕获，要枪毙了，围着看的也是一群中国人；在讲堂里的还有一个我。<br>“万岁！”他们都拍掌欢呼起来。<br>这种欢呼，是每看一片都有的，但在我，这一声却特别听得刺耳。此后回到中国来，我看见那些闲看枪毙犯人的人们，他们也何尝不酒醉似的喝采，——呜呼，无法可想！但在那时那地，我的意见却变化了。<br>到第二学年的终结，我便去寻藤野先生，告诉他我将不学医学，并且离开这仙台。他的脸色仿佛有些悲哀，似乎想说话，但竟没有说。<br>“我想去学生物学，先生教给我的学问，也还有用的。”其实我并没有决意要学生物学，因为看得他有些凄然，便说了一句慰安他的谎话。<br>“为医学而教的解剖学之类，怕于生物学也没有什么大帮助。”他叹息说。<br>将走的前几天，他叫我到他家里去，交给我一张照相，后面写着两个字道：“惜别”，还说希望将我的也送他。但我这时适值没有照相了；他便叮嘱我将来照了寄给他，并且时时通信告诉他此后的状况。<br>我离开仙台之后，就多年没有照过相，又因为状况也无聊，说起来无非使他失望，便连信也怕敢写了。经过的年月一多，话更无从说起，所以虽然有时想写信，却又难以下笔，这样的一直到现在，竟没有寄过一封信和一张照片。从他那一面看起来，是一去之后，杳无消息了。<br>但不知怎地，我总还时时记起他，在我所认为我师的之中，他是最使我感激的，给我鼓励的一个。有时我常常想：他的对于我的热心的希望，不倦的教诲，小而言之，是为中国，就是希望中国有新的医学；大而言之，是为学术，就是希望新的医学传到中国去。他的性格，在我的眼里和心里是伟大的，虽然他的姓名并不为许多人所知道。<br>他所更改的讲义，我曾经订成三厚本，收藏着的，将作为永久的纪念。不幸七年前迁居的时候，中途毁坏了一口书箱，失去半箱书，恰巧这讲义也遗失在内了。责成运送局去找寻，寂无回信。只有他的照相至今还挂在我北京寓居的东墙上，书桌对面。每当夜间疲倦，正想偷懒时，仰面在灯光中瞥见他黑瘦的面貌，似乎正要说出抑扬顿挫的话来，便使我忽又良心发现，而且增加勇气了，于是点上一枝烟，再继续写些为“正人君子”之流所深恶痛疾的文字。<br>十月十二日。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;&lt;p&gt;他的性格，在我的眼里和心里是伟大的，虽然他的姓名并不为许多人所知道。&lt;/p&gt;&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
-    
-      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
-    
-    
-      <category term="LuXun" scheme="http://www.wrran.com/tags/LuXun/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>题记</title>
-    <link href="http://www.wrran.com//blog/2018/02/26/people-say/luxun/180226-01/"/>
-    <id>http://www.wrran.com//blog/2018/02/26/people-say/luxun/180226-01/</id>
-    <published>2018-02-26T09:40:10.000Z</published>
-    <updated>2019-08-16T09:46:26.940Z</updated>
-    
-    <content type="html"><![CDATA[<blockquote><p>我却觉得周围的空气太寒冽了，我自说我的话，所以反而称之曰《热风》。</p></blockquote><a id="more"></a><p>@鲁迅</p><p>现在有谁经过西长安街一带的，总可以看见几个衣履破碎的穷苦孩子叫卖报纸。记得三四年前，在他们身上偶而还剩有制服模样的残余；再早，就更体面，简直是童子军的拟态。<br>那是中华民国八年，即西历一九一九年，五月四日北京学生对于山东问题的示威运动以后，因为当时散传单的是童子军，不知怎的竟惹了投机家的注意，童子军式的卖报孩子就出现了。其年十二月，日本公使小幡酉吉抗议排日运动，情形和今年大致相同；只是我们的卖报孩子却穿破了第一身新衣以后，便不再做，只见得年不如年地显出穷苦。<br>我在《新青年》的《随感录》中做些短评，还在这前一年，因为所评论的多是小问题，所以无可道，原因也大都忘却了。但就现在的文字看起来，除几条泛论之外，有的是对于扶乩，静坐，打拳而发的；有的是对于所谓“保存国粹”而发的；有的是对于那时旧官僚的以经验自豪而发的；有的是对于上海《时报》的讽刺画而发的。记得当时的《新青年》是正在四面受敌之中，我所对付的不过一小部分；其他大事，则本志具在，无须我多言。<br>五四运动之后，我没有写什么文字，现在已经说不清是不做，还是散失消灭的了。但那时革新运动，表面上却颇有些成功，于是主张革新的也就蓬蓬勃勃，而且有许多还就是在先讥笑，嘲笑《新青年》的人们，但他们却是另起了一个冠冕堂皇的名目：新文化运动。这也就是后来又将这名目反套在《新青年》身上，而又加以嘲骂讥笑的，正如笑骂白话文的人，往往自称最得风气之先，早经主张过白话文一样。<br>再后，更无可道了。只记得一九二一年中的一篇是对于所谓“虚无哲学”而发的；而后一年则大抵对于上海之所谓“国学家”而发的，不知怎的那时忽而有许多人都自命为国学家了。<br>自《新青年》出版以来，一切应之而嘲骂改革，后来又赞成改革，后来又嘲骂改革者，现在拟态的制服早已破碎，显出自身的本相来了，所谓“事实胜于雄辩”，又何待于纸笔喉舌的批评。所以我的应时的浅薄的文字，也应该置之不顾，一任其消灭的；但几个朋友却以为现状和那时并没有大两样，也还可以存留，给我编辑起来了。这正是我所悲哀的。我以为凡对于时弊的攻击，文字须与时弊同时灭亡，因为这正如白血轮之酿成疮疖一般，倘非自身也被排除，则当它的生命的存留中，也即证明着病菌尚在。<br>但如果凡我所写，的确都是冷的呢?则它的生命原来就没有，更谈不到中国的病证究竟如何。然而，无情的冷嘲和有情的讽刺相去本不及一张纸，对于周围的感受和反应，又大概是所谓“如鱼饮水冷暖自知”的；我却觉得周围的空气太寒冽了，我自说我的话，所以反而称之曰《热风》。<br>一九二五年十一月三日之夜，鲁迅。</p>]]></content>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;&lt;p&gt;我却觉得周围的空气太寒冽了，我自说我的话，所以反而称之曰《热风》。&lt;/p&gt;&lt;/blockquote&gt;
-    
-    </summary>
-    
-      <category term="people-say" scheme="http://www.wrran.com/categories/people-say/"/>
-    
-      <category term="luxun" scheme="http://www.wrran.com/categories/people-say/luxun/"/>
     
     
       <category term="LuXun" scheme="http://www.wrran.com/tags/LuXun/"/>
