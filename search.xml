@@ -4,9 +4,91 @@
   
     
     <entry>
+      <title><![CDATA[传参@bash]]></title>
+      <url>http://www.wrran.com/blog/2019/08/19/learn/bash/pass-arguments/</url>
+      <content type="html"><![CDATA[<blockquote><p>众志成城</p></blockquote><a id="more"></a><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>流动的数据是程序的肉体。</p><h1 id="位置参数"><a href="#位置参数" class="headerlink" title="位置参数"></a>位置参数</h1><p>执行shell程序时，shell会自动将第一个参数保存在特殊的shell变量1中，并依次将后面参数保存到后面的变量上。这些特殊变量由于基于命令行所在的位置而命名为“位置参数”。</p><p><strong>位置参数</strong>是在shell完成正常的命令行处理之后（I/O重定向，变量替换，文件名替换）被赋值的。<br>注意：当提供给程序的参数多于9个时，没法直接访问到第10个及以后的参数的，必须使用格式<code>${n}</code>；否则如<code>$10</code>会被解析为第一个变量后加上字符<code>0</code>。</p><p>之外，命令<code>shift</code>可以左移位置参数。</p><h1 id="特殊变量"><a href="#特殊变量" class="headerlink" title="特殊变量"></a>特殊变量</h1><p>除了位置参数为，特殊shell变量<code>$#</code>包含了命令行中输入的参数个数；变量<code>$*</code>引用的是传给程序的所有参数。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>UNIX/Linux/OS X中的Shell编程@ISBN: 9787115470416：<a href="https://book.douban.com/subject/30410589/" target="_blank" rel="noopener">https://book.douban.com/subject/30410589/</a></p>]]></content>
+      
+        <categories>
+            
+            <category> learn </category>
+            
+            <category> bash </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> passing-arguments </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Commonly Commands @ bash]]></title>
+      <url>http://www.wrran.com/blog/2019/08/19/cheatsheet/reference/bash-cmds/</url>
+      <content type="html"><![CDATA[<blockquote><p>他说风雨中这点痛算什么<br>@ 水手</p></blockquote><a id="more"></a><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">MAN</th></tr></thead><tbody><tr><td style="text-align:center"><code>date</code></td><td style="text-align:left">显示日期和时间</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>who</code></td><td style="text-align:left">找出已登录的人员</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>echo</code></td><td style="text-align:left">回显字符</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>ls</code></td><td style="text-align:left">列举文件</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>cat</code></td><td style="text-align:left">显示文件内容</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>wc</code></td><td style="text-align:left">统计文件中单词数量</td></tr><tr><td style="text-align:center"><code>cp</code></td><td style="text-align:left">复制文件</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>mv</code></td><td style="text-align:left">文件重命名</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>rm</code></td><td style="text-align:left">删除文件</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>pwd</code></td><td style="text-align:left">显示工作目录</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>cd</code></td><td style="text-align:left">更改目录</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>mkdir</code></td><td style="text-align:left">创建目录</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>ln</code></td><td style="text-align:left">文件链接</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>rmdir</code></td><td style="text-align:left">删除目录</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>ps</code></td><td style="text-align:left">显示系统中所运行的进程的信息</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>cut</code></td><td style="text-align:left">从数据文件中提取出字段</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>paste</code></td><td style="text-align:left">合并多个字段</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>sed</code></td><td style="text-align:left">在管道或命令序列中编辑数据</td><td style="text-align:left"><strong>s</strong>tream <strong>ed</strong>itor</td></tr><tr><td style="text-align:center"><code>tr</code></td><td style="text-align:left">转换标准输入中的字符</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>grep</code></td><td style="text-align:left">在一个或多个文件中搜索指定模式</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>sort</code></td><td style="text-align:left">按照字母顺序排序并输出结果</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>uniq</code></td><td style="text-align:left">查找或删除文件中的重复行</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>shift</code></td><td style="text-align:left">左移位置参数</td><td style="text-align:left">-</td></tr></tbody></table>]]></content>
+      
+        <categories>
+            
+            <category> learn </category>
+            
+            <category> bash </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> bash-cmds </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[Commonly Variables @ bash]]></title>
+      <url>http://www.wrran.com/blog/2019/08/19/cheatsheet/reference/bash-vars/</url>
+      <content type="html"><![CDATA[<blockquote><p>bash虐我千百遍，我待其如初恋</p></blockquote><a id="more"></a><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>暂略。</p>]]></content>
+      
+        <categories>
+            
+            <category> learn </category>
+            
+            <category> bash </category>
+            
+        </categories>
+        
+        
+    </entry>
+    
+    <entry>
+      <title><![CDATA[函数@bash]]></title>
+      <url>http://www.wrran.com/blog/2019/08/18/learn/bash/function/</url>
+      <content type="html"><![CDATA[<blockquote><p>复用，复用，复用：经济又安全</p></blockquote><a id="more"></a><h1 id="介绍"><a href="#介绍" class="headerlink" title="介绍"></a>介绍</h1><p>shell中的函数（function）是指命令序列（定义），可引用或重用（语用）。</p><h1 id="格式"><a href="#格式" class="headerlink" title="格式"></a>格式</h1><p>一般格式如下：<br></p><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="function"><span class="title">name</span></span>() &#123; <span class="built_in">command</span>; ... <span class="built_in">command</span>; &#125;</span><br></pre></td></tr></table></figure><p></p><p>调用函数就像执行普通命令一样，输入<strong>函数名称</strong>即可执行。</p><h1 id="特性"><a href="#特性" class="headerlink" title="特性"></a>特性</h1><p>函数的重要特性是：</p><blockquote><p>命令行上出现在函数后的参数会依次分配给位置参数<code>$1</code>,<code>p2</code>，<code>$3</code>…。</p></blockquote><p>之外，还有一些特性值得注意：</p><ol><li>「子shell」：函数仅存在于它所定义的shell中，无法传给子shell；</li><li>「变量&amp;目录」：函数对于当前目录或变量作出的修改在函数执行完毕之后依然会保留。</li></ol><h1 id="优势"><a href="#优势" class="headerlink" title="优势"></a>优势</h1><p>函数的优势有：</p><ul><li>「速度更快」：是因为shell不需要搜索磁盘来查找程序、打开文件并将文件内容读入内存，只需要跳转到相应的位置；</li><li>「管理模块化」@&gt; 可以将相关的shell程序全都放进单个文件中。</li></ul><h1 id="函数的之外"><a href="#函数的之外" class="headerlink" title="函数的之外"></a>函数的之外</h1><p><strong>删除自定义的函数</strong>：使用带有<code>-f</code>选项的<code>unset</code>命令可以从shell中删除函数。</p><p><strong>从函数内部退出</strong>：</p><ul><li>命令<code>exit</code>：如果在函数内部使用<code>exit</code>，不仅会终止函数的执行，而且还会使得调用该函数的shell程序退出，返回到命令行。</li><li>命令<code>return</code>：如果您只是想退出函数，可以使用命令<code>return</code>，形如：<code>return n</code>，<code>n</code>作为该函数的「返回状态」。</li><li>缺省情况：如果忽略的话，则使用函数中最后执行的那条命令的「退出状态」，这种情况也适用于函数中没有包含<code>return</code>命令的时候。</li></ul><p>注意：返回状态在其他方面和退出状态一样：可以使用shell变量<code>$?</code>来访问它，也可以在<code>if</code>/<code>while</code>和<code>until</code>命令中对其进行测试。</p><p><strong>实践建议</strong>：可以将常用函数定义放入<code>.profile</code>中，或单独某文件如<code>myfuncs</code>，后在当前shell中执行该文件：<code>. myfuncs</code>。</p><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>UNIX/Linux/OS X中的Shell编程@ISBN: 9787115470416：<a href="https://book.douban.com/subject/30410589/" target="_blank" rel="noopener">https://book.douban.com/subject/30410589/</a></p>]]></content>
+      
+        <categories>
+            
+            <category> learn </category>
+            
+            <category> bash </category>
+            
+        </categories>
+        
+        
+        <tags>
+            
+            <tag> function@bash </tag>
+            
+        </tags>
+        
+    </entry>
+    
+    <entry>
       <title><![CDATA[重定向@bash]]></title>
       <url>http://www.wrran.com/blog/2019/08/18/learn/bash/redirect/</url>
-      <content type="html"><![CDATA[<blockquote><p>暂且离开自己又返回自己，只是返回的位置略有不同。<br>@ 村上春树</p></blockquote><a id="more"></a><h1 id="数据重定向"><a href="#数据重定向" class="headerlink" title="数据重定向"></a>数据重定向</h1><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>command &gt; stdout</code></td><td style="text-align:left">标准输出重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command &lt; stdin</code></td><td style="text-align:left">标准输入重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command 2&gt; stderr</code></td><td style="text-align:left">标准错误重定向</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="流重定向"><a href="#流重定向" class="headerlink" title="流重定向"></a>流重定向</h1><p>|COMMAND|DESCRIPTION|DETAILS|<br>|:-:|:-|:-|z<br>|<code>command &gt;&amp;2</code>|将标准输出重定向到标准错误|-|<br>|<code>command 2&gt;&amp;1</code>|将标准错误重定向到标准输出|-|</p><h1 id="动态重定向"><a href="#动态重定向" class="headerlink" title="动态重定向"></a>动态重定向</h1><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>exec &lt; datafile</code></td><td style="text-align:left">标准输入动态重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>exec &gt; datafile</code></td><td style="text-align:left">标准输出动态重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>exec 2&gt; datafile</code></td><td style="text-align:left">标准错误动态重定向</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="流行为重定向"><a href="#流行为重定向" class="headerlink" title="流行为重定向"></a>流行为重定向</h1><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>command &gt;&gt; stdout</code></td><td style="text-align:left">标准输出由默认覆写模式重定向为追加模式</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command &lt;&lt;word lines</code></td><td style="text-align:left">标准输入重定向为行内输入模式</td><td style="text-align:left">使用<code>lines</code>作为命令标准输入，直到碰到只含有<code>word</code>的行；并“附加操作”：进行参数替换、反引号命令执行，同时解析反斜杠的语义</td></tr><tr><td style="text-align:center"><code>command &lt;&lt;\word lines</code></td><td style="text-align:left">标准输入重定向为原封行内输入模式</td><td style="text-align:left">类似“行内输入模式”，不同在于不进行“附加操作”</td></tr><tr><td style="text-align:center"><code>command &lt;&lt;-word lines</code></td><td style="text-align:left">标准输入重定向为缩进行内输入模式</td><td style="text-align:left">类似“行内输出模式”，不同在于又“附加操作”：删除前导制表符</td></tr></tbody></table><h2 id="关闭流"><a href="#关闭流" class="headerlink" title="关闭流"></a>关闭流</h2><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>command &gt;&amp;-</code></td><td style="text-align:left">关闭标准输出</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command &lt;&amp;-</code></td><td style="text-align:left">关闭标准输入(？)</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>UNIX/Linux/OS X中的Shell编程@ISBN: 9787115470416：<a href="https://book.douban.com/subject/30410589。" target="_blank" rel="noopener">https://book.douban.com/subject/30410589。</a></p>]]></content>
+      <content type="html"><![CDATA[<blockquote><p>暂且离开自己又返回自己，只是返回的位置略有不同。<br>@ 村上春树</p></blockquote><a id="more"></a><h1 id="数据重定向"><a href="#数据重定向" class="headerlink" title="数据重定向"></a>数据重定向</h1><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>command &gt; stdout</code></td><td style="text-align:left">标准输出重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command &lt; stdin</code></td><td style="text-align:left">标准输入重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command 2&gt; stderr</code></td><td style="text-align:left">标准错误重定向</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="流重定向"><a href="#流重定向" class="headerlink" title="流重定向"></a>流重定向</h1><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>command &gt;&amp;2</code></td><td style="text-align:left">将标准输出重定向到标准错误</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command 2&gt;&amp;1</code></td><td style="text-align:left">将标准错误重定向到标准输出</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="动态重定向"><a href="#动态重定向" class="headerlink" title="动态重定向"></a>动态重定向</h1><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>exec &lt; datafile</code></td><td style="text-align:left">标准输入动态重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>exec &gt; datafile</code></td><td style="text-align:left">标准输出动态重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>exec 2&gt; datafile</code></td><td style="text-align:left">标准错误动态重定向</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="流行为重定向"><a href="#流行为重定向" class="headerlink" title="流行为重定向"></a>流行为重定向</h1><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>command &gt;&gt; stdout</code></td><td style="text-align:left">标准输出由默认覆写模式重定向为追加模式</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command &lt;&lt;word lines</code></td><td style="text-align:left">标准输入重定向为行内输入模式</td><td style="text-align:left">使用<code>lines</code>作为命令标准输入，直到碰到只含有<code>word</code>的行；并“附加操作”：进行参数替换、反引号命令执行，同时解析反斜杠的语义</td></tr><tr><td style="text-align:center"><code>command &lt;&lt;\word lines</code></td><td style="text-align:left">标准输入重定向为原封行内输入模式</td><td style="text-align:left">类似“行内输入模式”，不同在于不进行“附加操作”</td></tr><tr><td style="text-align:center"><code>command &lt;&lt;-word lines</code></td><td style="text-align:left">标准输入重定向为缩进行内输入模式</td><td style="text-align:left">类似“行内输出模式”，不同在于又“附加操作”：删除前导制表符</td></tr></tbody></table><h2 id="关闭流"><a href="#关闭流" class="headerlink" title="关闭流"></a>关闭流</h2><table><thead><tr><th style="text-align:center">COMMAND</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center"><code>command &gt;&amp;-</code></td><td style="text-align:left">关闭标准输出</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center"><code>command &lt;&amp;-</code></td><td style="text-align:left">关闭标准输入(？)</td><td style="text-align:left">-</td></tr></tbody></table><h1 id="参考资料"><a href="#参考资料" class="headerlink" title="参考资料"></a>参考资料</h1><p>UNIX/Linux/OS X中的Shell编程@ISBN: 9787115470416：<a href="https://book.douban.com/subject/30410589。" target="_blank" rel="noopener">https://book.douban.com/subject/30410589。</a></p>]]></content>
       
         <categories>
             
@@ -28,7 +110,7 @@
     <entry>
       <title><![CDATA[CS常用术语]]></title>
       <url>http://www.wrran.com/blog/2019/08/18/cheatsheet/cs-terms/</url>
-      <content type="html"><![CDATA[<blockquote><p>记住，是不可能记住的。</p></blockquote><a id="more"></a><table><thead><tr><th style="text-align:center">TERM</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center">avatar</td><td style="text-align:left">可移动图标</td><td style="text-align:left">如头像</td></tr><tr><td style="text-align:center">interoperability</td><td style="text-align:left">互操作性</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">fixture</td><td style="text-align:left">固定设施</td><td style="text-align:left">如测试套具（fixture）</td></tr><tr><td style="text-align:center">register</td><td style="text-align:left">注册表</td><td style="text-align:left">—</td></tr><tr><td style="text-align:center">archive</td><td style="text-align:left">归档</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">parameter</td><td style="text-align:left">形参</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">argument</td><td style="text-align:left">实参</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">redirect</td><td style="text-align:left">重定向</td><td style="text-align:left">-</td></tr></tbody></table>]]></content>
+      <content type="html"><![CDATA[<blockquote><p>记住，是不可能记住的。</p></blockquote><a id="more"></a><table><thead><tr><th style="text-align:center">TERM</th><th style="text-align:left">DESCRIPTION</th><th style="text-align:left">DETAILS</th></tr></thead><tbody><tr><td style="text-align:center">avatar</td><td style="text-align:left">可移动图标</td><td style="text-align:left">如头像</td></tr><tr><td style="text-align:center">interoperability</td><td style="text-align:left">互操作性</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">fixture</td><td style="text-align:left">固定设施</td><td style="text-align:left">如测试套具（fixture）</td></tr><tr><td style="text-align:center">register</td><td style="text-align:left">注册表</td><td style="text-align:left">—</td></tr><tr><td style="text-align:center">archive</td><td style="text-align:left">归档</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">parameter</td><td style="text-align:left">形参</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">argument</td><td style="text-align:left">实参</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">redirect</td><td style="text-align:left">重定向</td><td style="text-align:left">-</td></tr><tr><td style="text-align:center">cheatsheet</td><td style="text-align:left">小抄</td><td style="text-align:left">-</td></tr></tbody></table>]]></content>
       
         <categories>
             
@@ -1457,9 +1539,9 @@
             
             <tag> paper reading </tag>
             
-            <tag> reading comprehension </tag>
-            
             <tag> quesion and answering </tag>
+            
+            <tag> reading comprehension </tag>
             
         </tags>
         
@@ -3199,9 +3281,9 @@ return sorted;
         
         <tags>
             
-            <tag> asio </tag>
-            
             <tag> boost </tag>
+            
+            <tag> asio </tag>
             
         </tags>
         
