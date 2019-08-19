@@ -2,23 +2,30 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
-    <loc>http://www.wrran.com/blog/2019/08/19/learn/bash/pass-arguments/</loc>
+    <loc>http://www.wrran.com/blog/2019/08/19/cheatsheet/reference/bash-vars/</loc>
     
-    <lastmod>2019-08-19T00:29:18.556Z</lastmod>
+    <lastmod>2019-08-19T01:56:21.338Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2019/08/19/cheatsheet/reference/bash-vars/</loc>
+    <loc>http://www.wrran.com/blog/2019/08/19/learn/bash/statement-if/</loc>
     
-    <lastmod>2019-08-19T00:26:55.366Z</lastmod>
+    <lastmod>2019-08-19T01:32:57.008Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.wrran.com/blog/2019/08/19/cheatsheet/reference/bash-cmds/</loc>
     
-    <lastmod>2019-08-19T00:20:41.119Z</lastmod>
+    <lastmod>2019-08-19T01:28:09.285Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2019/08/19/learn/bash/pass-arguments/</loc>
+    
+    <lastmod>2019-08-19T00:29:18.556Z</lastmod>
     
   </url>
   
@@ -730,14 +737,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/tags/index.html</loc>
+    <loc>http://www.wrran.com/slides/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.521Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/slides/index.html</loc>
+    <loc>http://www.wrran.com/tags/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.521Z</lastmod>
     
@@ -772,14 +779,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/about/index.html</loc>
+    <loc>http://www.wrran.com/blog/2017/12/08/review/reinforcement-learning/</loc>
     
     <lastmod>2019-08-15T19:59:16.519Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/12/08/review/reinforcement-learning/</loc>
+    <loc>http://www.wrran.com/about/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.519Z</lastmod>
     
@@ -870,13 +877,6 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/08/26/note/paper-reading/word%20embedding/2018-08-26/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/blog/2017/08/18/people-say-170818-01/</loc>
     
     <lastmod>2019-08-15T19:59:16.509Z</lastmod>
@@ -884,16 +884,9 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/05/13/note/paper-reading/word%20embedding/2018-05-13/</loc>
+    <loc>http://www.wrran.com/blog/2018/08/26/note/paper-reading/word%20embedding/2018-08-26/</loc>
     
-    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/11/27/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-11-26/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
     
   </url>
   
@@ -912,7 +905,7 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/05/26/note/paper-reading/word%20embedding/2018-05-27/</loc>
+    <loc>http://www.wrran.com/blog/2017/11/27/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-11-26/</loc>
     
     <lastmod>2019-08-15T19:59:16.508Z</lastmod>
     
@@ -926,6 +919,13 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2018/05/13/note/paper-reading/word%20embedding/2018-05-13/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2018/05/20/note/paper-reading/word%20embedding/2018-04-01/</loc>
     
     <lastmod>2019-08-15T19:59:16.508Z</lastmod>
@@ -933,21 +933,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/11/12/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-11-12/</loc>
+    <loc>http://www.wrran.com/blog/2018/05/26/note/paper-reading/word%20embedding/2018-05-27/</loc>
     
-    <lastmod>2019-08-15T19:59:16.507Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.wrran.com/blog/2017/09/11/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-09-11/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.507Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2018/09/16/note/paper-reading/question%20and%20answering/question%20generation/2018-09-16/</loc>
     
     <lastmod>2019-08-15T19:59:16.507Z</lastmod>
     
@@ -961,7 +954,28 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/01/22/note/paper-reading/graph%20representation/2018-01-22/</loc>
+    <loc>http://www.wrran.com/blog/2017/11/12/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-11-12/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.507Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2018/09/16/note/paper-reading/question%20and%20answering/question%20generation/2018-09-16/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.507Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/10/16/note/paper-reading/2017-10-16/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.506Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/09/29/note/paper-reading/2017-09-30/</loc>
     
     <lastmod>2019-08-15T19:59:16.506Z</lastmod>
     
@@ -982,6 +996,13 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2018/01/22/note/paper-reading/graph%20representation/2018-01-22/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.506Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2017/10/23/note/paper-reading/question%20and%20answering/2017-10-23/</loc>
     
     <lastmod>2019-08-15T19:59:16.506Z</lastmod>
@@ -989,16 +1010,16 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/10/16/note/paper-reading/2017-10-16/</loc>
+    <loc>http://www.wrran.com/blog/2017/07/17/learn/word-1/</loc>
     
-    <lastmod>2019-08-15T19:59:16.506Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.505Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/09/29/note/paper-reading/2017-09-30/</loc>
+    <loc>http://www.wrran.com/blog/2016/10/15/learn/yaml/</loc>
     
-    <lastmod>2019-08-15T19:59:16.506Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.505Z</lastmod>
     
   </url>
   
@@ -1018,20 +1039,6 @@
   
   <url>
     <loc>http://www.wrran.com/blog/1995/07/03/miscellaneous/zzz-memorandum/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/07/17/learn/word-1/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/10/15/learn/yaml/</loc>
     
     <lastmod>2019-08-15T19:59:16.505Z</lastmod>
     
@@ -1066,13 +1073,6 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/08/09/learn/python/property/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.504Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/blog/2017/04/01/learn/python/iterators_iterable/</loc>
     
     <lastmod>2019-08-15T19:59:16.504Z</lastmod>
@@ -1087,7 +1087,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/11/29/learn/js/promises/</loc>
+    <loc>http://www.wrran.com/blog/2017/08/09/learn/python/property/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.504Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/12/06/learn/js/patch-1-expose-global/</loc>
     
     <lastmod>2019-08-15T19:59:16.503Z</lastmod>
     
@@ -1101,35 +1108,7 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-8-function-attribute-etc/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-9-function-application/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-7-function-closure/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/blog/2017/08/12/learn/latex-0-preface/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/12/06/learn/js/patch-1-expose-global/</loc>
     
     <lastmod>2019-08-15T19:59:16.503Z</lastmod>
     
@@ -1143,35 +1122,35 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-4-function-params-arguments/</loc>
+    <loc>http://www.wrran.com/blog/2016/11/29/learn/js/promises/</loc>
     
-    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-5-function-asvalue/</loc>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-9-function-application/</loc>
     
-    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-8-function-attribute-etc/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-7-function-closure/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-6-function-asnamespace/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-1-function-overview/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/6-5-object-attribute/</loc>
     
     <lastmod>2019-08-15T19:59:16.502Z</lastmod>
     
@@ -1185,7 +1164,28 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/6-5-object-attribute/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2016/11/13/learn/js/7-3-function-call/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-5-function-asvalue/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-4-function-params-arguments/</loc>
     
     <lastmod>2019-08-15T19:59:16.502Z</lastmod>
     
@@ -1199,7 +1199,35 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/7-1-function-overview/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/11/learn/js/4-this/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/6-2-object-create/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2016/11/12/learn/js/6-1-object-property-overview/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/6-4-property-miscell/</loc>
     
     <lastmod>2019-08-15T19:59:16.501Z</lastmod>
     
@@ -1227,35 +1255,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/6-4-property-miscell/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/12/learn/js/6-2-object-create/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/11/learn/js/4-this/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/11/learn/js/2-use-strict/</loc>
+    <loc>http://www.wrran.com/blog/2016/10/15/learn/git/git-2/</loc>
     
     <lastmod>2019-08-15T19:59:16.500Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/08/12/learn/java/jvm/</loc>
+    <loc>http://www.wrran.com/blog/2016/11/11/learn/js/2-use-strict/</loc>
     
     <lastmod>2019-08-15T19:59:16.500Z</lastmod>
     
@@ -1269,13 +1276,6 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/07/09/learn/java/patch-1/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/blog/2017/03/01/learn/git/git-patch-1-submodule/</loc>
     
     <lastmod>2019-08-15T19:59:16.500Z</lastmod>
@@ -1283,7 +1283,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/10/15/learn/git/git-2/</loc>
+    <loc>http://www.wrran.com/blog/2016/07/09/learn/java/patch-1/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/08/12/learn/java/jvm/</loc>
     
     <lastmod>2019-08-15T19:59:16.500Z</lastmod>
     
@@ -1304,21 +1311,7 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/24/howto/theano/8-contractive-auto-encoders/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/blog/2017/03/25/howto/theano/9-recurrent-neural-networks-with-word-embeddings/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/01/09/learn/excel-1/</loc>
     
     <lastmod>2019-08-15T19:59:16.499Z</lastmod>
     
@@ -1339,6 +1332,27 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2017/01/09/learn/excel-1/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/03/24/howto/theano/8-contractive-auto-encoders/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/03/14/howto/theano/6-stacked-denoising-autoencoders/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.498Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2017/03/12/howto/theano/5-denoising-autoencoders/</loc>
     
     <lastmod>2019-08-15T19:59:16.498Z</lastmod>
@@ -1353,7 +1367,7 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/08/howto/theano/1-getting-started/</loc>
+    <loc>http://www.wrran.com/blog/2017/03/12/howto/theano/4-convolutional-mlp/</loc>
     
     <lastmod>2019-08-15T19:59:16.498Z</lastmod>
     
@@ -1367,56 +1381,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/14/howto/theano/6-stacked-denoising-autoencoders/</loc>
+    <loc>http://www.wrran.com/blog/2017/03/08/howto/theano/1-getting-started/</loc>
     
     <lastmod>2019-08-15T19:59:16.498Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/03/12/howto/theano/4-convolutional-mlp/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.498Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/02/27/howto/python/re/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://www.wrran.com/blog/2016/06/14/howto/python/unittest/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/28/howto/samba-cookbook/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/10/15/howto/sails/1-structure/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/28/howto/redis-cookbook/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/03/28/howto/sphinx-1-first-step/</loc>
     
     <lastmod>2019-08-15T19:59:16.497Z</lastmod>
     
@@ -1437,21 +1409,42 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2016/10/15/howto/sails/1-structure/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/02/27/howto/python/re/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/28/howto/redis-cookbook/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2016/11/28/howto/samba-cookbook/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/03/28/howto/sphinx-1-first-step/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2017/03/31/howto/python/common-libraries-1/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/04/01/howto/python/common-libraries-3/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/03/15/howto/python/pythonic-code/</loc>
     
     <lastmod>2019-08-15T19:59:16.496Z</lastmod>
     
@@ -1465,7 +1458,21 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2017/03/15/howto/python/pythonic-code/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2017/04/01/howto/python/common-libraries-4/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/04/01/howto/python/common-libraries-3/</loc>
     
     <lastmod>2019-08-15T19:59:16.496Z</lastmod>
     
@@ -1500,14 +1507,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/08/18/howto/git-control-flow/</loc>
+    <loc>http://www.wrran.com/blog/2016/10/18/howto/jsdoc/</loc>
     
     <lastmod>2019-08-15T19:59:16.495Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/10/18/howto/jsdoc/</loc>
+    <loc>http://www.wrran.com/blog/2017/08/18/howto/git-control-flow/</loc>
     
     <lastmod>2019-08-15T19:59:16.495Z</lastmod>
     
@@ -1535,13 +1542,6 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/02/21/howto/boost/program-options/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://www.wrran.com/blog/2017/02/25/howto/boost/asio/</loc>
     
     <lastmod>2019-08-15T19:59:16.494Z</lastmod>
@@ -1549,14 +1549,7 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/10/15/howto/custom-blog-theme/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2016/11/22/howto/conda/</loc>
+    <loc>http://www.wrran.com/blog/2017/02/21/howto/boost/program-options/</loc>
     
     <lastmod>2019-08-15T19:59:16.494Z</lastmod>
     
@@ -1570,6 +1563,13 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2016/11/22/howto/conda/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/7-create-your-own-brick/</loc>
     
     <lastmod>2019-08-15T19:59:16.494Z</lastmod>
@@ -1577,21 +1577,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/2-building-with-bricks/</loc>
+    <loc>http://www.wrran.com/blog/2016/10/15/howto/custom-blog-theme/</loc>
     
-    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/6-configuration/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/26/howto/blocks/1-installation/</loc>
+    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/5-recurrent-neural-networks/</loc>
     
     <lastmod>2019-08-15T19:59:16.493Z</lastmod>
     
@@ -1605,14 +1598,21 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/4-live-plotting/</loc>
+    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/2-building-with-bricks/</loc>
     
     <lastmod>2019-08-15T19:59:16.493Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/5-recurrent-neural-networks/</loc>
+    <loc>http://www.wrran.com/blog/2017/03/26/howto/blocks/1-installation/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/6-configuration/</loc>
     
     <lastmod>2019-08-15T19:59:16.493Z</lastmod>
     
@@ -1626,14 +1626,14 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2016/10/18/code-guide/javascript/</loc>
+    <loc>http://www.wrran.com/blog/2017/03/27/howto/blocks/4-live-plotting/</loc>
     
-    <lastmod>2019-08-15T19:59:16.492Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2017/03/09/cheatsheet/shortcut/pycharm/</loc>
+    <loc>http://www.wrran.com/blog/2018/02/11/cheatsheet/reference/matplotlib/</loc>
     
     <lastmod>2019-08-15T19:59:16.492Z</lastmod>
     
@@ -1647,6 +1647,13 @@
   </url>
   
   <url>
+    <loc>http://www.wrran.com/blog/2016/10/18/code-guide/javascript/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.492Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://www.wrran.com/blog/2017/08/02/cheatsheet/shortcut/vim-shortcut/</loc>
     
     <lastmod>2019-08-15T19:59:16.492Z</lastmod>
@@ -1654,16 +1661,9 @@
   </url>
   
   <url>
-    <loc>http://www.wrran.com/blog/2018/02/11/cheatsheet/reference/matplotlib/</loc>
+    <loc>http://www.wrran.com/blog/2017/03/09/cheatsheet/shortcut/pycharm/</loc>
     
     <lastmod>2019-08-15T19:59:16.492Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://www.wrran.com/blog/2017/09/21/cheatsheet/reference/git/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.491Z</lastmod>
     
   </url>
   
@@ -1676,6 +1676,13 @@
   
   <url>
     <loc>http://www.wrran.com/blog/2017/02/28/cheatsheet/ml-ann/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.491Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://www.wrran.com/blog/2017/09/21/cheatsheet/reference/git/</loc>
     
     <lastmod>2019-08-15T19:59:16.491Z</lastmod>
     
