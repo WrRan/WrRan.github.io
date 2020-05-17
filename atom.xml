@@ -5,9 +5,9 @@
   
   <link href="/atom.xml" rel="self"/>
   
-  <link href="http://www.wrran.com/"/>
+  <link href="http://47.110.235.226/"/>
   <updated>2019-08-26T02:43:18.937Z</updated>
-  <id>http://www.wrran.com/</id>
+  <id>http://47.110.235.226/</id>
   
   <author>
     <name>WrRan</name>
@@ -18,8 +18,8 @@
   
   <entry>
     <title>Action classes @ argparse</title>
-    <link href="http://www.wrran.com//blog/2019/08/26/learn/python/stdlib/argparse/action_classes/"/>
-    <id>http://www.wrran.com//blog/2019/08/26/learn/python/stdlib/argparse/action_classes/</id>
+    <link href="http://47.110.235.226//blog/2019/08/26/learn/python/stdlib/argparse/action_classes/"/>
+    <id>http://47.110.235.226//blog/2019/08/26/learn/python/stdlib/argparse/action_classes/</id>
     <published>2019-08-26T02:34:02.000Z</published>
     <updated>2019-08-26T02:43:18.937Z</updated>
     
@@ -31,23 +31,23 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="python" scheme="http://www.wrran.com/categories/learn/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/learn/python/"/>
     
-      <category term="stdlib" scheme="http://www.wrran.com/categories/learn/python/stdlib/"/>
+      <category term="stdlib" scheme="http://47.110.235.226/categories/learn/python/stdlib/"/>
     
-      <category term="argparse" scheme="http://www.wrran.com/categories/learn/python/stdlib/argparse/"/>
+      <category term="argparse" scheme="http://47.110.235.226/categories/learn/python/stdlib/argparse/"/>
     
     
-      <category term="ArgumentParser" scheme="http://www.wrran.com/tags/ArgumentParser/"/>
+      <category term="ArgumentParser" scheme="http://47.110.235.226/tags/ArgumentParser/"/>
     
   </entry>
   
   <entry>
     <title>Creating and Editing Run/Debug Configurations</title>
-    <link href="http://www.wrran.com//blog/2019/08/25/learn/pycharm/working_with_run_or_debug_config/"/>
-    <id>http://www.wrran.com//blog/2019/08/25/learn/pycharm/working_with_run_or_debug_config/</id>
+    <link href="http://47.110.235.226//blog/2019/08/25/learn/pycharm/working_with_run_or_debug_config/"/>
+    <id>http://47.110.235.226//blog/2019/08/25/learn/pycharm/working_with_run_or_debug_config/</id>
     <published>2019-08-25T02:00:02.000Z</published>
     <updated>2019-08-25T02:20:29.026Z</updated>
     
@@ -59,17 +59,17 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="pycharm" scheme="http://www.wrran.com/categories/learn/pycharm/"/>
+      <category term="pycharm" scheme="http://47.110.235.226/categories/learn/pycharm/"/>
     
     
   </entry>
   
   <entry>
     <title>Step 0 - Before you start &lt; Quick Start Guide @ PyCharm</title>
-    <link href="http://www.wrran.com//blog/2019/08/25/learn/pycharm/index/"/>
-    <id>http://www.wrran.com//blog/2019/08/25/learn/pycharm/index/</id>
+    <link href="http://47.110.235.226//blog/2019/08/25/learn/pycharm/index/"/>
+    <id>http://47.110.235.226//blog/2019/08/25/learn/pycharm/index/</id>
     <published>2019-08-25T01:32:12.000Z</published>
     <updated>2019-09-10T23:25:19.556Z</updated>
     
@@ -81,19 +81,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="pycharm" scheme="http://www.wrran.com/categories/learn/pycharm/"/>
+      <category term="pycharm" scheme="http://47.110.235.226/categories/learn/pycharm/"/>
     
     
-      <category term="pycharm" scheme="http://www.wrran.com/tags/pycharm/"/>
+      <category term="pycharm" scheme="http://47.110.235.226/tags/pycharm/"/>
     
   </entry>
   
   <entry>
     <title>Command Line@python</title>
-    <link href="http://www.wrran.com//blog/2019/08/24/learn/python/command-line-and-env/"/>
-    <id>http://www.wrran.com//blog/2019/08/24/learn/python/command-line-and-env/</id>
+    <link href="http://47.110.235.226//blog/2019/08/24/learn/python/command-line-and-env/"/>
+    <id>http://47.110.235.226//blog/2019/08/24/learn/python/command-line-and-env/</id>
     <published>2019-08-24T10:54:54.000Z</published>
     <updated>2019-08-24T11:41:41.389Z</updated>
     
@@ -105,17 +105,17 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="python" scheme="http://www.wrran.com/categories/learn/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/learn/python/"/>
     
     
   </entry>
   
   <entry>
     <title>The add_argument() method@argparse</title>
-    <link href="http://www.wrran.com//blog/2019/08/23/learn/python/stdlib/argparse/add_argument/"/>
-    <id>http://www.wrran.com//blog/2019/08/23/learn/python/stdlib/argparse/add_argument/</id>
+    <link href="http://47.110.235.226//blog/2019/08/23/learn/python/stdlib/argparse/add_argument/"/>
+    <id>http://47.110.235.226//blog/2019/08/23/learn/python/stdlib/argparse/add_argument/</id>
     <published>2019-08-23T01:17:05.000Z</published>
     <updated>2019-08-23T01:23:46.689Z</updated>
     
@@ -127,23 +127,23 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="python" scheme="http://www.wrran.com/categories/learn/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/learn/python/"/>
     
-      <category term="stdlib" scheme="http://www.wrran.com/categories/learn/python/stdlib/"/>
+      <category term="stdlib" scheme="http://47.110.235.226/categories/learn/python/stdlib/"/>
     
-      <category term="argparse" scheme="http://www.wrran.com/categories/learn/python/stdlib/argparse/"/>
+      <category term="argparse" scheme="http://47.110.235.226/categories/learn/python/stdlib/argparse/"/>
     
     
-      <category term="ArgumentParser" scheme="http://www.wrran.com/tags/ArgumentParser/"/>
+      <category term="ArgumentParser" scheme="http://47.110.235.226/tags/ArgumentParser/"/>
     
   </entry>
   
   <entry>
     <title>ArgumentParser@argparse</title>
-    <link href="http://www.wrran.com//blog/2019/08/22/learn/python/stdlib/argparse/argument_parser/"/>
-    <id>http://www.wrran.com//blog/2019/08/22/learn/python/stdlib/argparse/argument_parser/</id>
+    <link href="http://47.110.235.226//blog/2019/08/22/learn/python/stdlib/argparse/argument_parser/"/>
+    <id>http://47.110.235.226//blog/2019/08/22/learn/python/stdlib/argparse/argument_parser/</id>
     <published>2019-08-22T03:22:16.000Z</published>
     <updated>2019-08-22T03:25:32.007Z</updated>
     
@@ -155,23 +155,23 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="python" scheme="http://www.wrran.com/categories/learn/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/learn/python/"/>
     
-      <category term="stdlib" scheme="http://www.wrran.com/categories/learn/python/stdlib/"/>
+      <category term="stdlib" scheme="http://47.110.235.226/categories/learn/python/stdlib/"/>
     
-      <category term="argparse" scheme="http://www.wrran.com/categories/learn/python/stdlib/argparse/"/>
+      <category term="argparse" scheme="http://47.110.235.226/categories/learn/python/stdlib/argparse/"/>
     
     
-      <category term="ArgumentParser" scheme="http://www.wrran.com/tags/ArgumentParser/"/>
+      <category term="ArgumentParser" scheme="http://47.110.235.226/tags/ArgumentParser/"/>
     
   </entry>
   
   <entry>
     <title>if语句@bash</title>
-    <link href="http://www.wrran.com//blog/2019/08/19/learn/bash/statement-if/"/>
-    <id>http://www.wrran.com//blog/2019/08/19/learn/bash/statement-if/</id>
+    <link href="http://47.110.235.226//blog/2019/08/19/learn/bash/statement-if/"/>
+    <id>http://47.110.235.226//blog/2019/08/19/learn/bash/statement-if/</id>
     <published>2019-08-19T00:34:44.000Z</published>
     <updated>2019-08-19T01:32:57.008Z</updated>
     
@@ -183,17 +183,17 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/categories/learn/bash/"/>
     
     
   </entry>
   
   <entry>
     <title>传参@bash</title>
-    <link href="http://www.wrran.com//blog/2019/08/19/learn/bash/pass-arguments/"/>
-    <id>http://www.wrran.com//blog/2019/08/19/learn/bash/pass-arguments/</id>
+    <link href="http://47.110.235.226//blog/2019/08/19/learn/bash/pass-arguments/"/>
+    <id>http://47.110.235.226//blog/2019/08/19/learn/bash/pass-arguments/</id>
     <published>2019-08-19T00:05:53.000Z</published>
     <updated>2019-08-19T00:29:18.556Z</updated>
     
@@ -205,19 +205,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/categories/learn/bash/"/>
     
     
-      <category term="passing-arguments" scheme="http://www.wrran.com/tags/passing-arguments/"/>
+      <category term="passing-arguments" scheme="http://47.110.235.226/tags/passing-arguments/"/>
     
   </entry>
   
   <entry>
     <title>Commonly Commands @ bash</title>
-    <link href="http://www.wrran.com//blog/2019/08/19/cheatsheet/reference/bash-cmds/"/>
-    <id>http://www.wrran.com//blog/2019/08/19/cheatsheet/reference/bash-cmds/</id>
+    <link href="http://47.110.235.226//blog/2019/08/19/cheatsheet/reference/bash-cmds/"/>
+    <id>http://47.110.235.226//blog/2019/08/19/cheatsheet/reference/bash-cmds/</id>
     <published>2019-08-18T23:43:18.000Z</published>
     <updated>2019-08-19T04:31:34.211Z</updated>
     
@@ -229,19 +229,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/categories/learn/bash/"/>
     
     
-      <category term="bash-cmds" scheme="http://www.wrran.com/tags/bash-cmds/"/>
+      <category term="bash-cmds" scheme="http://47.110.235.226/tags/bash-cmds/"/>
     
   </entry>
   
   <entry>
     <title>Commonly Variables @ bash</title>
-    <link href="http://www.wrran.com//blog/2019/08/19/cheatsheet/reference/bash-vars/"/>
-    <id>http://www.wrran.com//blog/2019/08/19/cheatsheet/reference/bash-vars/</id>
+    <link href="http://47.110.235.226//blog/2019/08/19/cheatsheet/reference/bash-vars/"/>
+    <id>http://47.110.235.226//blog/2019/08/19/cheatsheet/reference/bash-vars/</id>
     <published>2019-08-18T23:42:45.000Z</published>
     <updated>2019-08-19T01:56:21.338Z</updated>
     
@@ -253,17 +253,17 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/categories/learn/bash/"/>
     
     
   </entry>
   
   <entry>
     <title>函数@bash</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/learn/bash/function/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/learn/bash/function/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/learn/bash/function/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/learn/bash/function/</id>
     <published>2019-08-18T04:42:23.000Z</published>
     <updated>2019-08-18T23:43:29.030Z</updated>
     
@@ -275,19 +275,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/categories/learn/bash/"/>
     
     
-      <category term="function@bash" scheme="http://www.wrran.com/tags/function-bash/"/>
+      <category term="function@bash" scheme="http://47.110.235.226/tags/function-bash/"/>
     
   </entry>
   
   <entry>
     <title>重定向@bash</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/learn/bash/redirect/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/learn/bash/redirect/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/learn/bash/redirect/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/learn/bash/redirect/</id>
     <published>2019-08-18T00:43:24.000Z</published>
     <updated>2019-08-18T04:31:19.651Z</updated>
     
@@ -299,19 +299,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/categories/learn/bash/"/>
     
     
-      <category term="redirect@bash" scheme="http://www.wrran.com/tags/redirect-bash/"/>
+      <category term="redirect@bash" scheme="http://47.110.235.226/tags/redirect-bash/"/>
     
   </entry>
   
   <entry>
     <title>CS常用术语</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/cheatsheet/cs-terms/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/cheatsheet/cs-terms/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/cheatsheet/cs-terms/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/cheatsheet/cs-terms/</id>
     <published>2019-08-17T22:12:37.000Z</published>
     <updated>2019-08-19T03:26:49.874Z</updated>
     
@@ -323,17 +323,17 @@
     
     </summary>
     
-      <category term="cheatsheet" scheme="http://www.wrran.com/categories/cheatsheet/"/>
+      <category term="cheatsheet" scheme="http://47.110.235.226/categories/cheatsheet/"/>
     
     
-      <category term="cs-terms" scheme="http://www.wrran.com/tags/cs-terms/"/>
+      <category term="cs-terms" scheme="http://47.110.235.226/tags/cs-terms/"/>
     
   </entry>
   
   <entry>
     <title>The Python Standard Library</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/learn/python/stdlib/index/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/learn/python/stdlib/index/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/learn/python/stdlib/index/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/learn/python/stdlib/index/</id>
     <published>2019-08-17T19:35:46.000Z</published>
     <updated>2019-08-21T00:29:46.438Z</updated>
     
@@ -345,21 +345,21 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="python" scheme="http://www.wrran.com/categories/learn/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/learn/python/"/>
     
-      <category term="stdlib" scheme="http://www.wrran.com/categories/learn/python/stdlib/"/>
+      <category term="stdlib" scheme="http://47.110.235.226/categories/learn/python/stdlib/"/>
     
     
-      <category term="python-stdlib" scheme="http://www.wrran.com/tags/python-stdlib/"/>
+      <category term="python-stdlib" scheme="http://47.110.235.226/tags/python-stdlib/"/>
     
   </entry>
   
   <entry>
     <title>python@cs-lang</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/learn/python/index/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/learn/python/index/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/learn/python/index/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/learn/python/index/</id>
     <published>2019-08-17T19:03:34.000Z</published>
     <updated>2019-08-17T19:05:36.842Z</updated>
     
@@ -371,19 +371,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="python" scheme="http://www.wrran.com/categories/learn/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/learn/python/"/>
     
     
-      <category term="python" scheme="http://www.wrran.com/tags/python/"/>
+      <category term="python" scheme="http://47.110.235.226/tags/python/"/>
     
   </entry>
   
   <entry>
     <title>Tag Plugins@hexo</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/learn/hexo/tag_plugins/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/learn/hexo/tag_plugins/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/learn/hexo/tag_plugins/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/learn/hexo/tag_plugins/</id>
     <published>2019-08-17T17:44:23.000Z</published>
     <updated>2019-08-17T18:13:49.532Z</updated>
     
@@ -395,19 +395,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="hexo" scheme="http://www.wrran.com/categories/learn/hexo/"/>
+      <category term="hexo" scheme="http://47.110.235.226/categories/learn/hexo/"/>
     
     
-      <category term="tag-plugin" scheme="http://www.wrran.com/tags/tag-plugin/"/>
+      <category term="tag-plugin" scheme="http://47.110.235.226/tags/tag-plugin/"/>
     
   </entry>
   
   <entry>
     <title>Using Cases@argparse</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/learn/argparse/using_case/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/learn/argparse/using_case/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/learn/argparse/using_case/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/learn/argparse/using_case/</id>
     <published>2019-08-17T17:23:34.000Z</published>
     <updated>2019-08-17T18:21:29.104Z</updated>
     
@@ -419,19 +419,19 @@
     
     </summary>
     
-      <category term="python" scheme="http://www.wrran.com/categories/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/python/"/>
     
-      <category term="argparse" scheme="http://www.wrran.com/categories/python/argparse/"/>
+      <category term="argparse" scheme="http://47.110.235.226/categories/python/argparse/"/>
     
     
-      <category term="argparse" scheme="http://www.wrran.com/tags/argparse/"/>
+      <category term="argparse" scheme="http://47.110.235.226/tags/argparse/"/>
     
   </entry>
   
   <entry>
     <title>argparse@python</title>
-    <link href="http://www.wrran.com//blog/2019/08/18/learn/argparse/index/"/>
-    <id>http://www.wrran.com//blog/2019/08/18/learn/argparse/index/</id>
+    <link href="http://47.110.235.226//blog/2019/08/18/learn/argparse/index/"/>
+    <id>http://47.110.235.226//blog/2019/08/18/learn/argparse/index/</id>
     <published>2019-08-17T16:00:00.000Z</published>
     <updated>2019-08-17T18:58:25.015Z</updated>
     
@@ -445,19 +445,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="python" scheme="http://www.wrran.com/categories/learn/python/"/>
+      <category term="python" scheme="http://47.110.235.226/categories/learn/python/"/>
     
     
-      <category term="argparse" scheme="http://www.wrran.com/tags/argparse/"/>
+      <category term="argparse" scheme="http://47.110.235.226/tags/argparse/"/>
     
   </entry>
   
   <entry>
     <title>bash入门@linux</title>
-    <link href="http://www.wrran.com//blog/2019/08/17/learn/bash/index/"/>
-    <id>http://www.wrran.com//blog/2019/08/17/learn/bash/index/</id>
+    <link href="http://47.110.235.226//blog/2019/08/17/learn/bash/index/"/>
+    <id>http://47.110.235.226//blog/2019/08/17/learn/bash/index/</id>
     <published>2019-08-17T14:21:55.000Z</published>
     <updated>2019-08-18T04:22:41.141Z</updated>
     
@@ -469,19 +469,19 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="bash" scheme="http://www.wrran.com/categories/learn/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/categories/learn/bash/"/>
     
     
-      <category term="bash" scheme="http://www.wrran.com/tags/bash/"/>
+      <category term="bash" scheme="http://47.110.235.226/tags/bash/"/>
     
   </entry>
   
   <entry>
     <title>pytest@python</title>
-    <link href="http://www.wrran.com//blog/2019/08/16/learn/pytest/index/"/>
-    <id>http://www.wrran.com//blog/2019/08/16/learn/pytest/index/</id>
+    <link href="http://47.110.235.226//blog/2019/08/16/learn/pytest/index/"/>
+    <id>http://47.110.235.226//blog/2019/08/16/learn/pytest/index/</id>
     <published>2019-08-16T11:16:15.000Z</published>
     <updated>2019-08-17T18:36:17.920Z</updated>
     
@@ -493,12 +493,12 @@
     
     </summary>
     
-      <category term="learn" scheme="http://www.wrran.com/categories/learn/"/>
+      <category term="learn" scheme="http://47.110.235.226/categories/learn/"/>
     
-      <category term="pytest" scheme="http://www.wrran.com/categories/learn/pytest/"/>
+      <category term="pytest" scheme="http://47.110.235.226/categories/learn/pytest/"/>
     
     
-      <category term="pytest" scheme="http://www.wrran.com/tags/pytest/"/>
+      <category term="pytest" scheme="http://47.110.235.226/tags/pytest/"/>
     
   </entry>
   
