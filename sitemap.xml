@@ -2,6 +2,41 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>http://47.110.235.226/blog/2020/05/29/note/paper-reading/2020-05-29-01/</loc>
+    
+    <lastmod>2020-05-30T12:59:50.224Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2018/03/18/note/paper-reading/2018-03-18/</loc>
+    
+    <lastmod>2020-05-30T11:21:04.640Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2020/05/29/howto/shenxy-paper-reading/</loc>
+    
+    <lastmod>2020-05-30T09:57:49.538Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2018/09/16/note/paper-reading/question%20and%20answering/question%20generation/2018-09-16/</loc>
+    
+    <lastmod>2020-05-29T09:26:40.989Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2020/05/21/learn/python/click/click-core/</loc>
+    
+    <lastmod>2020-05-29T09:07:53.026Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://47.110.235.226/about/index.html</loc>
     
     <lastmod>2020-05-19T23:33:54.270Z</lastmod>
@@ -9,16 +44,23 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2019/08/25/learn/pycharm/index/</loc>
+    <loc>http://47.110.235.226/blog/2019/08/26/learn/python/stdlib/argparse/action_classes/</loc>
     
-    <lastmod>2019-09-10T23:25:19.556Z</lastmod>
+    <lastmod>2020-05-19T07:18:50.057Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2019/08/26/learn/python/stdlib/argparse/action_classes/</loc>
+    <loc>http://47.110.235.226/blog/2017/08/18/people-say-170818-01/</loc>
     
-    <lastmod>2019-08-26T02:43:18.937Z</lastmod>
+    <lastmod>2020-05-19T07:12:32.893Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2019/08/25/learn/pycharm/index/</loc>
+    
+    <lastmod>2020-05-19T07:12:23.868Z</lastmod>
     
   </url>
   
@@ -779,7 +821,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/tools/index.html</loc>
+    <loc>http://47.110.235.226/slides/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.521Z</lastmod>
     
@@ -793,7 +835,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/slides/index.html</loc>
+    <loc>http://47.110.235.226/tools/index.html</loc>
     
     <lastmod>2019-08-15T19:59:16.521Z</lastmod>
     
@@ -807,21 +849,14 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/06/09/review/network/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.519Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/12/08/review/reinforcement-learning/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.519Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2016/05/31/review/software-architecture/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.519Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/06/09/review/network/</loc>
     
     <lastmod>2019-08-15T19:59:16.519Z</lastmod>
     
@@ -835,16 +870,9 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/06/06/review/middleware/</loc>
+    <loc>http://47.110.235.226/blog/2017/12/08/review/reinforcement-learning/</loc>
     
-    <lastmod>2019-08-15T19:59:16.518Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/12/28/review/distributed-system/8-fault-tolerance/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.518Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.519Z</lastmod>
     
   </url>
   
@@ -864,6 +892,20 @@
   
   <url>
     <loc>http://47.110.235.226/blog/2016/10/15/review/hexo/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.518Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/06/06/review/middleware/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.518Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/12/28/review/distributed-system/8-fault-tolerance/</loc>
     
     <lastmod>2019-08-15T19:59:16.518Z</lastmod>
     
@@ -891,14 +933,14 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/12/17/review/distributed-system/2-architecture/</loc>
+    <loc>http://47.110.235.226/blog/2017/12/18/review/distributed-system/3-processes/</loc>
     
     <lastmod>2019-08-15T19:59:16.515Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/12/18/review/distributed-system/3-processes/</loc>
+    <loc>http://47.110.235.226/blog/2017/12/17/review/distributed-system/2-architecture/</loc>
     
     <lastmod>2019-08-15T19:59:16.515Z</lastmod>
     
@@ -926,20 +968,6 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/08/18/people-say-170818-01/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.509Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2018/05/13/note/paper-reading/word%20embedding/2018-05-13/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2018/05/20/note/paper-reading/word%20embedding/2018-04-01/</loc>
     
     <lastmod>2019-08-15T19:59:16.508Z</lastmod>
@@ -954,21 +982,14 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2018/05/26/note/paper-reading/word%20embedding/2018-05-27/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/11/27/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-11-26/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2018/07/29/note/paper-reading/question%20and%20answering/reading%20comprehension/2018-07-29/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2018/05/26/note/paper-reading/word%20embedding/2018-05-27/</loc>
     
     <lastmod>2019-08-15T19:59:16.508Z</lastmod>
     
@@ -982,7 +1003,21 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2018/09/16/note/paper-reading/question%20and%20answering/question%20generation/2018-09-16/</loc>
+    <loc>http://47.110.235.226/blog/2017/11/27/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-11-26/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2018/05/13/note/paper-reading/word%20embedding/2018-05-13/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.508Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/09/11/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-09-11/</loc>
     
     <lastmod>2019-08-15T19:59:16.507Z</lastmod>
     
@@ -990,13 +1025,6 @@
   
   <url>
     <loc>http://47.110.235.226/blog/2017/11/12/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-11-12/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.507Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/09/11/note/paper-reading/question%20and%20answering/reading%20comprehension/2017-09-11/</loc>
     
     <lastmod>2019-08-15T19:59:16.507Z</lastmod>
     
@@ -1017,7 +1045,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/10/23/note/paper-reading/question%20and%20answering/2017-10-23/</loc>
+    <loc>http://47.110.235.226/blog/2018/01/21/note/paper-reading/2018-01-21/</loc>
     
     <lastmod>2019-08-15T19:59:16.506Z</lastmod>
     
@@ -1031,14 +1059,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2018/03/18/note/paper-reading/2018-03-18/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.506Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2018/01/21/note/paper-reading/2018-01-21/</loc>
+    <loc>http://47.110.235.226/blog/2017/10/23/note/paper-reading/question%20and%20answering/2017-10-23/</loc>
     
     <lastmod>2019-08-15T19:59:16.506Z</lastmod>
     
@@ -1052,14 +1073,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/05/28/miscellaneous/first-post/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.505Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/1995/07/03/miscellaneous/zzz-memorandum/</loc>
+    <loc>http://47.110.235.226/blog/2017/12/01/note/miscellaneous/2017-12-01/</loc>
     
     <lastmod>2019-08-15T19:59:16.505Z</lastmod>
     
@@ -1080,14 +1094,21 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/10/15/learn/yaml/</loc>
+    <loc>http://47.110.235.226/blog/2016/05/28/miscellaneous/first-post/</loc>
     
     <lastmod>2019-08-15T19:59:16.505Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/12/01/note/miscellaneous/2017-12-01/</loc>
+    <loc>http://47.110.235.226/blog/1995/07/03/miscellaneous/zzz-memorandum/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.505Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/10/15/learn/yaml/</loc>
     
     <lastmod>2019-08-15T19:59:16.505Z</lastmod>
     
@@ -1101,21 +1122,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/08/11/learn/python/abcmeta/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.504Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2016/10/16/learn/ml-summarization-of-machine-reading-comprehension-1/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.504Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/02/22/learn/ml-activation-function-relu/</loc>
+    <loc>http://47.110.235.226/blog/2017/08/09/learn/python/property/</loc>
     
     <lastmod>2019-08-15T19:59:16.504Z</lastmod>
     
@@ -1129,9 +1136,30 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/08/09/learn/python/property/</loc>
+    <loc>http://47.110.235.226/blog/2016/10/16/learn/ml-summarization-of-machine-reading-comprehension-1/</loc>
     
     <lastmod>2019-08-15T19:59:16.504Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/08/11/learn/python/abcmeta/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.504Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/02/22/learn/ml-activation-function-relu/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.504Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/12/06/learn/js/patch-1-expose-global/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
     
   </url>
   
@@ -1143,7 +1171,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/12/06/learn/js/patch-1-expose-global/</loc>
+    <loc>http://47.110.235.226/blog/2016/12/01/learn/js/do-js-function/</loc>
     
     <lastmod>2019-08-15T19:59:16.503Z</lastmod>
     
@@ -1171,20 +1199,6 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-7-function-closure/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2016/12/01/learn/js/do-js-function/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-8-function-attribute-etc/</loc>
     
     <lastmod>2019-08-15T19:59:16.503Z</lastmod>
@@ -1192,16 +1206,9 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-5-function-asvalue/</loc>
+    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-7-function-closure/</loc>
     
-    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-2-function-create/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.503Z</lastmod>
     
   </url>
   
@@ -1214,6 +1221,13 @@
   
   <url>
     <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-1-function-overview/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/6-5-object-attribute/</loc>
     
     <lastmod>2019-08-15T19:59:16.502Z</lastmod>
     
@@ -1234,6 +1248,13 @@
   </url>
   
   <url>
+    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-5-function-asvalue/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.502Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://47.110.235.226/blog/2016/11/13/learn/js/7-3-function-call/</loc>
     
     <lastmod>2019-08-15T19:59:16.502Z</lastmod>
@@ -1241,7 +1262,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/6-5-object-attribute/</loc>
+    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/7-2-function-create/</loc>
     
     <lastmod>2019-08-15T19:59:16.502Z</lastmod>
     
@@ -1255,13 +1276,6 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/6-2-object-create/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2016/11/12/learn/js/6-1-object-property-overview/</loc>
     
     <lastmod>2019-08-15T19:59:16.501Z</lastmod>
@@ -1269,14 +1283,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/11/11/learn/js/3-prototype/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2016/11/11/learn/js/4-this/</loc>
+    <loc>http://47.110.235.226/blog/2016/11/12/learn/js/6-2-object-create/</loc>
     
     <lastmod>2019-08-15T19:59:16.501Z</lastmod>
     
@@ -1297,28 +1304,21 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/07/09/learn/java/patch-1/</loc>
+    <loc>http://47.110.235.226/blog/2016/11/11/learn/js/4-this/</loc>
     
-    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/10/15/learn/git/git-2/</loc>
+    <loc>http://47.110.235.226/blog/2016/11/11/learn/js/3-prototype/</loc>
     
-    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.501Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://47.110.235.226/blog/2017/08/12/learn/java/jvm/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2016/11/11/learn/js/1-hoisting/</loc>
     
     <lastmod>2019-08-15T19:59:16.500Z</lastmod>
     
@@ -1332,6 +1332,27 @@
   </url>
   
   <url>
+    <loc>http://47.110.235.226/blog/2016/11/11/learn/js/1-hoisting/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/10/15/learn/git/git-2/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/07/09/learn/java/patch-1/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.500Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://47.110.235.226/blog/2016/11/11/learn/js/2-use-strict/</loc>
     
     <lastmod>2019-08-15T19:59:16.500Z</lastmod>
@@ -1339,35 +1360,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/02/24/howto/theano/scan/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/02/18/howto/vs-use-dll-lib/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/01/09/learn/excel-1/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2016/05/30/learn/git/git-1/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/03/25/howto/theano/9-recurrent-neural-networks-with-word-embeddings/</loc>
     
     <lastmod>2019-08-15T19:59:16.499Z</lastmod>
     
@@ -1381,6 +1374,13 @@
   </url>
   
   <url>
+    <loc>http://47.110.235.226/blog/2017/03/25/howto/theano/9-recurrent-neural-networks-with-word-embeddings/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://47.110.235.226/blog/2017/03/14/howto/theano/7-restricted-boltzmann-machines/</loc>
     
     <lastmod>2019-08-15T19:59:16.499Z</lastmod>
@@ -1388,16 +1388,23 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/03/12/howto/theano/5-denoising-autoencoders/</loc>
+    <loc>http://47.110.235.226/blog/2017/02/24/howto/theano/scan/</loc>
     
-    <lastmod>2019-08-15T19:59:16.498Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/03/11/howto/theano/3-multilayer-perceptron/</loc>
+    <loc>http://47.110.235.226/blog/2017/01/09/learn/excel-1/</loc>
     
-    <lastmod>2019-08-15T19:59:16.498Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/02/18/howto/vs-use-dll-lib/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.499Z</lastmod>
     
   </url>
   
@@ -1430,7 +1437,21 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/03/28/howto/sphinx-1-first-step/</loc>
+    <loc>http://47.110.235.226/blog/2017/03/11/howto/theano/3-multilayer-perceptron/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.498Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/03/12/howto/theano/5-denoising-autoencoders/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.498Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/06/14/howto/python/unittest/</loc>
     
     <lastmod>2019-08-15T19:59:16.497Z</lastmod>
     
@@ -1444,14 +1465,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/06/14/howto/python/unittest/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2016/12/06/howto/sails/3-middleware/</loc>
+    <loc>http://47.110.235.226/blog/2017/02/27/howto/python/re/</loc>
     
     <lastmod>2019-08-15T19:59:16.497Z</lastmod>
     
@@ -1465,7 +1479,14 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/02/27/howto/python/re/</loc>
+    <loc>http://47.110.235.226/blog/2016/11/28/howto/samba-cookbook/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.497Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/12/06/howto/sails/3-middleware/</loc>
     
     <lastmod>2019-08-15T19:59:16.497Z</lastmod>
     
@@ -1479,42 +1500,14 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/11/28/howto/samba-cookbook/</loc>
+    <loc>http://47.110.235.226/blog/2017/03/28/howto/sphinx-1-first-step/</loc>
     
     <lastmod>2019-08-15T19:59:16.497Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/03/31/howto/python/common-libraries-1/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2016/11/28/howto/mongodb-cookbook/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/03/15/howto/python/pythonic-code/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/04/01/howto/python/common-libraries-3/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/04/03/howto/python/common-libraries-5/</loc>
     
     <lastmod>2019-08-15T19:59:16.496Z</lastmod>
     
@@ -1528,28 +1521,35 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/10/18/howto/jsdoc/</loc>
+    <loc>http://47.110.235.226/blog/2017/04/01/howto/python/common-libraries-3/</loc>
     
-    <lastmod>2019-08-15T19:59:16.495Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
     
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/10/18/howto/install/hadoop/</loc>
+    <loc>http://47.110.235.226/blog/2017/03/31/howto/python/common-libraries-1/</loc>
     
-    <lastmod>2019-08-15T19:59:16.495Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/04/03/howto/python/common-libraries-5/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/03/15/howto/python/pythonic-code/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.496Z</lastmod>
     
   </url>
   
   <url>
     <loc>http://47.110.235.226/blog/2017/01/07/howto/eigen3/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.495Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/11/04/howto/jupyter-config/</loc>
     
     <lastmod>2019-08-15T19:59:16.495Z</lastmod>
     
@@ -1563,7 +1563,28 @@
   </url>
   
   <url>
+    <loc>http://47.110.235.226/blog/2016/10/18/howto/jsdoc/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.495Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://47.110.235.226/blog/2016/10/15/howto/hexo/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.495Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/10/18/howto/install/hadoop/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.495Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/11/04/howto/jupyter-config/</loc>
     
     <lastmod>2019-08-15T19:59:16.495Z</lastmod>
     
@@ -1591,21 +1612,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/11/22/howto/conda/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2016/10/15/howto/custom-blog-theme/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/02/25/howto/boost/asio/</loc>
     
     <lastmod>2019-08-15T19:59:16.494Z</lastmod>
     
@@ -1626,9 +1633,16 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/03/27/howto/blocks/6-configuration/</loc>
+    <loc>http://47.110.235.226/blog/2017/02/25/howto/boost/asio/</loc>
     
-    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2016/11/22/howto/conda/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.494Z</lastmod>
     
   </url>
   
@@ -1640,21 +1654,14 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/03/26/howto/blocks/1-installation/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>http://47.110.235.226/blog/2017/03/27/howto/blocks/5-recurrent-neural-networks/</loc>
-    
-    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>http://47.110.235.226/blog/2017/03/27/howto/blocks/3-managing-the-computation-graph/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/03/26/howto/blocks/1-installation/</loc>
     
     <lastmod>2019-08-15T19:59:16.493Z</lastmod>
     
@@ -1675,9 +1682,16 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/03/09/cheatsheet/shortcut/pycharm/</loc>
+    <loc>http://47.110.235.226/blog/2017/03/27/howto/blocks/6-configuration/</loc>
     
-    <lastmod>2019-08-15T19:59:16.492Z</lastmod>
+    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>http://47.110.235.226/blog/2017/03/27/howto/blocks/5-recurrent-neural-networks/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.493Z</lastmod>
     
   </url>
   
@@ -1703,6 +1717,13 @@
   </url>
   
   <url>
+    <loc>http://47.110.235.226/blog/2017/03/09/cheatsheet/shortcut/pycharm/</loc>
+    
+    <lastmod>2019-08-15T19:59:16.492Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>http://47.110.235.226/blog/2018/02/11/cheatsheet/reference/matplotlib/</loc>
     
     <lastmod>2019-08-15T19:59:16.492Z</lastmod>
@@ -1710,7 +1731,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2016/10/26/cheatsheet/dev/sails/</loc>
+    <loc>http://47.110.235.226/blog/2017/02/28/cheatsheet/ml-ann/</loc>
     
     <lastmod>2019-08-15T19:59:16.491Z</lastmod>
     
@@ -1724,7 +1745,7 @@
   </url>
   
   <url>
-    <loc>http://47.110.235.226/blog/2017/02/28/cheatsheet/ml-ann/</loc>
+    <loc>http://47.110.235.226/blog/2016/10/26/cheatsheet/dev/sails/</loc>
     
     <lastmod>2019-08-15T19:59:16.491Z</lastmod>
     
